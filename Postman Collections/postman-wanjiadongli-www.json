@@ -1272,7 +1272,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/article/posts/news?size=2&searchActionType=1",
+							"raw": "{{BASE_URL}}/article/posts/news?size=2&searchActionType=2",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -1315,7 +1315,7 @@
 								},
 								{
 									"key": "searchActionType",
-									"value": "1",
+									"value": "2",
 									"description": "{enum}, options: [1, 2, 3] - 查找类型：1: 推荐, 2: 最新, 3:  普通查询"
 								},
 								{
@@ -5091,7 +5091,7 @@
 	],
 	"variable": [
 		{
-			"id": "a3c31615-e593-4888-9e99-0f0fe8ff5852",
+			"id": "751d5c75-a8a8-488c-98bf-e655a259f747",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
