@@ -1,0 +1,5122 @@
+{
+	"info": {
+		"_postman_id": "abd4d293-7e0e-4287-992b-979df6f5111f",
+		"name": "api.wanjiadongli.com/www",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "用户",
+			"item": [
+				{
+					"name": "task",
+					"item": [
+						{
+							"name": "任务列表",
+							"_postman_id": "1daf4bbe-3030-40c5-920c-9b788276654e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/users/task/list"
+							},
+							"response": [
+								{
+									"id": "73f8c2df-8c4b-4f61-a618-34f5c897b6b2",
+									"name": "任务列表",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": "{{BASE_URL}}/users/task/list"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.21.0"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 10 Jan 2022 01:07:28 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "http://www.wanjiadongli.com"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "x-frame-options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "x-xss-protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "x-content-type-options",
+											"value": "nosniff"
+										},
+										{
+											"key": "x-download-options",
+											"value": "noopen"
+										},
+										{
+											"key": "x-readtime",
+											"value": "289"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": [\n        {\n            \"taskId\": 1,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周一\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 13,\n            \"rewardCountMax\": 18,\n            \"sort\": 1,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 2,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周二\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 3,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 3,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周三\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 2,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 4,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周四\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 5,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 5,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周五\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 8,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 6,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周六\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 1,\n            \"completeSteps\": 1,\n            \"receiveStatus\": 1,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 6,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 7,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周日\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 1,\n            \"completeSteps\": 1,\n            \"receiveStatus\": 1,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 9,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 9,\n            \"name\": \"点赞 2 条回应\",\n            \"description\": \"为值得点赞的回应点赞\",\n            \"type\": 2,\n            \"remark\": \"点赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 1,\n            \"completeSteps\": 2,\n            \"receiveStatus\": 1,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 7,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 10,\n            \"name\": \"点赞 2 条玩友圈\",\n            \"description\": \"为值得点赞的纸条点赞\",\n            \"type\": 2,\n            \"remark\": \"点赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 1,\n            \"completeSteps\": 2,\n            \"receiveStatus\": 1,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 10,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 11,\n            \"name\": \"任意回应 1 次\",\n            \"description\": \"我的看法很重要\",\n            \"type\": 2,\n            \"remark\": \"回复\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 11,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 12,\n            \"name\": \"发布 1 条玩友圈\",\n            \"description\": \"我的想法很关键\",\n            \"type\": 2,\n            \"remark\": \"发布\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 12,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 13,\n            \"name\": \"我的玩友圈收获 2 个赞\",\n            \"description\": \"收集大家感兴趣的证据\",\n            \"type\": 2,\n            \"remark\": \"获得赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 13,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 14,\n            \"name\": \"我的回应收获 2 个赞\",\n            \"description\": \"找到和我想法一样的人\",\n            \"type\": 2,\n            \"remark\": \"获得赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 14,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 15,\n            \"name\": \"分享给好友\",\n            \"description\": \"必须让小伙伴们看看这个！\",\n            \"type\": 2,\n            \"remark\": \"分享文章\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 15,\n            \"receiveCount\": 0\n        },\n        {\n            \"taskId\": 16,\n            \"name\": \"邀请好友注册账号\",\n            \"description\": \"一支穿云箭，千军万马来相见！\",\n            \"type\": 2,\n            \"remark\": \"邀请\",\n            \"totalSteps\": 20,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0,\n            \"sort\": 16,\n            \"receiveCount\": 0\n        }\n    ]\n}"
+								},
+								{
+									"id": "e9a3d442-261c-41f9-913e-9a651c0e7fd5",
+									"name": "任务列表",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": "{{BASE_URL}}/users/task/list"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.21.0"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 27 Dec 2021 02:35:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "http://www.wanjiadongli.com"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "x-frame-options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "x-xss-protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "x-content-type-options",
+											"value": "nosniff"
+										},
+										{
+											"key": "x-download-options",
+											"value": "noopen"
+										},
+										{
+											"key": "x-readtime",
+											"value": "12"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": [\n        {\n            \"taskId\": 1,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周一\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 2,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周二\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 3,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周三\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 4,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周四\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 5,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周五\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 6,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周六\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 7,\n            \"name\": \"我的玩家动力\",\n            \"description\": \"签到领硬币，不领白不领\",\n            \"type\": 2,\n            \"remark\": \"周日\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 9,\n            \"name\": \"点赞 2 条回应\",\n            \"description\": \"为值得点赞的回应点赞\",\n            \"type\": 2,\n            \"remark\": \"点赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 10,\n            \"name\": \"点赞 2 条玩友圈\",\n            \"description\": \"为值得点赞的纸条点赞\",\n            \"type\": 2,\n            \"remark\": \"点赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 11,\n            \"name\": \"任意回应 1 次\",\n            \"description\": \"我的看法很重要\",\n            \"type\": 2,\n            \"remark\": \"回复\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 12,\n            \"name\": \"发布 1 条玩友圈\",\n            \"description\": \"我的想法很关键\",\n            \"type\": 2,\n            \"remark\": \"发布\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 13,\n            \"name\": \"我的玩友圈收获 2 个赞\",\n            \"description\": \"收集大家感兴趣的证据\",\n            \"type\": 2,\n            \"remark\": \"获得赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 14,\n            \"name\": \"我的回应收获 2 个赞\",\n            \"description\": \"找到和我想法一样的人\",\n            \"type\": 2,\n            \"remark\": \"获得赞\",\n            \"totalSteps\": 2,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 15,\n            \"name\": \"分享给好友\",\n            \"description\": \"必须让小伙伴们看看这个！\",\n            \"type\": 2,\n            \"remark\": \"分享文章\",\n            \"totalSteps\": 1,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        },\n        {\n            \"taskId\": 16,\n            \"name\": \"邀请好友注册账号\",\n            \"description\": \"一支穿云箭，千军万马来相见！\",\n            \"type\": 2,\n            \"remark\": \"邀请\",\n            \"totalSteps\": 20,\n            \"completeStatus\": 0,\n            \"completeSteps\": 0,\n            \"receiveStatus\": 0,\n            \"rewardCountMin\": 0,\n            \"rewardCountMax\": 0\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "签到",
+							"_postman_id": "f4d011d0-28aa-4229-b969-da4e87f2c907",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"taskId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/users/task/sign-in"
+							},
+							"response": []
+						},
+						{
+							"name": "分享",
+							"_postman_id": "17e4d9a1-bbdf-4e35-ba1e-139f82caee4f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": "{{BASE_URL}}/users/task/share"
+							},
+							"response": []
+						},
+						{
+							"name": "领取奖励",
+							"_postman_id": "b1e60d53-7f23-4a77-9a98-58df2aa6a388",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"taskId\": 15\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/users/task/receive-reward"
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "194a912e-bd0f-4e7e-8a5d-c32d1cf1c625",
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "注册 - 获取短信验证码",
+					"_postman_id": "69e56055-0008-4379-ac14-6cb3aa8ccfd5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/new/mobile/verify-code",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\n'发送成功，5分钟内有效'"
+					},
+					"response": []
+				},
+				{
+					"name": "注册 - 校验手机验证码",
+					"_postman_id": "8bfdd1f2-7c21-4ebe-ae29-ffafd5dfdf6e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"smsCode\": \"118118\",\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/new/mobile/verification",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|smsCode|smsCode|手机验证码\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|mobile|mobile|手机号码\n|expireAt|int|过期时间\n|sig|string|签名"
+					},
+					"response": []
+				},
+				{
+					"name": "注册 - 检查昵称是否被占用",
+					"_postman_id": "6ab86f8b-b4f4-4f5c-b908-d02d0c32f22f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nickname\": \"\",\r\n    \"mobile\": \"\",\r\n    \"expireAt\": \"\",\r\n    \"sig\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/new/mobile/check-nickname",
+						"description": "### 响应参数说明\n\n#### result\n\nnull\n\n### 响应错误参数说明\n\n昵称已被占用，同”用户注册“接口"
+					},
+					"response": []
+				},
+				{
+					"name": "用户注册（创建新用户）",
+					"_postman_id": "cf0e1067-173e-4980-8308-df7fd6716431",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sig\": \"HjORbE5Y6qklI0NVm46l7MRjuQPGdgMtgj0LIUhSrlA\",\n    \"expireAt\": 1636452956,\n    \"mobile\": \"13012345678\",\n    \"nickname\": \"test\",\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users",
+						"description": "注册成功后将自动登录\n\n### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|sig|string|校验手机验证码返回的签名\n|expireAt|int|校验手机验证码返回的过期时间\n|mobile|mobile|手机号码\n|password|md5|密码\n|nickname|string, min: 2, max: 24, trim|用户昵称\n\n### 响应参数说明\n\n#### result\n\nnull\n\n### 响应错误参数说明\n\n#### 409: 资源冲突\n\n|  参数  | 值      | 说明          |\n| :----: | ------- | ------------- |\n| code | 409 | conflict |\n| message | errcode:2 | 手机号已注册 |\n\n|  参数  | 值      | 说明          |\n| :----: | ------- | ------------- |\n| code | 409 | conflict |\n| message | errcode:3 | 昵称已被占用 |\n\n#### 403: 非法/过期请求\n\n|  参数  | 值      | 说明          |\n| :----: | ------- | ------------- |\n| code | 403 | forbidden |"
+					},
+					"response": []
+				},
+				{
+					"name": "用户登录",
+					"_postman_id": "86b9a8f4-f420-4545-9ed0-29d421867c6e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"password\": \"0985251f3d13076beec69aca778ea31f\",\n    \"remember\": true,\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"15356663076\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/mobile/auth-token",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|password|md5|密码\n|remember|boolean?|是否勾选“记住我”\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\nnull"
+					},
+					"response": []
+				},
+				{
+					"name": "找回密码 - 获取短信验证码",
+					"_postman_id": "939ac875-c96f-4f38-8eed-4630e78d2bb4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/mobile/password/verify-code",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\n'发送成功，5分钟内有效'"
+					},
+					"response": []
+				},
+				{
+					"name": "找回密码 - 校验手机验证码",
+					"_postman_id": "8625d294-a96b-4048-9105-d7f5d9d273a0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"smsCode\": \"118118\",\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/mobile/password/verification",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|smsCode|smsCode|手机验证码\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|mobile|mobile|手机号码\n|expireAt|int|过期时间\n|sig|string|签名"
+					},
+					"response": []
+				},
+				{
+					"name": "找回密码 - 重置密码",
+					"_postman_id": "126dca04-18eb-46c5-9606-2646573b6675",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"expireAt\": 1631798028,\n    \"sig\": \"BedkCk53BbCT2HaWOpnAT4t4zh19LRC2K3lruCGTeGU\",\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\n    \"mobile\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/mobile/password",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|sig|string|校验手机验证码返回的签名\n|expireAt|int|校验手机验证码返回的过期时间\n|password|md5|密码\n\n### 响应参数说明\n\n#### result\n\nnull"
+					},
+					"response": []
+				},
+				{
+					"name": "获取我的简要资料",
+					"_postman_id": "085899a2-822f-4822-9edf-88587248d5bf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/me/brief",
+						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+					},
+					"response": []
+				},
+				{
+					"name": "退出登录",
+					"_postman_id": "f4e5ef33-2fc2-4f87-914a-54a69049cc6b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/me/auth-token"
+					},
+					"response": []
+				},
+				{
+					"name": "获取上传头像的 policy",
+					"_postman_id": "29276d34-a41c-47e8-a79b-c336d76f8a76",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/avatar/upload/policy?ext=png",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"avatar",
+								"upload",
+								"policy"
+							],
+							"query": [
+								{
+									"key": "ext",
+									"value": "png",
+									"description": "待上传的文件后缀名"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取用户自选标签",
+					"_postman_id": "f480d133-9b9d-4904-bcb5-fcdbc62cfb39",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/users/tags"
+					},
+					"response": [
+						{
+							"id": "f04fd829-d2ac-4f86-a768-f7403e720248",
+							"name": "获取用户自选标签",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/users/tags"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "88"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Sep 2021 07:23:27 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "23"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": [\n        {\n            \"id\": 1,\n            \"name\": \"手游\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"随便\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "修改用户自定义标签",
+					"_postman_id": "087db85d-d956-4564-9788-3846fcd59423",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tags\": [1,2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/tags"
+					},
+					"response": [
+						{
+							"id": "429e69a9-ef65-4acd-adae-8792cfb41726",
+							"name": "修改用户自定义标签",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"tags\": [1,2]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/users/tags"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Sep 2021 07:23:56 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "27"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "获取用户发布文章",
+					"_postman_id": "59d00f84-03eb-4d7e-83dc-3067fd3acd78",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/users/100000012/posts"
+					},
+					"response": [
+						{
+							"id": "a3eb67d2-a01d-4893-a23b-d5d45930ed08",
+							"name": "获取用户发布文章",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/users/100000012/posts"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 30 Nov 2021 02:29:33 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "108"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"id\": 696,\n                \"title\": \"33\",\n                \"content\": \"<html><head></head><body><p>123</p></body></html>\",\n                \"cover\": \"\",\n                \"text\": \"\",\n                \"postTime\": 1632681180,\n                \"userId\": 100000012,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"comments\": {\n                    \"count\": 0\n                },\n                \"votes\": {\n                    \"likes\": 0,\n                    \"dislikes\": 0,\n                    \"myVote\": 0\n                },\n                \"auditStatusText\": \"审核通过\",\n                \"auditLog\": {\n                    \"status\": \"\",\n                    \"reason\": \"\",\n                    \"remark\": \"\"\n                }\n            },\n            {\n                \"id\": 767,\n                \"title\": \"\",\n                \"content\": \"<html><head></head><body><p>123</p></body></html>\",\n                \"cover\": \"\",\n                \"text\": \"123\",\n                \"postTime\": 1636726809,\n                \"userId\": 100000012,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"comments\": {\n                    \"count\": 32\n                },\n                \"votes\": {\n                    \"likes\": 1,\n                    \"dislikes\": 0,\n                    \"myVote\": 0\n                },\n                \"auditStatusText\": \"审核通过\",\n                \"auditLog\": {\n                    \"status\": \"\",\n                    \"reason\": \"\",\n                    \"remark\": \"\"\n                }\n            },\n            {\n                \"id\": 777,\n                \"title\": \"dsdasdasddsdasdasddsdasdasddsdasdas\",\n                \"content\": \"<html><head></head><body></body></html>\",\n                \"cover\": \"\",\n                \"text\": \"\",\n                \"postTime\": 1637748886,\n                \"userId\": 100000012,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"comments\": {\n                    \"count\": 1\n                },\n                \"votes\": {\n                    \"likes\": 0,\n                    \"dislikes\": 0,\n                    \"myVote\": 0\n                },\n                \"auditStatusText\": \"审核通过\",\n                \"auditLog\": {\n                    \"status\": \"\",\n                    \"reason\": \"\",\n                    \"remark\": \"\"\n                }\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 3\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "获取用户信息",
+					"_postman_id": "7432e66f-9ac4-4c1e-9cfe-712071a7e524",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/users/100000014/userinfo",
+						"description": "### 响应参数说明\n\n``` typescript\ninterface Ret {\n  /**\n   * 昵称\n   */\n  nickname: string;\n  /**\n   * 头像\n   */\n  avatarUrl: string;\n  /**\n   * 个人简介\n   */\n  introduction: string;\n  /**\n   * 账号状态 `/dict/3001`\n   */\n  forbiddenStatus: UserAccountStatus;\n  /**\n   * 审核状态 `/dict/2001`\n   */\n  auditStatus: AuditStatus;\n  /**\n   * 加入小组数量\n   */\n  groupCount: number;\n}\n\n```"
+					},
+					"response": [
+						{
+							"id": "0db65a8f-9220-48d0-ade7-60b5f9c931ef",
+							"name": "获取用户信息",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/users/5/userinfo"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "190"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 08:57:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "306"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"nickname\": \"忽略反反复复菌Game\",\n        \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\",\n        \"introduction\": null\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "更新用户信息",
+					"_postman_id": "ffc91ead-7120-4010-855f-10999b726eb2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nickname\": \"老但\",\r\n    \"avatarUrl\": \"https://dev-pic.wanjiadongli.com/avatar/0be0187015e436a11fe423092ca6e1eb64ac365.png\",\r\n    \"introduction\": \"abcdefg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/100000014/userinfo",
+						"description": "``` json\n{\n  \"nickname\": \"我是maria\",\n  \"avatarUrl\": \"https://dev-pic.wanjiadongli.com/avatar/0be0187015e436a11fe423092ca6e1eb64ac365.png\",\n  \"introduction\": \"abcdefg\"\n}\n\n```"
+					},
+					"response": [
+						{
+							"id": "354f7067-cae5-4543-bd4c-204ec7a0deec",
+							"name": "更新用户信息",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nickname\": \"我是maria\",\r\n        \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\",\r\n        \"introduction\": \"abcdefg\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/users/100000012/userinfo"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 09:00:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "160"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "检测昵称是否已存在",
+					"_postman_id": "227e9b13-e5e5-49e0-bac5-fa6b6fbf4c51",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/userinfo/check-nickname?nickname=我是maria",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"userinfo",
+								"check-nickname"
+							],
+							"query": [
+								{
+									"key": "nickname",
+									"value": "我是maria"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "93e33ceb-2f74-4c81-a91a-4b43732fa76d",
+							"name": "检测昵称是否已存在",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/users/me/userinfo/check-nickname?nickname=我是maria",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"users",
+										"me",
+										"userinfo",
+										"check-nickname"
+									],
+									"query": [
+										{
+											"key": "nickname",
+											"value": "我是maria"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 09:01:38 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "4"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "查询总额",
+					"_postman_id": "3c52c9a4-0a83-482d-b60d-b5a02cfe302b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/users/coin/count"
+					},
+					"response": []
+				},
+				{
+					"name": "查询领取记录",
+					"_postman_id": "486e4ce6-d2b2-4c78-952f-7a15e9915747",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/coin/log",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"coin",
+								"log"
+							],
+							"query": [
+								{
+									"key": "inoutType",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "4ea2c700-44ae-46de-8443-7ab718b40c3f",
+							"name": "查询领取记录",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/users/coin/log",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"users",
+										"coin",
+										"log"
+									],
+									"query": [
+										{
+											"key": "inoutType",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 09 May 2022 03:04:56 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "29"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"createdAt\": 1652065457,\n                \"id\": 3,\n                \"userId\": 100000014,\n                \"operateType\": 3,\n                \"operateId\": 1,\n                \"inoutCount\": 999,\n                \"inoutType\": 2,\n                \"task\": null,\n                \"trade\": null,\n                \"gamesaveExchange\": {\n                    \"gamesaveId\": 1,\n                    \"gamesaveTitle\": \"存档测试-1\"\n                }\n            },\n            {\n                \"createdAt\": 1652065429,\n                \"id\": 2,\n                \"userId\": 100000014,\n                \"operateType\": 2,\n                \"operateId\": 1,\n                \"inoutCount\": 1000,\n                \"inoutType\": 1,\n                \"task\": null,\n                \"trade\": {\n                    \"id\": 1,\n                    \"tradeNo\": \"1000000141652065389008984\"\n                },\n                \"gamesaveExchange\": null\n            },\n            {\n                \"createdAt\": 1652065305,\n                \"id\": 1,\n                \"userId\": 100000014,\n                \"operateType\": 1,\n                \"operateId\": 1,\n                \"inoutCount\": 14,\n                \"inoutType\": 1,\n                \"task\": {\n                    \"id\": 1,\n                    \"name\": \"我的玩家动力\"\n                },\n                \"trade\": null,\n                \"gamesaveExchange\": null\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 3\n    }\n}"
+						}
+					]
+				}
+			],
+			"_postman_id": "9ce380dc-b5d8-49c5-982c-256a9c08ee32",
+			"description": "用户模块\n\n包含注册、登录、个人资料修改等用户相关功能接口"
+		},
+		{
+			"name": "资讯",
+			"item": [
+				{
+					"name": "获取文章列表",
+					"_postman_id": "55b2e33d-0f2a-4acd-a25a-bfc909772e74",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/article/posts/news?size=2&searchActionType=1",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"article",
+								"posts",
+								"news"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "1",
+									"description": "文章所属分类，number",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "2"
+								},
+								{
+									"key": "tags",
+									"value": "1",
+									"description": "文章标签，number[]",
+									"disabled": true
+								},
+								{
+									"key": "postTimeRangeStart",
+									"value": "1000",
+									"disabled": true
+								},
+								{
+									"key": "postTimeRangeEnd",
+									"value": "9999999",
+									"disabled": true
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "searchActionType",
+									"value": "1",
+									"description": "{enum}, options: [1, 2, 3] - 查找类型：1: 推荐, 2: 最新, 3:  普通查询"
+								},
+								{
+									"key": "keyword",
+									"value": "test",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "43b8329e-7b05-43ab-b1ef-04694c8992d9",
+							"name": "获取文章列表",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/article/posts/news?keyword=&current=1&searchActionType=3&postTimeRangeStart=1000&postTimeRangeEnd=9999999",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"article",
+										"posts",
+										"news"
+									],
+									"query": [
+										{
+											"key": "keyword",
+											"value": "",
+											"description": "搜索关键词，资讯类的时候为文章标题"
+										},
+										{
+											"key": "categoryId",
+											"value": "1",
+											"description": "文章所属分类，number",
+											"disabled": true
+										},
+										{
+											"key": "size",
+											"value": "2",
+											"disabled": true
+										},
+										{
+											"key": "current",
+											"value": "1"
+										},
+										{
+											"key": "tags",
+											"value": "1",
+											"description": "文章标签，number[]",
+											"disabled": true
+										},
+										{
+											"key": "searchActionType",
+											"value": "3",
+											"description": "查询数据类型，1：推荐、2：最新、3：普通查询。只有为3的时候，categoryId和tags才会生效\n"
+										},
+										{
+											"key": "postTimeRangeStart",
+											"value": "1000"
+										},
+										{
+											"key": "postTimeRangeEnd",
+											"value": "9999999"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 18 Sep 2021 06:09:02 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "25"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"id\": 6,\n                \"title\": \"crawl来的资讯标题3\",\n                \"content\": \"<p>这篇文章是从XXX 网站\\n 上🐒面将按时间读取文件饿了阿克斯培训费就， 艾默里克是单机起来我。</p>\",\n                \"cover\": \"\",\n                \"text\": \"这篇文章是从XXX 网站\\n 上🐒面将按时间读取文件饿了阿克斯培训费就， 艾默里克是单机起来我。\",\n                \"source\": \"\",\n                \"pageUrl\": \"\",\n                \"postTime\": 1622592,\n                \"userId\": 100000001,\n                \"type\": 1,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"user\": {\n                    \"id\": 100000001,\n                    \"nickname\": \"玩家动力 bot\",\n                    \"avatarUrl\": \"\",\n                    \"gender\": 3\n                },\n                \"votes\": {\n                    \"likes\": 0,\n                    \"dislikes\": 0,\n                    \"myVote\": 0\n                }\n            },\n            {\n                \"id\": 20,\n                \"title\": \"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\",\n                \"content\": \"<html><head></head><body><figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/03c598a7-0fbc-425d-8c1d-5fdcfd48fa6a.png\\\"></figure>\\n<p>百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中</p>\\n<p>中元鬼门开，尽观阴阳态。《梦幻西游》手游中元节活动正在各大服务器火热进行中。玩家可以加入僵尸王或茅山道士阵营，开启阴阳眼进行对战。现在活动还剩最后一天（8月24日结束），快来参与玩法，用独特的方式感受这一节日的氛围。</p>\\n<p>活动主页：</p>\\n<p>https://my.163.com/zhongyuan</p>\\n<figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/7071c175-c495-47a6-945d-ae4cf62d5e25.png\\\"></figure>\\n<p><strong>阴阳眼&amp;僵尸大作战：看到不一样的世界</strong></p>\\n<p>在三界之中，究竟潜伏着哪些不为人知的角色呢？在中元节活动期间，你只要加入僵尸或茅山道士阵营，即可开启阴阳眼，显露出自己和其他玩家的真实身份。在开启阴阳眼之后，你还可以识破部分NPC的乔装，获得中元节活动中两大阵营相关法术的必备消耗道具——法力丹，在僵尸大作战之中将更多人拉入自己的阵营中。</p>\\n<figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/c532097e-412e-4993-a646-95e47d97c25f.png\\\"></figure>\\n<p><strong>鬼门开：不一样的三消，体验一下</strong></p>\\n<p>在活动期间，玩家还可以根据阵营体验鬼门开玩法。在这一玩法中，玩家可以根据自己在阵营中的等级，使用不同技能，消除对方同一造型的NPC。但是连续三回合未能消除的话，战斗就会结束。</p>\\n<p>由于在这一活动中，进入本阵营排行榜的玩家可以获得特别称谓和称谓装饰，所以建议玩家多多参与活动，提升所在阵营等级，解锁更多技能哦！</p>\\n<figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/206bbba3-acba-4028-b8ce-a302c6656d31.png\\\"></figure>\\n<p><strong>守卫争夺战：争夺引魂灯守卫三界</strong></p>\\n<p>在活动期间的19：30~20：00，你还可以代表自己阵营参与守卫争夺战活动，争夺或保护引魂灯。届时，道士方可以使用沉默符咒，对抗僵尸方的尸毒侵染。而进入侵染状态的僵尸，则无法移动。</p>\\n<p>究竟是道士技高一筹，还是僵尸成功击破道士的防线？这就取决于玩家的选择了。</p>\\n<figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/92553bb2-f0af-403e-ba8f-eafe23d87a5b.png\\\"></figure>\\n<p>除了以上四大玩法之外，别忘了，在活动期间，神秘的中元节商店也开门营业了。这一次阎罗王为玩家带来了包括时装荒城曲/幽梦吟、纸魂童系列足迹冒泡框头像框、符咒队标、小纸童头饰等节日气息满满的个性好物。如果你喜爱这些好物，不妨抓住最后的机会，将它们收入囊中哦！</p>\\n<figure><img alt=\\\"百鬼夜行聚长安！《梦幻西游》手游中元节活动火热进行中\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/beec741f-d293-492b-a397-10e9f45d3d69.png\\\"></figure>\\n<p>《梦幻西游》手游8月20日双平台新服【纵歌长安】已经开启，扫码即有机会获得专属冒泡框、高级魔兽要诀、超级灵龙灵石等多重好礼。快来新服游戏，领取丰厚奖励吧。</p>\\n<p>新服主页：https://my.163.com/xinfu/</p></body></html>\",\n                \"cover\": \"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/265dbc60-304e-4c10-a524-e35af1f0405a.png\",\n                \"text\": \"能哦！\\n守卫争夺战：争夺引魂灯守卫三界\\n在活动期间的19：30~20：00，你还可以代表自己阵营参与守卫争夺战活动，争夺或保护引魂灯。届时，道士方可以使用沉默符咒，对抗僵尸方的尸毒侵染。而进入侵染状态的僵尸，则无法移动。\\n究竟是道士技高一筹，还是僵尸成功击破道士的防线？这就取决于玩家的选择了。\\n除了以上四大玩法之外，别忘了，在活动期间，神秘的中元节商店也开门营业了。这一次阎罗王为玩家带来了包括时装荒城曲/幽梦吟、纸魂童系列足迹冒泡框头像框、符咒队标、小纸童头饰等节日气息满满的个性好物。如果你喜爱这些好物，不妨抓住最后的机会，将它们收入囊中哦！\\n《梦幻西游》手游8月20日双平台新服【纵歌长安】已经开启，扫码即有机会获得专属冒泡框、高级魔兽要诀、超级灵龙灵石等多重好礼。快来新服游戏，领取丰厚奖励吧。\\n新服主页：https://my.163.com/xinfu/\",\n                \"source\": \"TGbus.com\",\n                \"pageUrl\": \"https://www.tgbus.com/news/166647\",\n                \"postTime\": 1629636,\n                \"userId\": 100000001,\n                \"type\": 1,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"user\": {\n                    \"id\": 100000001,\n                    \"nickname\": \"玩家动力 bot\",\n                    \"avatarUrl\": \"\",\n                    \"gender\": 3\n                },\n                \"votes\": {\n                    \"likes\": 1,\n                    \"dislikes\": 0,\n                    \"myVote\": 1\n                }\n            },\n            {\n                \"id\": 21,\n                \"title\": \"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\",\n                \"content\": \"<html><head></head><body><figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/fad8e821-530e-4568-9bdf-fba714cb053d.png\\\"></figure>\\n<p>群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/c85b7722-c372-46b9-902c-81bb44b2b26e.png\\\"></figure>\\n<p>由华纳兄弟互动娱乐正版IP授权，网易游戏打造的《猫和老鼠》手游，再度携手网易电竞X系列赛，经过海选赛、16强小组赛的激烈角逐， 最终诞生的8强队伍将齐聚总决赛赛道，于8月20日-8月21日14:00展开万众瞩目的终极决战。</p>\\n<p><strong>八强战队列阵集结，终极竞逐一触即发</strong></p>\\n<p>高手云集，风云再起！经过海选赛、小组赛的竞争洗礼，义薄云天、永不言弃、神力柠檬、Ts1、故人缓缓归、举头望明月6支实力强队凭借高超竞技技巧和默契团队配合大放异彩，成功晋级总决赛，将与精英联赛冠亚军坦氪游击队、扶摇直上共同组成8强战队，于终极赛道集结，展开更加惊险刺激的总冠军争夺战，瓜分30万元奖金豪礼！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/ca12b5e0-b637-4738-adbb-64db1fb0be4d.png\\\"></figure>\\n<p>8月14日，8支晋级强队进入直播抽签环节，根据抽签结果匹配对手，第一轮比赛中，故人缓缓归将对战Ts1，永不言弃对阵神力柠檬，举头望明月与义薄云天则将分别迎战精英联赛冠亚军坦氪游击队、扶摇直上，采用单败BO3淘汰赛制决出胜负，胜者将进入第二轮比拼，最终采用BO5淘汰赛制展开冠亚决赛。巅峰竞逐，谁将问鼎，我们拭目以待！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/90c24cbf-2633-4335-8e8b-d13fa876bf93.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/e50279e9-3ae3-4f31-81c8-a83b43d65d44.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/d4777366-a603-4e1b-869a-84a06b8c9798.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/46209586-0235-4893-a950-51b2572dfa8d.png\\\"></figure>\\n<p><strong>线上决赛精彩不断，丰富内容乐趣加码<br>\\n</strong></p>\\n<p>全民赛作为《猫和老鼠》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！</p>\\n<p><strong>海量好礼倾情回馈，观赛福利惊喜放送</strong></p>\\n<p>自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！</p>\\n<p>此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/8475ec06-d32e-4d3b-9c59-4d90195a5c92.png\\\"></figure>\\n<p>猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！</p></body></html>\",\n                \"cover\": \"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/a9e9f4e7-9ec8-4b11-90f8-2156ee40114d.png\",\n                \"text\": \"》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！\\n海量好礼倾情回馈，观赛福利惊喜放送\\n自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！\\n此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！\\n猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！\",\n                \"source\": \"TGbus.com\",\n                \"pageUrl\": \"https://www.tgbus.com/news/166513\",\n                \"postTime\": 1629384,\n                \"userId\": 100000001,\n                \"type\": 1,\n                \"isShow\": 1,\n                \"auditStatus\": 1,\n                \"user\": {\n                    \"id\": 100000001,\n                    \"nickname\": \"玩家动力 bot\",\n                    \"avatarUrl\": \"\",\n                    \"gender\": 3\n                },\n                \"votes\": {\n                    \"likes\": 1,\n                    \"dislikes\": 0,\n                    \"myVote\": 1\n                }\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 3\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "获取文章详情",
+					"_postman_id": "c78891f3-01ee-473e-b349-aa5d82a0d168",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/article/posts/news/840",
+						"description": "### 响应参数说明\n\n``` typescript\nexport interface Ret {\n  id: number;\n  /**\n   * 审核状态：dict/2001\n   */\n  auditStatus: number;\n  /**\n   * 发布者用户 id\n   */\n  userId: number;\n  /**\n   * 帖子内容 html\n   */\n  content: string;\n  /**\n   * 帖子封面\n   */\n  cover: string;\n  /**\n   * 帖子发布时间\n   */\n  postTime: number;\n  /**\n   * 帖子标题\n   */\n  title: string;\n  /**\n   * 帖子是否可见\n   */\n  isShow: number;\n  /**\n   * 帖子纯文本内容\n   */\n  text: string;\n  /**\n   * 帖子关联小组 id\n   */\n  groupId?: number;\n  /**\n   * 帖子关联标签列表\n   */\n  tags: {\n    /**\n     * 标签 id\n     */\n    id: number;\n    /**\n     * 标签名称\n     */\n    name: string;\n  }[];\n  /**\n   * 赞踩数据\n   */\n  votes: {\n    /**\n     * 点赞总数\n     */\n    likes: number;\n    /**\n     * 点踩总数\n     */\n    dislikes: number;\n    /**\n     * 当前登录用户的操作\n     *\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: number;\n  };\n  /**\n   * 评论数据\n   */\n  comments: {\n    /**\n     * 评论总数\n     */\n    count: number;\n  };\n  /**\n   * 最近一次审核记录\n   */\n  lastLog: {\n    /**\n     * 审核不通过原因：dict/2001\n     */\n    reason: number | null;\n    /**\n     * 审核备注\n     */\n    remark?: string;\n    /**\n     * 审核状态：dict/2001\n     */\n    status: number;\n  };\n  /**\n   * 发布者用户信息\n   */\n  user: {\n    id: number;\n    /**\n     * 用户昵称\n     */\n    nickname: string;\n    /**\n     * 用户头像\n     */\n    avatarUrl?: string | null;\n    /**\n     * 用户信息审核状态：dict/2001\n     */\n    auditStatus: number;\n  };\n  /**\n   * 关联小组信息\n   */\n  group?: {\n    id: number;\n    /**\n     * 小组名称\n     */\n    name: string;\n    /**\n     * 小组头像\n     */\n    avatar: string;\n    /**\n     * 当前用户是否已加入小组\n     */\n    joined: boolean;\n  };\n  /**\n   * 帖子关键词列表\n   */\n  keywords: string[];\n}\n\n```"
+					},
+					"response": [
+						{
+							"id": "a6527739-9f56-4b17-8f29-8cd6d4e8c3a1",
+							"name": "获取文章详情",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/article/posts/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 09 Sep 2021 02:52:24 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "14"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 1,\n        \"title\": \"9999crawl来的资讯标题3\",\n        \"content\": \"<p>这篇文章是从XXX 网站\\n 上🐒面将按时间读取文件饿了阿克斯培训费就， 艾默里克是单机起来我。</p>\",\n        \"cover\": \"\",\n        \"text\": \"这篇文章是从XXX 网站\\n 上🐒面将按时间读取文件饿了阿克斯培训费就， 艾默里克是单机起来我。\",\n        \"source\": \"\",\n        \"pageUrl\": \"\",\n        \"postTime\": 1622592,\n        \"userId\": 100000001,\n        \"type\": 1,\n        \"isShow\": 1,\n        \"auditStatus\": 1,\n        \"user\": {\n            \"id\": 100000001,\n            \"nickname\": \"玩家动力 bot\",\n            \"avatarUrl\": \"\",\n            \"gender\": 3\n        },\n        \"tags\": [\n            {\n                \"id\": 1,\n                \"name\": \"手游\"\n            }\n        ],\n        \"newsCategory\": {\n            \"postId\": 1,\n            \"categoryId\": 1\n        },\n        \"votes\": {\n            \"likes\": 1,\n            \"dislikes\": 1,\n            \"myVote\": 1\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "[deleted] 获取资讯的分类（以及关联标签）",
+					"_postman_id": "ea3aaabd-80d6-4b22-a791-26db8310c248",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/article/posts/news/category"
+					},
+					"response": [
+						{
+							"id": "0e460c92-7bbf-4640-8a29-a72532104579",
+							"name": "获取资讯的分类（以及关联标签）",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/article/posts/news/category"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 31 Aug 2021 06:34:12 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "18"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": [\n        {\n            \"id\": 2,\n            \"name\": \"22呜呜呜呜\",\n            \"sort\": 99,\n            \"recommendedTags\": [\n                {\n                    \"id\": 1,\n                    \"name\": \"手游\"\n                },\n                {\n                    \"id\": 2,\n                    \"name\": \"随便\"\n                }\n            ]\n        },\n        {\n            \"id\": 3,\n            \"name\": \"33呜呜呜呜\",\n            \"sort\": 10,\n            \"recommendedTags\": []\n        },\n        {\n            \"id\": 1,\n            \"name\": \"222222\",\n            \"sort\": 0,\n            \"recommendedTags\": [\n                {\n                    \"id\": 1,\n                    \"name\": \"手游\"\n                }\n            ]\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "查询文章标签",
+					"_postman_id": "3575755f-c0fa-4d91-bf58-02e25a6ffeb4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/article/tag"
+					},
+					"response": []
+				},
+				{
+					"name": "文章点赞点踩取消",
+					"_postman_id": "c93451f8-ead6-4d75-b5b3-ed629d2ab0e1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/23/vote",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|type|number|<0: 取消点赞点踩；1：点赞；2：点踩>\n|...|...|..."
+					},
+					"response": [
+						{
+							"id": "25735d7f-097d-4a5e-8b6f-22116d0d7258",
+							"name": "文章点赞点踩取消",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"type\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/23/vote"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 09 Sep 2021 03:19:53 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "50"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": \"success\"\n}"
+						}
+					]
+				},
+				{
+					"name": "资讯发布",
+					"_postman_id": "ab665ab1-3566-4e53-ba0f-55869542d4ef",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"新增的测试标签\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1648960334,\r\n    \"cover\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/news",
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| ... | ... | ... |\n| ~~text~~ | ~~{string?}, max: 20000~~ | [deprecated] 发布内容纯文本 |\n| tags | {number[]?} - max: 20 | 选择的标签 ids，最大不超过 `20 - <tagNames length>` |\n| tagNames | {string[]?} - max: 20, itemRule: { max: 20, allowEmpty: false } | 新增的标签 names，最大不超过 `20 - <tags length>` |\n| ... | ... | ... |"
+					},
+					"response": [
+						{
+							"id": "688fb8c9-55a0-43fd-9ffa-c234fd3cc3ea",
+							"name": "资讯发布-包含违禁词",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"草泥马\",\r\n    \"content\": \"第1篇测试发布正文\",\r\n    \"categoryId\": 11,\r\n    \"cover\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/news"
+							},
+							"status": "unknown",
+							"code": 452,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 21 Mar 2022 07:00:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "783"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 452,\n    \"message\": \"内容包含违禁词\",\n    \"result\": null\n}"
+						},
+						{
+							"id": "b7ac0f5b-da48-46d2-8e51-87986e670aa9",
+							"name": "资讯发布",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"新增的测试标签\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1629774366,\r\n    \"cover\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/news"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 09 Sep 2021 02:53:06 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "31"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 27,\n        \"title\": \"第5篇测试发布标题\",\n        \"content\": \"第5篇测试发布正文\",\n        \"cover\": \"\",\n        \"text\": \"第5篇测试发布缩略文字\",\n        \"source\": \"\",\n        \"pageUrl\": \"\",\n        \"postTime\": 1629774366,\n        \"userId\": 100000001,\n        \"type\": 1,\n        \"isShow\": 1,\n        \"auditStatus\": 0,\n        \"user\": {\n            \"id\": 100000001,\n            \"nickname\": \"玩家动力 bot\",\n            \"avatarUrl\": \"\",\n            \"gender\": 3\n        },\n        \"tags\": [\n            {\n                \"id\": 1,\n                \"name\": \"手游\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"随便\"\n            }\n        ],\n        \"newsCategory\": {\n            \"postId\": 27,\n            \"categoryId\": 1\n        },\n        \"votes\": {\n            \"likes\": 0,\n            \"dislikes\": 0,\n            \"myVote\": 0\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "获取上传文章图片的 policy",
+					"_postman_id": "ba75111f-a54c-4e0e-b7b9-0f8ad7ca4d9c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/article/pic/upload/policy?ext=png",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"article",
+								"pic",
+								"upload",
+								"policy"
+							],
+							"query": [
+								{
+									"key": "ext",
+									"value": "png",
+									"description": "待上传的文件后缀名"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "资讯编辑",
+					"_postman_id": "e68ac8e4-4ec4-45fb-9790-c77a5f2b2966",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"1\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1647884507,\r\n    \"cover\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/news/651",
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| ... | ... | ... |\n| ~~text~~ | ~~{string?}, max: 20000~~ | [deprecated] 发布内容纯文本 |\n| tags | {number[]?} - max: 20 | 选择的标签 ids，最大不超过 `20 - <tagNames length>` |\n| tagNames | {string[]?} - max: 20, itemRule: { max: 20, allowEmpty: false } | 新增的标签 names，最大不超过 `20 - <tags length>` |\n| ... | ... | ... |"
+					},
+					"response": [
+						{
+							"id": "9e1342c1-085d-4ea2-a5eb-31afbc310000",
+							"name": "资讯编辑",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1629774366,\r\n    \"cover\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/news/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Sep 2021 08:35:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "70"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 1,\n        \"title\": \"第5篇测试发布标题\",\n        \"content\": \"第5篇测试发布正文\",\n        \"cover\": \"\",\n        \"text\": \"第5篇测试发布缩略文字\",\n        \"source\": \"\",\n        \"pageUrl\": \"\",\n        \"postTime\": 1629774366,\n        \"userId\": 100000001,\n        \"type\": 1,\n        \"isShow\": 1,\n        \"auditStatus\": 0,\n        \"user\": {\n            \"id\": 100000001,\n            \"nickname\": \"玩家动力 bot\",\n            \"avatarUrl\": \"\",\n            \"gender\": 3\n        },\n        \"tags\": [\n            {\n                \"id\": 1,\n                \"name\": \"手游\"\n            }\n        ],\n        \"newsCategory\": {\n            \"postId\": 1,\n            \"categoryId\": 1\n        },\n        \"votes\": {\n            \"likes\": 1,\n            \"dislikes\": 1,\n            \"myVote\": 1\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "创建文章举报",
+					"_postman_id": "064dbbd6-7075-4c5c-9992-8fa4cae07c4a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mark\": \"dddd\",\r\n    \"type\": 1,\r\n    \"postId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/report"
+					},
+					"response": [
+						{
+							"id": "09c89f4e-029e-43db-8c5b-76c8f74a0375",
+							"name": "创建文章举报",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"mark\": \"dddd\",\r\n    \"type\": 1,\r\n    \"postId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/report"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 07:15:57 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "25"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "删除文章",
+					"_postman_id": "7368d4b2-c523-409b-9302-ab2699db53a1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "{{BASE_URL}}/article/posts/news/1"
+					},
+					"response": []
+				},
+				{
+					"name": "随机获取文章列表",
+					"_postman_id": "a2841558-40fb-4c15-be25-b9d27979bbce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/article/posts/news/random?current=1&size=10",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"article",
+								"posts",
+								"news",
+								"random"
+							],
+							"query": [
+								{
+									"key": "current",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "ccfa2ad9-31ed-4e3f-87ff-39f41739edac"
+		},
+		{
+			"name": "steam",
+			"item": [
+				{
+					"name": "获取steam登录链接",
+					"_postman_id": "e65558e4-3701-40f5-81a6-62f372bab44f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/steam/auth-url"
+					},
+					"response": []
+				},
+				{
+					"name": "校验steam登录是否合法",
+					"_postman_id": "a57eb14e-a839-4001-86a5-f6c95f77e9a7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"params\": \"openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198348435777&openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198348435777&openid.return_to=http%3A%2F%2Flocalhost%3A3000&openid.response_nonce=2021-07-15T06%3A49%3A09ZjN27W1ur3I27%2Fp9xt7re4k8rzxQ%3D&openid.assoc_handle=1234567890&openid.signed=signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle&openid.sig=evaH4VR%2FLmEW2BaP8PMFGh9%2Fvr0%3D\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/steam/auth-url",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"steam",
+								"auth-url"
+							],
+							"query": [
+								{
+									"key": "params",
+									"value": "openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.mode=id_res%26openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin%26openid.claimed_id=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198348435777%26openid.identity=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198348435777%26openid.return_to=http%3A%2F%2Flocalhost%3A3000%26openid.response_nonce=2021-07-15T02%3A49%3A32ZZr2meL3sQf1%2F8c%2Bemjr7uZT1cGU%3D%26openid.assoc_handle=1234567890%26openid.signed=signed,op_endpoint,claimed_id,identity,return_to,response_nonce,assoc_handle%26openid.sig=NoooEaXGrwA2yXUE4TU29rOVBOA%3D",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据steamid获取steam用户详情",
+					"_postman_id": "e3815b0e-a2a0-4cd1-9dfe-7e22d139c0c9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/steam/user-info?steamid=76561198808294715",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"steam",
+								"user-info"
+							],
+							"query": [
+								{
+									"key": "steamid",
+									"value": "76561198808294715"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "c7860c6a-7793-4ca8-ab1d-ea7a72965d7c"
+		},
+		{
+			"name": "评论",
+			"item": [
+				{
+					"name": "发布评论",
+					"_postman_id": "8e9c6a88-f59a-4304-909f-2221d6b0d08b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\": \"第一条评论，真nb\",\r\n    \"parentId\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/1644/comment"
+					},
+					"response": [
+						{
+							"id": "e4ca6af8-82d1-4a05-984f-a7f862c08304",
+							"name": "发布一条评论",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"content\": \"第一条评论，真nb\",\r\n    \"parentId\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/1/comment"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 06:24:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "32"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "查询评论",
+					"_postman_id": "45cf3a22-a140-4cfe-9609-b91ff021b8be",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/article/posts/comments?postId=892&commentId=0&n=6&sort=2",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"article",
+								"posts",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "postId",
+									"value": "892"
+								},
+								{
+									"key": "commentId",
+									"value": "0"
+								},
+								{
+									"key": "n",
+									"value": "6"
+								},
+								{
+									"key": "endTime",
+									"value": "1636026510",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "2",
+									"description": "{enum}, options: [1, 2], default: 2 - 排序方式：1: 最新, 2: 热门"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "5e53b104-fcb6-4191-ba1c-bb1798db636f",
+							"name": "查询评论",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/article/posts/comment?postId=1&commentId=2&n=100",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"article",
+										"posts",
+										"comment"
+									],
+									"query": [
+										{
+											"key": "postId",
+											"value": "1"
+										},
+										{
+											"key": "commentId",
+											"value": "2"
+										},
+										{
+											"key": "n",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 08:13:06 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "14"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"createdAt\": 1635835124,\n                \"id\": 3,\n                \"content\": \"的味道问答问答\",\n                \"status\": 1,\n                \"parentId\": 2,\n                \"user\": {\n                    \"id\": 100000012,\n                    \"nickname\": \"忽略反反复复菌Game\",\n                    \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\"\n                },\n                \"childCount\": 0,\n                \"childComments\": {\n                    \"current\": 1,\n                    \"data\": [],\n                    \"last\": 1,\n                    \"size\": 20,\n                    \"total\": 0\n                }\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 1\n    }\n}"
+						},
+						{
+							"id": "9532d8e9-21da-4433-963e-6a2080d7c2aa",
+							"name": "查询评论",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/article/posts/comment?postId=1&commentId=0&n=0",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"article",
+										"posts",
+										"comment"
+									],
+									"query": [
+										{
+											"key": "postId",
+											"value": "1"
+										},
+										{
+											"key": "commentId",
+											"value": "0"
+										},
+										{
+											"key": "n",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 07:12:05 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "40"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"createdAt\": 1635835124,\n                \"id\": 1,\n                \"content\": \"11111\",\n                \"status\": 0,\n                \"parentId\": 0,\n                \"user\": {\n                    \"id\": 5,\n                    \"nickname\": \"花生味花生酱\",\n                    \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/283097c9c3e9dff31149c9807d8d8563ec14c9.jpg\"\n                },\n                \"childComments\": {\n                    \"current\": 1,\n                    \"data\": [],\n                    \"last\": 1,\n                    \"size\": 20,\n                    \"total\": 0\n                }\n            },\n            {\n                \"createdAt\": 1636007080,\n                \"id\": 2,\n                \"content\": \"第一条评论，真nb\",\n                \"status\": 0,\n                \"parentId\": 0,\n                \"user\": {\n                    \"id\": 100000012,\n                    \"nickname\": \"忽略反反复复菌Game\",\n                    \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\"\n                },\n                \"childComments\": {\n                    \"current\": 1,\n                    \"data\": [\n                        {\n                            \"createdAt\": 1635835124,\n                            \"id\": 3,\n                            \"content\": \"的味道问答问答\",\n                            \"status\": 1,\n                            \"parentId\": 2,\n                            \"user\": {\n                                \"id\": 100000012,\n                                \"nickname\": \"忽略反反复复菌Game\",\n                                \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\"\n                            },\n                            \"childCount\": 0\n                        }\n                    ],\n                    \"last\": 1,\n                    \"size\": 20,\n                    \"total\": 1\n                }\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 2\n    }\n}"
+						},
+						{
+							"id": "fac1dbda-eb13-4122-b8d4-39860685b999",
+							"name": "查询评论--带点赞",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/article/posts/comment?postId=1&commentId=0&n=100",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"article",
+										"posts",
+										"comment"
+									],
+									"query": [
+										{
+											"key": "postId",
+											"value": "1"
+										},
+										{
+											"key": "commentId",
+											"value": "0"
+										},
+										{
+											"key": "n",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 09:53:41 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "52"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"createdAt\": 1635835124,\n                \"id\": 1,\n                \"content\": \"11111\",\n                \"status\": 0,\n                \"parentId\": 0,\n                \"user\": {\n                    \"id\": 5,\n                    \"nickname\": \"花生味花生酱\",\n                    \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/283097c9c3e9dff31149c9807d8d8563ec14c9.jpg\"\n                },\n                \"votes\": {\n                    \"likes\": 1,\n                    \"dislikes\": 0,\n                    \"myVote\": 1\n                },\n                \"childComments\": {\n                    \"current\": 1,\n                    \"data\": [],\n                    \"last\": 1,\n                    \"size\": 20,\n                    \"total\": 0\n                }\n            },\n            {\n                \"createdAt\": 1636007080,\n                \"id\": 2,\n                \"content\": \"第一条评论，真nb\",\n                \"status\": 0,\n                \"parentId\": 0,\n                \"user\": {\n                    \"id\": 100000012,\n                    \"nickname\": \"我是maria\",\n                    \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\"\n                },\n                \"votes\": {\n                    \"likes\": 0,\n                    \"dislikes\": 0,\n                    \"myVote\": 0\n                },\n                \"childComments\": {\n                    \"current\": 1,\n                    \"data\": [\n                        {\n                            \"createdAt\": 1635835124,\n                            \"id\": 3,\n                            \"content\": \"的味道问答问答\",\n                            \"status\": 1,\n                            \"parentId\": 2,\n                            \"user\": {\n                                \"id\": 100000012,\n                                \"nickname\": \"我是maria\",\n                                \"avatarUrl\": \"https://pic.wanjiadongli.com/avatar/80350f9ac3e9df82974b479d710e4174c6266e.jpg\"\n                            },\n                            \"votes\": {\n                                \"likes\": 0,\n                                \"dislikes\": 0,\n                                \"myVote\": 0\n                            },\n                            \"childCount\": 0,\n                            \"childComments\": {\n                                \"current\": 1,\n                                \"data\": [],\n                                \"last\": 1,\n                                \"size\": 20,\n                                \"total\": 0\n                            }\n                        }\n                    ],\n                    \"last\": 1,\n                    \"size\": 20,\n                    \"total\": 1\n                }\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 2\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "举报评论",
+					"_postman_id": "bf0e4d60-6791-4b02-82cc-07b1deac7ffa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mark\": \"dddd\",\r\n    \"type\": 1,\r\n    \"commentId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/comment/report"
+					},
+					"response": [
+						{
+							"id": "76bfc73b-6589-4c69-bb07-a652ff8fc5c1",
+							"name": "举报评论",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"mark\": \"dddd\",\r\n    \"type\": 1,\r\n    \"commentId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/comment/report"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 07:14:16 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "76"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "点赞评论",
+					"_postman_id": "f03dc8af-1d84-4c94-8337-c5a9a88eea56",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/article/posts/comment/13/vote"
+					},
+					"response": [
+						{
+							"id": "9a358f78-22ca-489a-9e33-1bd3a9641019",
+							"name": "点赞评论",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"type\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/posts/comment/1/vote"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "41"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 04 Nov 2021 09:42:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "45"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "查看评论详情",
+					"_postman_id": "435ffa9d-7676-4b0b-b2bb-97aeeba66b19",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/article/posts/comment/13"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "6dd44f61-c0e8-4d8d-a69d-35e108eed8c2"
+		},
+		{
+			"name": "common",
+			"item": [
+				{
+					"name": "获取服务器时间",
+					"_postman_id": "e05d30dc-d17f-4283-9243-4eb52c4bc04f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/common/timestamp"
+					},
+					"response": [
+						{
+							"id": "679545a1-ccf3-4828-a408-302d1d3e4be0",
+							"name": "获取服务器时间",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/common/timestamp"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "47"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 11 Jan 2022 07:01:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=4"
+								},
+								{
+									"key": "Proxy-Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "9"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": 1641884496\n}"
+						}
+					]
+				}
+			],
+			"_postman_id": "2f3a18ff-077e-4849-ab64-5fa6036bb2bb"
+		},
+		{
+			"name": "用户反馈",
+			"item": [
+				{
+					"name": "提交反馈",
+					"_postman_id": "4ee75b91-c57c-49db-ac5b-4c3d841c20fa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"content\": \"发现了一个 bug 啊\",\n    \"email\": \"wanjiadongli@wanjiadongli.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/feedback",
+						"description": "用户提交反馈内容，仅允许在登录状态下调用。\n\n### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| content | {string}, max: 200 | 提交的反馈内容，会被 trim |\n| email | {email?}, max: 100 | 提交的电子邮箱 |\n\n### 响应参数说明\n\n#### result\n\n`null`"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "7b103a36-266f-4f0d-bb4b-694e9cfb03db"
+		},
+		{
+			"name": "标签管理",
+			"item": [
+				{
+					"name": "查询标签",
+					"_postman_id": "0e82c192-a9d9-4a0f-b13d-b429889f54ce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/tags?keyword=123",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"tags"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "123",
+									"description": "{string}, max: 20 - 关键词"
+								}
+							]
+						},
+						"description": "所有标签查询，结果仅包含可见状态的标签，结果上限 100 个。\n\n为防止数据量过大，keyword 必传。\n\n### 响应参数说明\n\n#### result\n\n`RetTag[]`"
+					},
+					"response": []
+				},
+				{
+					"name": "查询兴趣探索标签",
+					"_postman_id": "509a9eeb-6372-47e1-983d-e92500c1c1b3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/tags/discovery",
+						"description": "兴趣探索标签查询。\n\n总标签数 `m` 个，`n` 个固定推荐标签，`m - n` 个随机推荐标签\n\n### 响应参数说明\n\n#### result\n\n``` typescript\ninterface RetDiscoveryTags {\n  /**\n   * 固定推荐标签\n   */\n  recommend: RetTag[];\n  /**\n   * 随机推荐标签\n   */\n  random: RetTag[];\n}\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "9599061f-ae31-4f45-8549-48aa18c85423",
+			"description": "# 数据结构/类型\n\n1.  `RetTag`\n    \n    ``` typescript\n    interface RetTag {\n      /**\n       * 标签 id\n       */\n      id: number;\n      /**\n       * 标签名称\n       */\n      name: string;\n    }\n    \n    ```"
+		},
+		{
+			"name": "小组",
+			"item": [
+				{
+					"name": "查询兴趣探索小组",
+					"_postman_id": "83636401-d5c5-4cf2-a2c5-f3d90a8bc7a6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/discovery?tags=1&tags=2",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								"discovery"
+							],
+							"query": [
+								{
+									"key": "tags",
+									"value": "1",
+									"description": "{int[]?} - 标签 id"
+								},
+								{
+									"key": "tags",
+									"value": "2",
+									"description": "同上"
+								}
+							]
+						},
+						"description": "兴趣探索小组查询。\n\n### 响应参数说明\n\n#### result\n\n`RetDiscoveryGroup[]`\n\n``` typescript\ninterface RetDiscoveryGroup {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "加入小组",
+					"_postman_id": "841e87a3-2ad3-4abd-8fc1-c87974216e2a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/groups/:groupId",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"groups",
+								":groupId"
+							],
+							"variable": [
+								{
+									"id": "4f3dc711-9efa-41d6-8ba1-e92def7ff0b1",
+									"key": "groupId",
+									"value": "1",
+									"description": "{int} - 小组 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| groupId | {int} | 小组 id |\n\n### 响应参数说明\n\n#### result\n\n`null`"
+					},
+					"response": []
+				},
+				{
+					"name": "退出小组",
+					"_postman_id": "0228335b-3acd-4e68-8295-247effe46e53",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/groups/:groupId",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"groups",
+								":groupId"
+							],
+							"variable": [
+								{
+									"id": "8ed13bc0-dde7-4cd9-9d68-ee93259f00ca",
+									"key": "groupId",
+									"value": "1",
+									"description": "{int} - 小组 id",
+									"type": "string"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "创建小组",
+					"_postman_id": "383d56a7-4ff8-494d-8819-8b02c90e8f18",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"sdfasdasdasead\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/groups",
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| name | {string}, max: 40, trim: true, allowEmpty: false | 小组名称 |\n| gameId | {int?} | 关联游戏 id |\n\n### 响应参数说明\n\n#### result\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| id | int | 小组 id |\n| name | string | 小组名称 |\n| auditStatus | number | 审核状态 |\n\n### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 400 | \\- | 游戏不存在 |\n| 409 | \\- | 小组已存在 |"
+					},
+					"response": []
+				},
+				{
+					"name": "编辑小组",
+					"_postman_id": "4b5412ae-d922-4844-8eef-cc5cf68c9d6c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"intro\": \"测试小组简介\",\n    \"avatar\": \"https://dev-pic.wanjiadongli.com/avatar/176e7410120f5846d8f4a4bb46a51d86f1947eb.jpeg\",\n    \"gameId\": \"1\",\n    \"tagIds\": [],\n    \"tagNames\": []\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/groups/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								":id"
+							],
+							"variable": [
+								{
+									"id": "19287e55-fd72-4ee8-bf18-798622ee9024",
+									"key": "id",
+									"value": "2",
+									"description": "{int} - 小组 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| intro | {string}, max: 150, trim: true, allowEmpty: false | 小组简介 |\n| avatar | {url} | 小组头像 |\n| gameId | {int?} | 关联游戏 id |\n| tagIds | {number[]?} - max: 20 | 选择的标签 ids，最大不超过 `20 - <tagNames length>` |\n| tagNames | {string[]?} - max: 20, itemRule: { max: 20, allowEmpty: false } | 新增的标签 names，最大不超过 `20 - <tagIds length>` |\n\n### 响应参数说明\n\n#### result\n\n`null`\n\n### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 403 | \\- | 没有权限 |\n| 404 | \\- | 小组不存在 |\n| 423 | \\- | 30 天内只能编辑一次 |"
+					},
+					"response": []
+				},
+				{
+					"name": "获取上传小组头像表单参数",
+					"_postman_id": "950da9f8-17ed-45ec-a74c-2bab0e4e95dc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/avatar/upload/policy?ext=png",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								"avatar",
+								"upload",
+								"policy"
+							],
+							"query": [
+								{
+									"key": "ext",
+									"value": "png"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询待编辑的小组",
+					"_postman_id": "7158c996-baf2-4703-91b2-1571fd56e8e8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/:id/edit",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								":id",
+								"edit"
+							],
+							"variable": [
+								{
+									"id": "8e7d5561-510e-4a94-a2f0-2cda599738b3",
+									"key": "id",
+									"value": "78",
+									"description": "{int} - 小组 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组简介\n   */\n  introduction: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 关联游戏\n   */\n  game?: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 状态为可见的小组关联标签\n   */\n  tags: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 审核状态\n   */\n  auditStatus: number;\n}\n\n```\n\n### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 403 | \\- | 没有权限 |\n| 404 | \\- | 小组不存在 |\n| 423 | \\- | 30 天内只能编辑一次 |"
+					},
+					"response": []
+				},
+				{
+					"name": "固定小组",
+					"_postman_id": "5591a3f0-0367-4e61-98e7-4660eb52cf5f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/groups/favorites/:groupId",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"groups",
+								"favorites",
+								":groupId"
+							],
+							"variable": [
+								{
+									"id": "dc95c419-fb50-475e-8635-6a83dc1e8f1d",
+									"key": "groupId",
+									"value": "1",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 403 | \\- | 重复操作 |\n| 404 | \\- | 未加入 |\n| 423 | \\- | 超过可固定上限 |"
+					},
+					"response": []
+				},
+				{
+					"name": "取消固定小组",
+					"_postman_id": "f0ea9af3-da99-4897-b16b-a45bc9d2370d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/groups/favorites/:groupId",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"groups",
+								"favorites",
+								":groupId"
+							],
+							"variable": [
+								{
+									"id": "ad1b5e86-5e30-4a28-a6e0-db8e0ea5eead",
+									"key": "groupId",
+									"value": "1",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 403 | \\- | 重复操作 |\n| 404 | \\- | 未加入 |"
+					},
+					"response": []
+				},
+				{
+					"name": "检查小组名称是否可用",
+					"_postman_id": "8d6763d0-ab47-495e-9a8c-90a08b6bcb97",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/checkname?name=test",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								"checkname"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "test",
+									"description": "{string}, max: 40 - 小组名称"
+								}
+							]
+						},
+						"description": "---\n\n请求成功说明名称可用，否则参考错误码。\n\n### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 409 | \\- | 小组名称已被占用 |"
+					},
+					"response": []
+				},
+				{
+					"name": "导航菜单小组入口",
+					"_postman_id": "250dab05-4f6d-4b39-8ef5-a297f0eebef0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/users/me/groups/entries",
+						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\ninterface Group {\n  id: number;\n  name: string;\n  avatar: string;\n  favorited: boolean;\n}\ninterface Ret {\n  groups: Group[];\n  count: number;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "分页查询用户小组",
+					"_postman_id": "fa26743c-a7aa-43e4-8c51-18272313880b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/:userId/groups",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								":userId",
+								"groups"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "1",
+									"description": "{string?}, max: 40, trim: true - 搜索关键词",
+									"disabled": true
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"description": "{int?}, default: 1, min: 1 - 当前页面",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "40",
+									"description": "{int?}, default: 40 - 每页数量",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"id": "fcee54c3-ae5a-42a1-9dd7-64488efcb302",
+									"key": "userId",
+									"value": "100000144",
+									"description": "{int} - 用户 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "---\n\n统一分页查询用户加入的小组接口，包括自己的和他人的。\n\n### 响应参数说明\n\n#### result\n\n`Pagination<Ret>`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n  /**\n   * 当前用户是否固定小组\n   */\n  favorited: boolean;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "小组详情",
+					"_postman_id": "d5b7a125-b3ba-476f-9eb1-dbb6b06a2266",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								":id"
+							],
+							"variable": [
+								{
+									"id": "edad2258-9132-4fb6-9be7-ac5896f4f3a5",
+									"key": "id",
+									"value": "2",
+									"description": "{int} - 小组 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组简介\n   */\n  introduction: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n  /**\n   * 当前用户是否固定小组\n   */\n  favorited: boolean;\n  /**\n   * 是否有小组编辑权限\n   */\n  editPermission: boolean;\n  /**\n   * 小组是否可编辑\n   */\n  editable: boolean;\n  /**\n   * 小组审核状态 `dict/2001`\n   */\n  auditStatus: AuditStatus;\n}\n\n```\n\n### 响应错误参数说明\n\n| HTTPCode | errcode | 描述 |\n| --- | --- | --- |\n| 404 | \\- | 未找到小组 |"
+					},
+					"response": []
+				},
+				{
+					"name": "帖子编辑时选中的小组",
+					"_postman_id": "745e03ee-c478-40cb-bd99-c6cd642a3337",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/posts/options/groups/:groupId",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"posts",
+								"options",
+								"groups",
+								":groupId"
+							],
+							"variable": [
+								{
+									"id": "81bf0161-cfe7-4f9d-9009-7a6696e540fd",
+									"key": "groupId",
+									"value": "1",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 状态为可见的小组关联标签\n   */\n  tags: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 是否已加入\n   */\n  joined: boolean;\n  /**\n   * 是否固定\n   */\n  favorited: boolean;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "帖子新增或编辑时小组筛选列表",
+					"_postman_id": "9e6e2f6f-8451-4fac-9791-ac16d39b277c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/posts/options/groups",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"posts",
+								"options",
+								"groups"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "p",
+									"description": "{string?}, max: 40 - 搜索关键字",
+									"disabled": true
+								}
+							]
+						},
+						"description": "查找小组。关键字未传时返回和菜单处相同 ids 的小组列表，最多 20 个，列表项数据结构略有差异；关键字传递时返回列表最多 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 状态为可见的小组关联标签\n   */\n  tags: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 是否已加入\n   */\n  joined: boolean;\n  /**\n   * 是否固定\n   */\n  favorited: boolean;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "随机小组列表",
+					"_postman_id": "9d15ef4e-a0ee-428b-a457-6aa839e29dfd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{BASE_URL}}/groups/random",
+						"description": "* * *\n\n随机查询 7 个小组，用于首页“热门小组”和小组主页“更多小组”\n\n### 响应参数说明\n\n#### result\n\n`Pagination`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n  /**\n   * 成员数量\n   */\n  members: number;\n}\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "0ec163ab-9ff3-401f-bee0-be88478d0f9b"
+		},
+		{
+			"name": "游戏",
+			"item": [
+				{
+					"name": "某个游戏下我的存档",
+					"_postman_id": "b718ed08-cba8-449a-b3ca-659345897522",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/games/:id/gamesave?type=1&keyword=周翔",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"games",
+								":id",
+								"gamesave"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "1",
+									"description": "存档类型：1. 我拥有的，2: 我上传的"
+								},
+								{
+									"key": "keyword",
+									"value": "周翔",
+									"description": "搜索关键词"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "string"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询游戏名称",
+					"_postman_id": "cc170d60-faca-4965-89d8-fed195c5fb76",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/games/names",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"games",
+								"names"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "",
+									"description": "{string?}, max: 300 - 关键词",
+									"disabled": true
+								}
+							]
+						},
+						"description": "所有游戏名称查询，结果上限 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\n/**\n * 搜索游戏返回的游戏信息\n */\ninterface RetGameForQueryName {\n  id: number;\n  name: string;\n  cover: string | null;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "查询游戏的存档配置",
+					"_postman_id": "e38208de-bcb9-4264-8ed4-b3d77d3bc758",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/games/:id/gamesave-config?id=14",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"games",
+								":id",
+								"gamesave-config"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "14",
+									"description": "{string?}, max: 300 - 关键词"
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "14",
+									"type": "string"
+								}
+							]
+						},
+						"description": "所有游戏名称查询，结果上限 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\n/**\n * 搜索游戏返回的游戏信息\n */\ninterface RetGameForQueryName {\n  id: number;\n  name: string;\n  cover: string | null;\n}\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "264aaca6-d9be-4934-b927-8d58d932e8c0"
+		},
+		{
+			"name": "帖子",
+			"item": [
+				{
+					"name": "小组下的帖子分页列表",
+					"_postman_id": "494ae0ad-422f-4310-80f7-f573d934cca5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/groups/:groupId/posts?type=2&postTimeRangeEnd=0",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"groups",
+								":groupId",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "2",
+									"description": "{enum}, options: [2, 3] - 2: 热门, 3: 最新"
+								},
+								{
+									"key": "postTimeRangeEnd",
+									"value": "0",
+									"description": "{int}, min: 0, max: \\<current unix\\> - 秒时间戳"
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"description": "{int?}, default: 1, min: 1 - 当前页面",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "40",
+									"description": "{int?}, default: 40 - 每页数量",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"id": "3c8b0ed6-2b23-4875-ba2e-92f47dad9d95",
+									"key": "groupId",
+									"value": "1",
+									"description": "小组 id",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\nRet props 基本同文章列表查询。\n\n`Pagination`\n\n``` typescript\ninterface Ret {\n  id: number;\n  title: string;\n  cover: string;\n  text: string;\n  postTime: number;\n  votes: {\n    likes: number;\n    dislikes: number;\n    /**\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: VoteType;\n  };\n  comments: {\n    count: number;\n  };\n  user: {\n    id: number;\n    avatarUrl: string;\n    nickname: string;\n  };\n}\n\n```"
+					},
+					"response": []
+				},
+				{
+					"name": "我的小组下的帖子分页列表",
+					"_postman_id": "83878ee2-36b3-4f39-83b0-5ec9e4a89bbf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/groups/posts?type=2&postTimeRangeEnd=1648742692",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"groups",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "2",
+									"description": "{enum}, options: [2, 3] - 2: 热门, 3: 最新"
+								},
+								{
+									"key": "postTimeRangeEnd",
+									"value": "1648742692",
+									"description": "{int}, min: 0, max: \\<current unix\\> - 秒时间戳"
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"description": "{int?}, default: 1, min: 1 - 当前页面",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "40",
+									"description": "{int?}, default: 40 - 每页数量",
+									"disabled": true
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\nRet props 基本同文章列表查询。\n\n`Pagination`\n\n``` typescript\ninterface Ret {\n  id: number;\n  title: string;\n  cover: string;\n  text: string;\n  postTime: number;\n  votes: {\n    likes: number;\n    dislikes: number;\n    /**\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: VoteType;\n  };\n  comments: {\n    count: number;\n  };\n  user: {\n    id: number;\n    avatarUrl?: string;\n    nickname: string;\n  };\n  group: {\n    id: number;\n    name: string;\n    avatar: string;\n  };\n}\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "648d8fe5-b632-4d98-b5c6-a66d65ab0e97"
+		},
+		{
+			"name": "全局搜索",
+			"item": [
+				{
+					"name": "自动补全",
+					"_postman_id": "d5f67568-2699-44f7-873b-4843d1035504",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/search/suggestions",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"search",
+								"suggestions"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "a",
+									"description": "{string?}, max: 100, trim: true, default: '' - 搜索关键词",
+									"disabled": true
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n`string[]`"
+					},
+					"response": []
+				},
+				{
+					"name": "分页搜索",
+					"_postman_id": "31926911-b33c-48d0-9db4-8ad1637262e1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/search/:type?keyword=&unixEnd=1651997012",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"search",
+								":type"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "",
+									"description": "{string?}, max: 100, trim: true, default: '' - 搜索关键词"
+								},
+								{
+									"key": "unixEnd",
+									"value": "1651997012",
+									"description": "{int}, min: 0, max: \\<current unix\\> - 资源创建或发布的截止时间"
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"description": "{int?}, default: 1, min: 1 - 当前页面",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "40",
+									"description": "{int?}, default: 40 - 每页数量",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "type",
+									"value": "gamesaves",
+									"description": "{enum}, options: ['posts', 'groups', 'users', 'gamesaves'] - 搜索类型",
+									"type": "string"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n`IPagination<RetPost | RetGroup | RetUser | RetGamesave>`\n\n``` typescript\ninterface RetPost {\n  id: number;\n  user: {\n    id: number;\n    avatarUrl: string;\n    nickname: string;\n  };\n  title: string;\n  cover: string;\n  text: string;\n  votes: {\n    likes: number;\n    dislikes: number;\n    myVote: number;\n  };\n  content: string;\n  postTime: number;\n  comments: {\n    count: number;\n  };\n  group: {\n    id: number;\n    name: string;\n    avatar: string;\n    joined: boolean;\n  };\n}\n\n```\n\n``` typescript\ninterface RetGroup {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组简介\n   */\n  introduction: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n}\n\n```\n\n``` typescript\ninterface RetUser {\n  /**\n   * 用户 id\n   */\n  id: number;\n  /**\n   * 昵称\n   */\n  nickname: string;\n  /**\n   * 头像\n   */\n  avatarUrl: string;\n  /**\n   * 个人简介\n   */\n  introduction: string;\n}\n\n```\n\n```typescript\ninterface RetGamesave {\n  id: number;\n  /**\n   * 是否已购买\n   */\n  isBought: boolean;\n  /**\n   * 存档名称\n   */\n  title: string;\n  /**\n   * 封面，取存档封面或简介第一张图，可能不存在\n   */\n  cover?: string;\n  /**\n   * 简介，封面存在时不返回简介\n   */\n  text?: string;\n  /**\n   * 评价\n   */\n  votes: {\n    /**\n     * 好评数量\n     */\n    likes: number;\n    /**\n     * 差评数量\n     */\n    dislikes: number;\n  };\n  /**\n   * 评论\n   */\n  comments: {\n    /**\n     * 评论数量\n     */\n    count: number;\n  };\n}\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "ab37f05b-2e11-4f18-9658-917547c05f36"
+		},
+		{
+			"name": "微信",
+			"item": [
+				{
+					"name": "获取公众号JS-SDK权限签名",
+					"_postman_id": "6d866bdf-0834-4ea7-9095-ac281a776b03",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadongli.com/article?param1=12",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"weixin",
+								"jssdk",
+								"signature"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": "https://wanjiadongli.com/article?param1=12"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "7341deb2-0558-4a19-877d-d7c74a585fde",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadongli.com/article?param1=12",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"weixin",
+										"jssdk",
+										"signature"
+									],
+									"query": [
+										{
+											"key": "url",
+											"value": "https://wanjiadongli.com/article?param1=12"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 19 Apr 2022 14:41:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "170"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "11"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"appId\": \"wx8c5be308fd54df24\",\n        \"nonceStr\": \"hel4mxus6ue\",\n        \"timestamp\": 1650379260,\n        \"signature\": \"240b296891d8c9a2481a17188ee91c0d35f62425\"\n    }\n}"
+						},
+						{
+							"id": "b8c04bf7-814d-4c3b-b33f-756f82007962",
+							"name": "FAIL_1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadonglicom/article?param1=埃尔法",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"weixin",
+										"jssdk",
+										"signature"
+									],
+									"query": [
+										{
+											"key": "url",
+											"value": "https://wanjiadonglicom/article?param1=埃尔法"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Entity",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 20 Apr 2022 01:18:35 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "110"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "30"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 422,\n    \"message\": \"Validation Failed\",\n    \"result\": [\n        {\n            \"message\": \"格式错误\",\n            \"code\": \"无效\",\n            \"field\": \"url\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			],
+			"_postman_id": "044a0dcd-51a2-4d03-b313-bcce7dd86df7"
+		},
+		{
+			"name": "支付",
+			"item": [
+				{
+					"name": "获取二维码",
+					"_postman_id": "b4706d67-c492-43da-855f-451e94115dab",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": 2,\r\n    \"amount\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/payment/qrcode"
+					},
+					"response": [
+						{
+							"id": "6d036cc4-ec1e-430c-8b0f-06309a86d3fe",
+							"name": "获取二维码",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"type\": 2,\r\n    \"amount\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/payment/qrcode"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 Apr 2022 05:54:49 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "119"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "391"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"url\": \"https://qr.alipay.com/bax097053nkppluerr0j0092\",\n        \"tradeNo\": \"100000014_883\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "查询订单状态",
+					"_postman_id": "2cebb1b2-f870-466d-bb8d-2463f77fb33c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/payment/trade/status?tradeNo=1000000141652250555056395",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"payment",
+								"trade",
+								"status"
+							],
+							"query": [
+								{
+									"key": "tradeNo",
+									"value": "1000000141652250555056395"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "e060fc5a-5a62-4586-ba4f-95c311053f00",
+							"name": "查询订单状态",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/payment/trade/status?tradeNo=1000000141651048368641824",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"payment",
+										"trade",
+										"status"
+									],
+									"query": [
+										{
+											"key": "tradeNo",
+											"value": "1000000141651048368641824"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 Apr 2022 08:52:03 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "38"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "24"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": 2\n}"
+						}
+					]
+				},
+				{
+					"name": "手机支付",
+					"_postman_id": "2dd34cfe-3365-4a9a-b586-036ecc548ecd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": 2,\r\n    \"amount\": 1,\r\n    \"returnUrl\": \"http://local-www.wanjiadongli.com/gamesave/1/purchase\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/payment/wap"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "35f6aef2-0932-4c32-9104-a0280d7b77b5"
+		},
+		{
+			"name": "存档",
+			"item": [
+				{
+					"name": "存档管理",
+					"item": [
+						{
+							"name": "按游戏归类存档列表",
+							"_postman_id": "00571c60-8eb3-401a-a241-03e701f153bf",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/users/me/gamesave?type=2&gameId=12&keyword=存档",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"users",
+										"me",
+										"gamesave"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "2",
+											"description": "1: 我拥有的, 2: 我上传的"
+										},
+										{
+											"key": "gameId",
+											"value": "12",
+											"description": "已选择游戏时的游戏id"
+										},
+										{
+											"key": "keyword",
+											"value": "存档",
+											"description": "搜索关键词"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "107559bf-0449-4b43-bca9-5e7af0bfb6e4",
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "评论",
+					"item": [
+						{
+							"name": "发布评论",
+							"_postman_id": "d799d757-de9e-448f-92e2-84d325e66ab8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"content\": \"对存档的评价测试-4\",\n    \"voteType\": 2,\n    \"parentId\": 0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BASE_URL}}/gamesave/:id/comment",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"gamesave",
+										":id",
+										"comment"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "12",
+											"type": "string"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "举报评论",
+							"_postman_id": "a1fed210-25e5-4981-8837-2a1aa6c15b9d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"remark\": \"举报评论测试\",  \n    \"type\": 7, \n    \"commentId\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/gamesave/comment/report"
+							},
+							"response": []
+						},
+						{
+							"name": "查询评论",
+							"_postman_id": "f4fc1edb-3051-4704-bc83-b11b056c3ddd",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/gamesave/comments?gamesaveId=1&commentId=1&n=4",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"gamesave",
+										"comments"
+									],
+									"query": [
+										{
+											"key": "gamesaveId",
+											"value": "1",
+											"description": "存档 id"
+										},
+										{
+											"key": "commentId",
+											"value": "1",
+											"description": "评论 id，0 代表查询评价"
+										},
+										{
+											"key": "n",
+											"value": "4",
+											"description": "最多显示的评论深度（层级）"
+										},
+										{
+											"key": "sort",
+											"value": "1",
+											"description": "最近/热门 排序",
+											"disabled": true
+										},
+										{
+											"key": "voteType",
+											"value": "1",
+											"description": "好评/差评/全部",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "点赞评论",
+							"_postman_id": "c695137b-6da2-48eb-bbbb-c7fe62af113e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"type\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{BASE_URL}}/gamesave/comment/:id/vote",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"gamesave",
+										"comment",
+										":id",
+										"vote"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "2",
+											"type": "string"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "查看评论详情",
+							"_postman_id": "90dabcda-186e-4350-8f42-2945eaee4d33",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/gamesave/comment/:id",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"gamesave",
+										"comment",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "2",
+											"type": "string"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "be0f4fc1-ca2f-4991-8cd0-166af0a5b7da",
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "获取存档详情",
+					"_postman_id": "eb6aeece-243f-440b-837a-56d15dde5e13",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/gamesave/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"gamesave",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "11",
+									"type": "string"
+								}
+							]
+						},
+						"description": "## 响应参数说明\n\n``` typescript\ninterface RetGamesaveDetail {\n  /**\n   * 存档序列号\n   */\n  id: number;\n  /**\n   * 存档标题\n   */\n  title: string;\n  /**\n   * 存档内容 html\n   */\n  content: string;\n  /**\n   * 存档纯文本内容\n   */\n  text: string;\n  /**\n   * 所属游戏名称\n   */\n  gameName: string;\n  /**\n   * 用户是否已经购买该游戏\n   */\n  isBought: boolean;\n  /**\n   * 赞踩数据\n   */\n  votes: {\n    /**\n     * 点赞总数\n     */\n    likes: number;\n    /**\n     * 点踩总数\n     */\n    dislikes: number;\n    /**\n     * 当前登录用户的操作\n     *\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: number;\n  };\n  /**\n   * 存档封面\n   */\n  cover?: string;\n  /**\n   * 存档价格\n   */\n  price: number;\n  /**\n   * 发布时间\n   */\n  postTime: number;\n  /**\n   * 发布用户昵称\n   */\n  nickname: string;\n  /**\n   * 发布用户头像\n   */\n  avatarUrl: string;\n  /**\n   * 发布用户 id\n   */\n  userId: number;\n  /**\n   * 存档审核状态\n   */\n  auditStatus: AuditStatus;\n}\n\n```"
+					},
+					"response": [
+						{
+							"id": "69c13ed5-d4f8-4d40-9496-48d6a948ee44",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/gamesave/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 Apr 2022 02:23:53 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "456"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 1,\n        \"title\": \"存档测试-1\",\n        \"text\": \"\\n群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\n\\n由华纳兄弟互动娱乐正版IP授权，网易游戏打造的《猫和老鼠》手游，再度携手网易电竞X系列赛，经过海选赛、16强小组赛的激烈角逐， 最终诞生的8强队伍将齐聚总决赛赛道，于8月20日-8月21日14:00展开万众瞩目的终极决战。\\n八强战队列阵集结，终极竞逐一触即发\\n高手云集，风云再起！经过海选赛、小组赛的竞争洗礼，义薄云天、永不言弃、神力柠檬、Ts1、故人缓缓归、举头望明月6支实力强队凭借高超竞技技巧和默契团队配合大放异彩，成功晋级总决赛，将与精英联赛冠亚军坦氪游击队、扶摇直上共同组成8强战队，于终极赛道集结，展开更加惊险刺激的总冠军争夺战，瓜分30万元奖金豪礼！\\n\\n8月14日，8支晋级强队进入直播抽签环节，根据抽签结果匹配对手，第一轮比赛中，故人缓缓归将对战Ts1，永不言弃对阵神力柠檬，举头望明月与义薄云天则将分别迎战精英联赛冠亚军坦氪游击队、扶摇直上，采用单败BO3淘汰赛制决出胜负，胜者将进入第二轮比拼，最终采用BO5淘汰赛制展开冠亚决赛。巅峰竞逐，谁将问鼎，我们拭目以待！\\n\\n\\n\\n\\n线上决赛精彩不断，丰富内容乐趣加码\\n\\n全民赛作为《猫和老鼠》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！\\n海量好礼倾情回馈，观赛福利惊喜放送\\n自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！\\n此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！\\n\\n猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！\",\n        \"content\": \"<html><head></head><body><figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/a088fe04-0032-43c1-9a25-71960ba2591c.png\\\"></figure>\\n<p>群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/4461876d-9ac4-4477-ae56-e4d5808e7f9e.png\\\"></figure>\\n<p>由华纳兄弟互动娱乐正版IP授权，网易游戏打造的《猫和老鼠》手游，再度携手网易电竞X系列赛，经过海选赛、16强小组赛的激烈角逐， 最终诞生的8强队伍将齐聚总决赛赛道，于8月20日-8月21日14:00展开万众瞩目的终极决战。</p>\\n<p><strong>八强战队列阵集结，终极竞逐一触即发</strong></p>\\n<p>高手云集，风云再起！经过海选赛、小组赛的竞争洗礼，义薄云天、永不言弃、神力柠檬、Ts1、故人缓缓归、举头望明月6支实力强队凭借高超竞技技巧和默契团队配合大放异彩，成功晋级总决赛，将与精英联赛冠亚军坦氪游击队、扶摇直上共同组成8强战队，于终极赛道集结，展开更加惊险刺激的总冠军争夺战，瓜分30万元奖金豪礼！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/7ac38151-648f-4052-a54b-fc3882067e74.png\\\"></figure>\\n<p>8月14日，8支晋级强队进入直播抽签环节，根据抽签结果匹配对手，第一轮比赛中，故人缓缓归将对战Ts1，永不言弃对阵神力柠檬，举头望明月与义薄云天则将分别迎战精英联赛冠亚军坦氪游击队、扶摇直上，采用单败BO3淘汰赛制决出胜负，胜者将进入第二轮比拼，最终采用BO5淘汰赛制展开冠亚决赛。巅峰竞逐，谁将问鼎，我们拭目以待！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/1f068970-85e2-4bbf-be20-73b16bb7bcb1.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/e32ce4a1-b240-4222-847c-d1e8e4eabba5.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/06aa5f5d-a1dc-44ff-93be-baaaec4e5c7e.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/1cd7c1d8-ace0-4d00-a69a-ef4b7baebc64.png\\\"></figure>\\n<p><strong>线上决赛精彩不断，丰富内容乐趣加码<br>\\n</strong></p>\\n<p>全民赛作为《猫和老鼠》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！</p>\\n<p><strong>海量好礼倾情回馈，观赛福利惊喜放送</strong></p>\\n<p>自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！</p>\\n<p>此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/63503a07-682e-4409-8f52-519d7478d3d0.png\\\"></figure>\\n<p>猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！</p></body></html>\",\n        \"gameName\": \"王者荣耀\",\n        \"isBought\": false,\n        \"votes\": {\n            \"likes\": 3,\n            \"dislikes\": 1,\n            \"myVote\": 1\n        },\n        \"cover\": \"https://zh.moegirl.org.cn/zh-hant/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A0#/media/File:Tom_and_Jerry.png\",\n        \"price\": 999,\n        \"postTime\": 1650953536,\n        \"nickname\": \"cosmo-alpha\",\n        \"avatarUrl\": \"https://p.qqan.com/up/2021-2/16137992359659254.jpg\",\n        \"userId\": 100000154,\n        \"auditStatus\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "获取存档列表",
+					"_postman_id": "bb03cd71-b285-4a7b-9063-5c5a0f0dd21d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/gamesave",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"gamesave"
+							],
+							"query": [
+								{
+									"key": "postTimeRangeStart",
+									"value": "1000",
+									"disabled": true
+								},
+								{
+									"key": "postTimeRangeEnd",
+									"value": "1651028433",
+									"disabled": true
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "keyword",
+									"value": "存档",
+									"description": "搜索关键词",
+									"disabled": true
+								},
+								{
+									"key": "groupId",
+									"value": "1",
+									"description": "小组id",
+									"disabled": true
+								},
+								{
+									"key": "gameId",
+									"value": "1",
+									"description": "游戏id",
+									"disabled": true
+								},
+								{
+									"key": "userId",
+									"value": "100000014",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除存档",
+					"_postman_id": "ff74f2b3-7814-430a-aedf-9954edf3c652",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/gamesave/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"gamesave",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": null,
+									"type": "any"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "举报存档",
+					"_postman_id": "6eef0b4c-d1fa-4c6f-89a9-57ea9cc42a45",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"remark\": \"举报存档测试-cosmo\",\n    \"type\": 2,\n    \"gamesaveId\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/gamesave/report"
+					},
+					"response": []
+				},
+				{
+					"name": "更多存档",
+					"_postman_id": "a85d9a2e-fcc1-4ce8-b8f9-550d512c978d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/gamesave/more?gamesaveId=1",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"gamesave",
+								"more"
+							],
+							"query": [
+								{
+									"key": "gamesaveId",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "16eab1cb-b097-45e4-a80d-2e8180e35892"
+		},
+		{
+			"name": "存档兑换",
+			"item": [
+				{
+					"name": "存档兑换",
+					"_postman_id": "77b08260-76d5-43df-b977-de1017f1d0cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "{{BASE_URL}}/gamesave/exchange/1"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "759caa05-3c59-41a0-acd9-bdd28969304c"
+		},
+		{
+			"name": "心跳检查",
+			"item": [
+				{
+					"name": "客户端心跳检查",
+					"_postman_id": "e0d98ef4-b1e4-4aad-96e4-53c5a6a74e71",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/heartbeats/pc/:gid",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"heartbeats",
+								"pc",
+								":gid"
+							],
+							"variable": [
+								{
+									"key": "gid",
+									"value": "652e3ff02098dde21a54c1f9b875e65ef18bb1f",
+									"description": "{string}, '0' or gid - 心跳检查标识",
+									"type": "string"
+								}
+							]
+						},
+						"description": "无 gid 时传 0 获取 gid，在一定时间内轮询同一 gid 状态。\n\n当前检查过期时间为 10s。\n\n### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\n/**\n * 检查心跳状态\n */\nexport class HeartbeatCheck {\n  /**\n   * 状态\n   * - 0: 无响应\n   * - 1: 响应正常\n   */\n  status!: 0 | 1;\n  /**\n   * 检查的 gid\n   */\n  gid!: string;\n}\n\n\n```"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "f0f7756c-d307-4c6f-b23f-f446bcf1e185"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"const cookieJar = pm.cookies.jar();",
+					"",
+					"pm.request.addHeader('Origin:http://www.wanjiadongli.com');",
+					"pm.request.addHeader('Referer:http://www.wanjiadongli.com/');",
+					"",
+					"cookieJar.get('wanjiadongli.com', 'local-ct', (gerr, csrfToken) => {",
+					"    if (gerr || !csrfToken) {",
+					"        cookieJar.set('wanjiadongli.com', { name: 'local-ct', value: Math.random().toString().substr(2), domain: 'wanjiadongli.com' }, (serr, newCsrfToken) => {",
+					"            if (serr) {",
+					"                console.log(serr);",
+					"            }",
+					"            pm.request.addHeader(`x-ct:${newCsrfToken.value}`);",
+					"        });",
+					"    } else {",
+					"        pm.request.addHeader(`x-ct:${csrfToken}`);",
+					"    }",
+					"});",
+					""
+				],
+				"id": "10ad8837-5a3d-4512-a734-8cee6f816f31"
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				],
+				"id": "5a691b3a-39fc-4155-8b25-d577adf543aa"
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f513e4c6-c807-40de-ae68-b257c2ccc4f9",
+			"key": "BASE_URL",
+			"value": "http://local-api.wanjiadongli.com/www",
+			"type": "string"
+		}
+	]
+}
