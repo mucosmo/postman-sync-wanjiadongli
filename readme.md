@@ -1,3 +1,3 @@
 a repo for postman collection sync
 
-to gitee coding
+to gitee coding public
