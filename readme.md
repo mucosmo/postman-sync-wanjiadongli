@@ -1,5 +1,3 @@
 a repo for postman collection sync
 
-to gitee coding public username  asas https  
-
-asdasd
+to gitee coding public username 
