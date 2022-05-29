@@ -20,23 +20,6 @@ jobs:
         env:
           GITHUB_REPOSITORY: mucosmo/postman-sync-wanjiadongli
 
-
-#       - name: Push to Coding
-#         run: |
-#           remote_repo="https://${CODING_USERNAME}:${CODING_PASSWORD}@e.coding.net/${CODING_REPOSITORY}.git"
-
-#           git remote add coding "${remote_repo}"
-#           git show-ref # useful for debugging
-#           git branch --verbose
-
-#           # publish all
-#           git push --all --force coding
-#           git push --tags --force coding
-#         env:
-#           CODING_REPOSITORY: mucosmo/wanjiadongli/postman-api-doc
-#           CODING_USERNAME: ${{ secrets.CODING_USERNAME }}
-#           CODING_PASSWORD: ${{ secrets.CODING_PASSWORD }}
-
       - name: Push to Gitee
         run: |
           remote_repo="https://${GITEE_USERNAME}:${GITEE_PASSWORD}@gitee.com/${GITEE_REPOSITORY}.git"
@@ -52,3 +35,20 @@ jobs:
           GITEE_REPOSITORY: cosmoyang/postman-sync
           GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
           GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
+          
+
+      - name: Push to Coding
+        run: |
+          remote_repo="https://${CODING_USERNAME}:${CODING_PASSWORD}@e.coding.net/${CODING_REPOSITORY}.git"
+
+          git remote add coding "${remote_repo}"
+          git show-ref # useful for debugging
+          git branch --verbose
+
+          # publish all
+          git push --all --force coding
+          git push --tags --force coding
+        env:
+          CODING_REPOSITORY: mucosmo/wanjiadongli/postman-api-doc
+          CODING_USERNAME: ${{ secrets.CODING_USERNAME }}
+          CODING_PASSWORD: ${{ secrets.CODING_PASSWORD }}
