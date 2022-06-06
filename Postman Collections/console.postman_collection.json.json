@@ -5029,8 +5029,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [],
+						"url": "{{BASE_URL}}/client/version/3/publish"
 					},
 					"response": []
 				}
@@ -5114,7 +5115,7 @@
 	],
 	"variable": [
 		{
-			"id": "145d6ccb-0878-4ad7-b45a-af0b59f756a8",
+			"id": "6d1b03ef-260d-4008-ad36-2ee547db1e0a",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
