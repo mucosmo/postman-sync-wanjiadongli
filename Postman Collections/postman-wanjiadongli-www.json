@@ -5051,7 +5051,20 @@
 		},
 		{
 			"name": "客户端版本",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "23c268d0-fa5c-4172-b91e-311097ffb7a2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "db5f510f-aa3d-4380-9da1-4a1fc90cdf6a"
 		}
 	],
@@ -5096,7 +5109,7 @@
 	],
 	"variable": [
 		{
-			"id": "a4e985f0-02c6-4192-8f2f-084df2dd0266",
+			"id": "735688d1-7d14-46b7-a78c-4db96daa2af0",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
