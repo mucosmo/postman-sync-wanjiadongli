@@ -5043,7 +5043,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{BASE_URL}}/client/version/3"
 					},
 					"response": []
 				}
@@ -5127,7 +5128,7 @@
 	],
 	"variable": [
 		{
-			"id": "426a0181-2b59-4343-be86-5df944d23502",
+			"id": "9a52738d-5132-4042-b22d-ab2b9a0ce4a9",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
