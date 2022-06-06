@@ -5007,8 +5007,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"changeLog\": \"修复bug；添加图片；\",\r\n    \"version\": \"1.1.1\",\r\n    \"downloadUrlExe\": \"https://wanjiadongli.com\",\r\n    \"downloadUrlBm\": \"https://wanjiadongli.com\",\r\n    \"downloadUrlYml\": \"https://wanjiadongli.com\",\r\n    \"remark\": \"\",\r\n    \"updateWay\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/client/version"
 					},
 					"response": []
 				}
@@ -5092,7 +5102,7 @@
 	],
 	"variable": [
 		{
-			"id": "5eff90ef-b5e0-4a99-88b7-fdf6ab1e28ef",
+			"id": "b697724a-9508-4308-b1c8-3fb90caee2d0",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
