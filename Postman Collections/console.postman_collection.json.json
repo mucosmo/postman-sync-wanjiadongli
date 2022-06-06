@@ -4963,7 +4963,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "版本文件上传表单",
 					"id": "e5a00941-fe14-4c22-bef3-ee7195224164",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5054,7 +5054,7 @@
 	],
 	"variable": [
 		{
-			"id": "e1fb67b4-6936-47f0-9adf-d0002c357982",
+			"id": "5edde453-eeeb-464c-a25c-675ebe6c6d0d",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
