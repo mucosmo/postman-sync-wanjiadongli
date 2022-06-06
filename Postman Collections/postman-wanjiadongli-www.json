@@ -5060,7 +5060,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{BASE_URL}}/client/version/latest"
 					},
 					"response": []
 				}
@@ -5109,7 +5110,7 @@
 	],
 	"variable": [
 		{
-			"id": "940a6640-6d1a-42bd-9352-009827be58fd",
+			"id": "fb4dc3b2-9d14-4aad-a680-60e41b1c38e1",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
