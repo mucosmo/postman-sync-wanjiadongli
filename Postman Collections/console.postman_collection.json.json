@@ -5055,8 +5055,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"changeLog\": \"修改一下\",\r\n    \"remark\": \"测试备注\",\r\n    \"updateWay\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/client/version/3"
 					},
 					"response": []
 				}
@@ -5140,7 +5150,7 @@
 	],
 	"variable": [
 		{
-			"id": "93afc0b3-b4e7-4a71-bb56-138f3be93a18",
+			"id": "c58a04fe-cfe5-4002-b832-a60a24da60d4",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
