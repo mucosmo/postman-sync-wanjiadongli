@@ -4999,6 +4999,18 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "178cdd3e-1411-430c-bc01-c08452341922",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "d2f56a2b-aec9-4572-adc6-c3965f50a139"
@@ -5080,7 +5092,7 @@
 	],
 	"variable": [
 		{
-			"id": "099bc839-ce23-463d-9fd1-63f5a969d1c5",
+			"id": "5b49dc68-52d5-4cbc-86d0-b98922b6d96b",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
