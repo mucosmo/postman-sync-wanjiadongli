@@ -5023,7 +5023,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "设置某个版本为发布版本",
 					"id": "1e5837db-27b4-41e9-b088-5a9db4480fe0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5114,7 +5114,7 @@
 	],
 	"variable": [
 		{
-			"id": "7f63e0c5-6344-4e28-96b8-d4a6e2c27f75",
+			"id": "145d6ccb-0878-4ad7-b45a-af0b59f756a8",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
