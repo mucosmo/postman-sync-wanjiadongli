@@ -4950,14 +4950,15 @@
 			"name": "客户端版本管理",
 			"item": [
 				{
-					"name": "获取上传 form",
+					"name": "历史版本列表",
 					"id": "bb0b1bb2-1f49-494b-ba11-0ec90ea8190c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{BASE_URL}}/client/versions"
 					},
 					"response": []
 				}
@@ -5041,7 +5042,7 @@
 	],
 	"variable": [
 		{
-			"id": "3ad5d709-8c82-4789-bb75-e1aeb155366d",
+			"id": "cb48e3cc-0fc5-41a7-a14d-ac613dadbd78",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
