@@ -5068,7 +5068,94 @@
 						},
 						"url": "{{BASE_URL}}/client/version/3"
 					},
-					"response": []
+					"response": [
+						{
+							"id": "2e53d846-c6c7-45a8-8827-ba75d0b712f2",
+							"name": "修改版本信息",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"changeLog\": \"修改一下\",\r\n    \"remark\": \"测试备注\",\r\n    \"updateWay\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/client/version/3"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://console.wanjiadongli.com"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 06 Jun 2022 03:36:40 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.21.0"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "15"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 3,\n        \"changeLog\": \"修改一下\",\n        \"downloadUrlExe\": \"https://wanjiadongli.com\",\n        \"downloadUrlBm\": \"https://wanjiadongli.com\",\n        \"downloadUrlYml\": \"https://wanjiadongli.com\",\n        \"version\": \"1.1.2\",\n        \"updateWay\": 1,\n        \"isPublish\": true,\n        \"remark\": \"测试备注\",\n        \"publishTime\": 1654486481\n    }\n}"
+						}
+					]
 				}
 			],
 			"id": "d2f56a2b-aec9-4572-adc6-c3965f50a139"
@@ -5150,7 +5237,7 @@
 	],
 	"variable": [
 		{
-			"id": "c58a04fe-cfe5-4002-b832-a60a24da60d4",
+			"id": "80e6a495-09a5-4267-970c-b27d9a14d055",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
