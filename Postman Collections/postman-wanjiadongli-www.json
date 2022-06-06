@@ -5053,7 +5053,7 @@
 			"name": "客户端版本",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "获取最新版本",
 					"id": "23c268d0-fa5c-4172-b91e-311097ffb7a2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5109,7 +5109,7 @@
 	],
 	"variable": [
 		{
-			"id": "735688d1-7d14-46b7-a78c-4db96daa2af0",
+			"id": "940a6640-6d1a-42bd-9352-009827be58fd",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
