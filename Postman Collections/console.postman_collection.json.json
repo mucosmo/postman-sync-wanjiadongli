@@ -4970,7 +4970,33 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/client/version/upload/policy?ext=exe&version=1.0.1&fileName=wjdl",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"client",
+								"version",
+								"upload",
+								"policy"
+							],
+							"query": [
+								{
+									"key": "ext",
+									"value": "exe"
+								},
+								{
+									"key": "version",
+									"value": "1.0.1"
+								},
+								{
+									"key": "fileName",
+									"value": "wjdl"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -5054,7 +5080,7 @@
 	],
 	"variable": [
 		{
-			"id": "5edde453-eeeb-464c-a25c-675ebe6c6d0d",
+			"id": "099bc839-ce23-463d-9fd1-63f5a969d1c5",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
