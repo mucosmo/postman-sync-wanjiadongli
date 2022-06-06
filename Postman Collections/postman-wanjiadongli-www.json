@@ -5050,7 +5050,7 @@
 			"id": "f0f7756c-d307-4c6f-b23f-f446bcf1e185"
 		},
 		{
-			"name": "New Folder",
+			"name": "客户端版本",
 			"item": [],
 			"id": "db5f510f-aa3d-4380-9da1-4a1fc90cdf6a"
 		}
@@ -5096,7 +5096,7 @@
 	],
 	"variable": [
 		{
-			"id": "eecbfb1a-abc9-4a9d-b358-0c1f6ac3975f",
+			"id": "a4e985f0-02c6-4192-8f2f-084df2dd0266",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
