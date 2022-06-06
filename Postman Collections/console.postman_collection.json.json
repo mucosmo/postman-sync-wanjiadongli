@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "console delete permission",
-					"_postman_id": "2d4fe582-07d2-4e74-84c9-df550a12eee5",
+					"id": "2d4fe582-07d2-4e74-84c9-df550a12eee5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -33,7 +33,7 @@
 				},
 				{
 					"name": "console update permission",
-					"_postman_id": "4df83732-3f1e-4174-8a5d-dfe11ea89dcb",
+					"id": "4df83732-3f1e-4174-8a5d-dfe11ea89dcb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "console add page permission",
-					"_postman_id": "e53c0974-dbba-4fc0-b854-99e3bfece043",
+					"id": "e53c0974-dbba-4fc0-b854-99e3bfece043",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -112,7 +112,7 @@
 				},
 				{
 					"name": "获取配置列表",
-					"_postman_id": "82dee4f3-1e52-4f9d-8f37-6438e5e24625",
+					"id": "82dee4f3-1e52-4f9d-8f37-6438e5e24625",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -124,14 +124,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "437c416a-f479-49ce-96bb-c97c41da6e7c"
+			"id": "437c416a-f479-49ce-96bb-c97c41da6e7c"
 		},
 		{
 			"name": "资讯管理",
 			"item": [
 				{
 					"name": "获取文章列表",
-					"_postman_id": "fac4bcf8-e364-408c-9388-3e5a04f785d0",
+					"id": "fac4bcf8-e364-408c-9388-3e5a04f785d0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -322,7 +322,7 @@
 				},
 				{
 					"name": "获取文章详情",
-					"_postman_id": "5e3189c5-6ed6-44fc-849d-0db70548dc78",
+					"id": "5e3189c5-6ed6-44fc-849d-0db70548dc78",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -413,7 +413,7 @@
 				},
 				{
 					"name": "删除文章",
-					"_postman_id": "448c8c23-2516-4bd2-9ab7-220e8cbe6ccb",
+					"id": "448c8c23-2516-4bd2-9ab7-220e8cbe6ccb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -488,7 +488,7 @@
 				},
 				{
 					"name": "修改文章",
-					"_postman_id": "ac624941-c884-4a6a-afcc-03ec292e1c03",
+					"id": "ac624941-c884-4a6a-afcc-03ec292e1c03",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -598,7 +598,7 @@
 				},
 				{
 					"name": "修改点赞、点踩增幅",
-					"_postman_id": "8475d0db-adf1-4c40-b5d2-05106562b4de",
+					"id": "8475d0db-adf1-4c40-b5d2-05106562b4de",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -630,8 +630,7 @@
 								{
 									"id": "bd0f5c71-ddb9-4d09-84b9-52ba96306584",
 									"key": "id",
-									"value": "773",
-									"type": "string"
+									"value": "773"
 								}
 							]
 						},
@@ -728,7 +727,7 @@
 				},
 				{
 					"name": "新增文章",
-					"_postman_id": "dddb7029-e61c-4524-8f8b-3906f12ed6ad",
+					"id": "dddb7029-e61c-4524-8f8b-3906f12ed6ad",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -838,7 +837,7 @@
 				},
 				{
 					"name": "上下架文章",
-					"_postman_id": "d3c3e844-e47c-4697-851d-ae5f9e6b1530",
+					"id": "d3c3e844-e47c-4697-851d-ae5f9e6b1530",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -939,7 +938,7 @@
 				},
 				{
 					"name": "[deleted] 查标签",
-					"_postman_id": "14563f53-08d7-4c7f-a77c-0c4371d88fac",
+					"id": "14563f53-08d7-4c7f-a77c-0c4371d88fac",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1022,7 +1021,7 @@
 				},
 				{
 					"name": "获取一个机器人id",
-					"_postman_id": "87115401-2122-41a5-b62e-85126a1dafc2",
+					"id": "87115401-2122-41a5-b62e-85126a1dafc2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1113,7 +1112,7 @@
 				},
 				{
 					"name": "获取上传文章图片的 policy",
-					"_postman_id": "763abf4e-012f-4198-abe6-7cff996c3c42",
+					"id": "763abf4e-012f-4198-abe6-7cff996c3c42",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1144,7 +1143,7 @@
 				},
 				{
 					"name": "源数量统计",
-					"_postman_id": "e594b1b8-a19a-40f5-8559-43fdd1e29781",
+					"id": "e594b1b8-a19a-40f5-8559-43fdd1e29781",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1251,14 +1250,14 @@
 					]
 				}
 			],
-			"_postman_id": "e18af091-e6a9-4af4-80c4-c3ba22287a7f"
+			"id": "e18af091-e6a9-4af4-80c4-c3ba22287a7f"
 		},
 		{
 			"name": "游戏管理",
 			"item": [
 				{
 					"name": "游戏列表",
-					"_postman_id": "5123b9a0-3539-4bff-983c-a9fa581a2b17",
+					"id": "5123b9a0-3539-4bff-983c-a9fa581a2b17",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1394,7 +1393,7 @@
 				},
 				{
 					"name": "新增游戏",
-					"_postman_id": "fc1cb0f7-2519-4ab2-bd52-381f5680870e",
+					"id": "fc1cb0f7-2519-4ab2-bd52-381f5680870e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1417,7 +1416,7 @@
 				},
 				{
 					"name": "修改游戏",
-					"_postman_id": "9b31c897-970d-416e-b26e-40b1626544ce",
+					"id": "9b31c897-970d-416e-b26e-40b1626544ce",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1446,8 +1445,7 @@
 								{
 									"key": "id",
 									"value": "2",
-									"description": "游戏 id",
-									"type": "string"
+									"description": "游戏 id"
 								}
 							]
 						},
@@ -1457,7 +1455,7 @@
 				},
 				{
 					"name": "获取游戏详情",
-					"_postman_id": "28a425d6-de0d-43ce-9b8a-bf10b4cf1934",
+					"id": "28a425d6-de0d-43ce-9b8a-bf10b4cf1934",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1476,8 +1474,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "14",
-									"type": "string"
+									"value": "14"
 								}
 							]
 						},
@@ -1487,7 +1484,7 @@
 				},
 				{
 					"name": "获取游戏存档配置",
-					"_postman_id": "5094a16e-3580-45df-b1bd-1efe9b5e3f33",
+					"id": "5094a16e-3580-45df-b1bd-1efe9b5e3f33",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1507,8 +1504,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "13",
-									"type": "string"
+									"value": "13"
 								}
 							]
 						},
@@ -1518,7 +1514,7 @@
 				},
 				{
 					"name": "更新游戏存档配置",
-					"_postman_id": "63b35eb0-ccbb-44a2-9f83-33debcfba37a",
+					"id": "63b35eb0-ccbb-44a2-9f83-33debcfba37a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1548,8 +1544,7 @@
 								{
 									"key": "id",
 									"value": "13",
-									"description": "游戏 id",
-									"type": "string"
+									"description": "游戏 id"
 								}
 							]
 						},
@@ -1559,7 +1554,7 @@
 				},
 				{
 					"name": "获取上传游戏相关图片的 policy",
-					"_postman_id": "3c35e72a-9e53-4c86-8fd5-45a5c88664a9",
+					"id": "3c35e72a-9e53-4c86-8fd5-45a5c88664a9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1568,8 +1563,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
-							"options": {}
+							"raw": ""
 						},
 						"url": {
 							"raw": "{{BASE_URL}}/games/cover/upload/policy?ext=png",
@@ -1594,14 +1588,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "9def3932-278d-4140-8a27-fb42b625ff24"
+			"id": "9def3932-278d-4140-8a27-fb42b625ff24"
 		},
 		{
 			"name": "游戏平台管理",
 			"item": [
 				{
 					"name": "游戏平台列表",
-					"_postman_id": "961574e9-fbe2-4f3d-ab1d-5694bb4074f7",
+					"id": "961574e9-fbe2-4f3d-ab1d-5694bb4074f7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1615,7 +1609,7 @@
 				},
 				{
 					"name": "新增一个游戏平台",
-					"_postman_id": "972670bc-666e-458f-9ab8-afd65287a54c",
+					"id": "972670bc-666e-458f-9ab8-afd65287a54c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1717,7 +1711,7 @@
 				},
 				{
 					"name": "修改一个游戏平台",
-					"_postman_id": "5e315e0b-e3c2-4b4b-b3e1-7ef44feb307b",
+					"id": "5e315e0b-e3c2-4b4b-b3e1-7ef44feb307b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1747,8 +1741,7 @@
 									"id": "fd0e4e91-eecb-40ae-9bb0-585d1429c01a",
 									"key": "id",
 									"value": "1",
-									"description": "游戏平台 id",
-									"type": "string"
+									"description": "游戏平台 id"
 								}
 							]
 						},
@@ -1758,7 +1751,7 @@
 				},
 				{
 					"name": "更新两个平台的排序",
-					"_postman_id": "4e7143a5-2978-4131-99d0-0eab66a29ace",
+					"id": "4e7143a5-2978-4131-99d0-0eab66a29ace",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1781,7 +1774,7 @@
 				},
 				{
 					"name": "删除一个游戏平台",
-					"_postman_id": "837552b0-371c-4a1a-a555-8031b0ae6752",
+					"id": "837552b0-371c-4a1a-a555-8031b0ae6752",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -1803,8 +1796,7 @@
 									"id": "3d6f436b-35a3-47ab-95b5-a9fe37f7b470",
 									"key": "id",
 									"value": "8",
-									"description": "游戏平台 id",
-									"type": "string"
+									"description": "游戏平台 id"
 								}
 							]
 						}
@@ -1812,7 +1804,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "74734bb1-1c6a-4915-a934-2ac76fa6ea0a",
+			"id": "74734bb1-1c6a-4915-a934-2ac76fa6ea0a",
 			"description": "# 数据结构/类型\n- `GamePlatform`\n\n|参数|类型|说明\n|---|---|---\n|id|int|平台 id\n|name|string|平台名称\n|showInIndex|boolean|是否在首页显示\n|sort|int|排序值"
 		},
 		{
@@ -1820,7 +1812,7 @@
 			"item": [
 				{
 					"name": "获取游戏标签分页数据（未完成：无高级查询功能）",
-					"_postman_id": "47b87ac7-9afd-4fb4-ac12-26e3a5d6986e",
+					"id": "47b87ac7-9afd-4fb4-ac12-26e3a5d6986e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1849,7 +1841,7 @@
 				},
 				{
 					"name": "游戏标签列表",
-					"_postman_id": "46aa9ab4-9e2e-4f5a-b832-608ed325244e",
+					"id": "46aa9ab4-9e2e-4f5a-b832-608ed325244e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1863,7 +1855,7 @@
 				},
 				{
 					"name": "添加游戏标签",
-					"_postman_id": "ecb70a09-cdd2-4c6e-b75d-6b1e4bd2a51e",
+					"id": "ecb70a09-cdd2-4c6e-b75d-6b1e4bd2a51e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1886,7 +1878,7 @@
 				},
 				{
 					"name": "修改游戏标签",
-					"_postman_id": "2953c1aa-ee66-4508-a1bd-0be497179263",
+					"id": "2953c1aa-ee66-4508-a1bd-0be497179263",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1916,8 +1908,7 @@
 									"id": "9c3b41cd-17da-48f8-81f3-f7c7937b7c49",
 									"key": "id",
 									"value": "428",
-									"description": "游戏标签 id",
-									"type": "string"
+									"description": "游戏标签 id"
 								}
 							]
 						},
@@ -1927,7 +1918,7 @@
 				},
 				{
 					"name": "删除游戏标签",
-					"_postman_id": "b5a109de-3eb7-4a67-af67-8b47b98442cc",
+					"id": "b5a109de-3eb7-4a67-af67-8b47b98442cc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1957,8 +1948,7 @@
 									"id": "3bde60aa-b894-4339-95fc-7dba41e8a16d",
 									"key": "id",
 									"value": "427",
-									"description": "游戏标签 id",
-									"type": "string"
+									"description": "游戏标签 id"
 								}
 							]
 						}
@@ -1966,7 +1956,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "6156b48b-3404-47ae-84ad-0f77260a8274",
+			"id": "6156b48b-3404-47ae-84ad-0f77260a8274",
 			"description": "# 数据结构\n1. `GameTag`\n```typescript\ninterface GameTag {\n  /**\n   * 游戏标签 id\n   */\n  id: number;\n  /**\n   * 游戏标签名称\n   */\n  name: string;\n}\n```"
 		},
 		{
@@ -1974,7 +1964,7 @@
 			"item": [
 				{
 					"name": "分页查询标签",
-					"_postman_id": "399fe73b-b00c-4422-a86c-84f2194accdf",
+					"id": "399fe73b-b00c-4422-a86c-84f2194accdf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2010,7 +2000,7 @@
 				},
 				{
 					"name": "查询标签",
-					"_postman_id": "9446b6a0-cba2-412b-ac90-e9273c4b5eb9",
+					"id": "9446b6a0-cba2-412b-ac90-e9273c4b5eb9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2046,7 +2036,7 @@
 				},
 				{
 					"name": "添加标签",
-					"_postman_id": "06501c9b-e504-4947-9f20-dca6e22d5af3",
+					"id": "06501c9b-e504-4947-9f20-dca6e22d5af3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2069,7 +2059,7 @@
 				},
 				{
 					"name": "修改标签状态",
-					"_postman_id": "8e083abf-9b08-420a-b131-4164e6c73185",
+					"id": "8e083abf-9b08-420a-b131-4164e6c73185",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2099,8 +2089,7 @@
 									"id": "543484c6-6c02-4802-9369-4fc5dbef8c65",
 									"key": "id",
 									"value": "1",
-									"description": "{int} - 标签 id",
-									"type": "string"
+									"description": "{int} - 标签 id"
 								}
 							]
 						},
@@ -2109,7 +2098,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "83081340-f36c-4922-a963-7baa142220db",
+			"id": "83081340-f36c-4922-a963-7baa142220db",
 			"description": "# 数据结构/类型\n\n1.  `Tag`\n    \n    ``` typescript\n    interface Tag {\n      /**\n       * 标签 id\n       */\n      id: number;\n      /**\n       * 标签名称\n       */\n      name: string;\n      /**\n       * 标签状态\n       */\n      status: TagStatus;\n    }\n    \n    ```\n    \n2.  Type `TagStatus`: 参考 `/dict/5001`"
 		},
 		{
@@ -2117,7 +2106,7 @@
 			"item": [
 				{
 					"name": "分类列表",
-					"_postman_id": "23c02d6b-1b3b-4615-8e17-bc2075413408",
+					"id": "23c02d6b-1b3b-4615-8e17-bc2075413408",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2131,7 +2120,7 @@
 				},
 				{
 					"name": "添加分类",
-					"_postman_id": "e96a52ad-9b9b-4a3b-bdf8-bc2f453ba517",
+					"id": "e96a52ad-9b9b-4a3b-bdf8-bc2f453ba517",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2154,7 +2143,7 @@
 				},
 				{
 					"name": "修改分类",
-					"_postman_id": "06483bb2-f994-4f80-acc3-2a6f40c1862a",
+					"id": "06483bb2-f994-4f80-acc3-2a6f40c1862a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2174,76 +2163,6 @@
 						"description": "请求通过 `type` 字段区分要修改的是分类信息还是可见性\n\n### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|type|1\\|2|1: 修改名称或标签, 2: 修改可见性\n|type === 1||\n|name|{string?}, max: 20|分类名称\n|tagIds|{array?}, min: 0, max: 10, itemType: {int}|关联标签 id 数组\n|type === 2||\n|isShow|{boolean}|是否显示\n\n### 响应参数说明\n\n#### result\n\n返回 `NewsCategory`"
 					},
 					"response": [
-						{
-							"id": "608724b2-78e6-4816-a7f1-a81aad35ff18",
-							"name": "修改分类可见性",
-							"originalRequest": {
-								"method": "PUT",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"type\": 2,\n    \"isShow\": true\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{BASE_URL}}/article/news-category/2"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Connection",
-									"value": "close"
-								},
-								{
-									"key": "Content-Length",
-									"value": "125"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Date",
-									"value": "Fri, 20 Aug 2021 06:39:24 GMT"
-								},
-								{
-									"key": "Server",
-									"value": "nginx/1.19.10"
-								},
-								{
-									"key": "Vary",
-									"value": "Origin"
-								},
-								{
-									"key": "X-Content-Type-Options",
-									"value": "nosniff"
-								},
-								{
-									"key": "X-Download-Options",
-									"value": "noopen"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "SAMEORIGIN"
-								},
-								{
-									"key": "X-Readtime",
-									"value": "112"
-								},
-								{
-									"key": "X-Xss-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 2,\n        \"name\": \"电子竞技\",\n        \"tags\": [\n            {\n                \"id\": 10,\n                \"name\": \"暴力\"\n            }\n        ],\n        \"isShow\": true,\n        \"sort\": 2\n    }\n}"
-						},
 						{
 							"id": "d6cd79df-2593-43b1-b56a-582bca22199f",
 							"name": "修改分类名称或推荐标签",
@@ -2313,12 +2232,82 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 2,\n        \"name\": \"电子竞技\",\n        \"tags\": [\n            {\n                \"id\": 10,\n                \"name\": \"暴力\"\n            }\n        ],\n        \"isShow\": true,\n        \"sort\": 2\n    }\n}"
+						},
+						{
+							"id": "608724b2-78e6-4816-a7f1-a81aad35ff18",
+							"name": "修改分类可见性",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"type\": 2,\n    \"isShow\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/article/news-category/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "Content-Length",
+									"value": "125"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 20 Aug 2021 06:39:24 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "nginx/1.19.10"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Readtime",
+									"value": "112"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 2,\n        \"name\": \"电子竞技\",\n        \"tags\": [\n            {\n                \"id\": 10,\n                \"name\": \"暴力\"\n            }\n        ],\n        \"isShow\": true,\n        \"sort\": 2\n    }\n}"
 						}
 					]
 				},
 				{
 					"name": "更新两个分类的排序",
-					"_postman_id": "36ba795b-2853-4d65-a0e0-de30ae536e89",
+					"id": "36ba795b-2853-4d65-a0e0-de30ae536e89",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2341,7 +2330,7 @@
 				},
 				{
 					"name": "删除分类",
-					"_postman_id": "04a3abf7-8045-4b4c-a171-b22d6b40b170",
+					"id": "04a3abf7-8045-4b4c-a171-b22d6b40b170",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2371,8 +2360,7 @@
 								{
 									"id": "0c1924c5-1f72-4cc0-bbad-10985fef0e58",
 									"key": "id",
-									"value": "1",
-									"type": "string"
+									"value": "1"
 								}
 							]
 						}
@@ -2380,7 +2368,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "231e50ae-8433-4a5f-b5d4-2b97e0a8b2bf",
+			"id": "231e50ae-8433-4a5f-b5d4-2b97e0a8b2bf",
 			"description": "# 功能说明\n\n添加或更新分类时，前端应从所有可见的标签（并且过滤已经被其他分类关联过的标签）中筛选推荐标签\n\n# 数据结构/类型\n- `NewsCategory`\n\n|参数|类型|说明\n|---|---|---\n|id|int|分类 id\n|name|string|分类名称\n|isShow|boolean|是否显示\n|sort|int|排序值\n|tags|RecommendedTag[]|关联的推荐标签列表\n\n- `RecommendedTag`\n\n|参数|类型|说明\n|---|---|---\n|id|int|标签 id\n|name|string|标签名称"
 		},
 		{
@@ -2388,7 +2376,7 @@
 			"item": [
 				{
 					"name": "文章批量审核不通过",
-					"_postman_id": "f27338da-071f-4e86-b65f-a5931b49a58b",
+					"id": "f27338da-071f-4e86-b65f-a5931b49a58b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2411,7 +2399,7 @@
 				},
 				{
 					"name": "单个文章审核",
-					"_postman_id": "5f061d35-76fe-4340-90ac-41626ff0a719",
+					"id": "5f061d35-76fe-4340-90ac-41626ff0a719",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2434,7 +2422,7 @@
 				},
 				{
 					"name": "单个文章的审核记录",
-					"_postman_id": "7b3cf941-8aed-4b2d-bcbb-a1d21b4f747d",
+					"id": "7b3cf941-8aed-4b2d-bcbb-a1d21b4f747d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2447,7 +2435,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "e34e1a1f-fea4-4356-9a2c-01c070366bca",
+			"id": "e34e1a1f-fea4-4356-9a2c-01c070366bca",
 			"description": "审核状态、审核不通过原因参考数据字典"
 		},
 		{
@@ -2455,7 +2443,7 @@
 			"item": [
 				{
 					"name": "列表查询",
-					"_postman_id": "3536b29d-a838-41e6-a1d7-b49fc83cfefb",
+					"id": "3536b29d-a838-41e6-a1d7-b49fc83cfefb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2500,7 +2488,7 @@
 				},
 				{
 					"name": "处理评论，修改评论状态",
-					"_postman_id": "a55de95f-889b-413a-a6dc-990a42cd78d1",
+					"id": "a55de95f-889b-413a-a6dc-990a42cd78d1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2540,7 +2528,7 @@
 				},
 				{
 					"name": "评论详情（带举报）",
-					"_postman_id": "56695cb4-8b22-4da1-a905-094c983dbd53",
+					"id": "56695cb4-8b22-4da1-a905-094c983dbd53",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2552,7 +2540,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "eebbff5c-8846-48c0-b857-9fe2827b5066"
+			"id": "eebbff5c-8846-48c0-b857-9fe2827b5066"
 		},
 		{
 			"name": "用户",
@@ -2562,7 +2550,7 @@
 					"item": [
 						{
 							"name": "上传存档权限更新",
-							"_postman_id": "bce2a44d-0559-480b-b5ff-5b9f6141a258",
+							"id": "bce2a44d-0559-480b-b5ff-5b9f6141a258",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2592,8 +2580,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "100000014",
-											"type": "string"
+											"value": "100000014"
 										}
 									]
 								}
@@ -2601,12 +2588,11 @@
 							"response": []
 						}
 					],
-					"_postman_id": "7bfda32e-79e6-4840-b8d2-2cdf1b444861",
-					"_postman_isSubFolder": true
+					"id": "7bfda32e-79e6-4840-b8d2-2cdf1b444861"
 				},
 				{
 					"name": "获取用户列表",
-					"_postman_id": "dc2ce5e3-246b-44ca-b86e-baab8ba43a91",
+					"id": "dc2ce5e3-246b-44ca-b86e-baab8ba43a91",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2737,7 +2723,7 @@
 				},
 				{
 					"name": "审核用户",
-					"_postman_id": "bc72bed1-f6fa-482e-b173-9ce6f66261b4",
+					"id": "bc72bed1-f6fa-482e-b173-9ce6f66261b4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2759,7 +2745,7 @@
 				},
 				{
 					"name": "封禁/解封用户",
-					"_postman_id": "90c3b060-d753-4e77-95b6-17d6c84536c2",
+					"id": "90c3b060-d753-4e77-95b6-17d6c84536c2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -2860,7 +2846,7 @@
 				},
 				{
 					"name": "获取用户封禁记录",
-					"_postman_id": "7bb3aea7-712f-4f9f-bb62-0cef9580fae4",
+					"id": "7bb3aea7-712f-4f9f-bb62-0cef9580fae4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3073,7 +3059,7 @@
 				},
 				{
 					"name": "获取用户领取记录",
-					"_postman_id": "f0b9aa97-b4d2-471a-82e0-0b822a4b1208",
+					"id": "f0b9aa97-b4d2-471a-82e0-0b822a4b1208",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3164,7 +3150,7 @@
 				},
 				{
 					"name": "用户详情",
-					"_postman_id": "74474889-d439-48ed-aad6-dbcdd9d2f1a9",
+					"id": "74474889-d439-48ed-aad6-dbcdd9d2f1a9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3254,14 +3240,14 @@
 					]
 				}
 			],
-			"_postman_id": "56ae5d9a-7829-443e-aeec-7d1cf589fc12"
+			"id": "56ae5d9a-7829-443e-aeec-7d1cf589fc12"
 		},
 		{
 			"name": "任务",
 			"item": [
 				{
 					"name": "新建任务",
-					"_postman_id": "eb6e99dc-9fe6-4e67-b1ac-231c4f85bb56",
+					"id": "eb6e99dc-9fe6-4e67-b1ac-231c4f85bb56",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3283,7 +3269,7 @@
 				},
 				{
 					"name": "任务列表",
-					"_postman_id": "d16a218b-d285-4411-81ea-a4182b8b62e0",
+					"id": "d16a218b-d285-4411-81ea-a4182b8b62e0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3296,7 +3282,7 @@
 				},
 				{
 					"name": "任务启停",
-					"_postman_id": "b2da6469-ae92-453a-8386-6ac93d77c92f",
+					"id": "b2da6469-ae92-453a-8386-6ac93d77c92f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3318,7 +3304,7 @@
 				},
 				{
 					"name": "任务详情",
-					"_postman_id": "9b7d20b8-0a1b-4052-9a7d-017ef6cf5522",
+					"id": "9b7d20b8-0a1b-4052-9a7d-017ef6cf5522",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3331,7 +3317,7 @@
 				},
 				{
 					"name": "编辑任务",
-					"_postman_id": "d39ef9f2-0906-4be5-a1e1-c70f04202a8b",
+					"id": "d39ef9f2-0906-4be5-a1e1-c70f04202a8b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3353,7 +3339,7 @@
 				},
 				{
 					"name": "任务排序",
-					"_postman_id": "96676636-da90-4686-ad77-da4ac871f19c",
+					"id": "96676636-da90-4686-ad77-da4ac871f19c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3398,14 +3384,14 @@
 					]
 				}
 			],
-			"_postman_id": "669f163a-c073-4b34-a529-1786224963d5"
+			"id": "669f163a-c073-4b34-a529-1786224963d5"
 		},
 		{
 			"name": "用户反馈管理",
 			"item": [
 				{
 					"name": "用户反馈分页列表",
-					"_postman_id": "d8d85d55-f817-4b9f-8543-c4a6a44e91ec",
+					"id": "d8d85d55-f817-4b9f-8543-c4a6a44e91ec",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3465,7 +3451,7 @@
 				},
 				{
 					"name": "更新用户反馈解决状态",
-					"_postman_id": "d82d2ae6-e4ee-4029-bbd2-d4f7224cac12",
+					"id": "d82d2ae6-e4ee-4029-bbd2-d4f7224cac12",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3495,8 +3481,7 @@
 									"id": "637a618b-2632-42c9-b0ad-0aeb3c75ce6b",
 									"key": "id",
 									"value": "1",
-									"description": "{int} - 反馈 id",
-									"type": "string"
+									"description": "{int} - 反馈 id"
 								}
 							]
 						},
@@ -3505,14 +3490,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "2b3133db-e5c9-4a40-81f1-dfe13db2b40e"
+			"id": "2b3133db-e5c9-4a40-81f1-dfe13db2b40e"
 		},
 		{
 			"name": "敏感词",
 			"item": [
 				{
 					"name": "敏感词记录列表",
-					"_postman_id": "e1a5de92-a81a-4189-8981-c050ceb0f6f5",
+					"id": "e1a5de92-a81a-4189-8981-c050ceb0f6f5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3650,7 +3635,7 @@
 				},
 				{
 					"name": "查看某个 target 是否含有敏感词",
-					"_postman_id": "1936c4c4-2463-4281-8c26-2138874e3cef",
+					"id": "1936c4c4-2463-4281-8c26-2138874e3cef",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3779,7 +3764,7 @@
 				},
 				{
 					"name": "修改单条记录的状态为已处理",
-					"_postman_id": "fbaae834-61bf-480d-9ab1-c7d847d23505",
+					"id": "fbaae834-61bf-480d-9ab1-c7d847d23505",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3869,14 +3854,14 @@
 					]
 				}
 			],
-			"_postman_id": "63ab503e-662f-432e-b2f4-13066fac0c89"
+			"id": "63ab503e-662f-432e-b2f4-13066fac0c89"
 		},
 		{
 			"name": "小组管理",
 			"item": [
 				{
 					"name": "小组列表",
-					"_postman_id": "870a947d-43d8-400c-a80e-a5a8efc1c0f0",
+					"id": "870a947d-43d8-400c-a80e-a5a8efc1c0f0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -3913,7 +3898,7 @@
 				},
 				{
 					"name": "查询小组详情",
-					"_postman_id": "14643569-c245-447d-ba28-69ec7c61c5b1",
+					"id": "14643569-c245-447d-ba28-69ec7c61c5b1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4004,7 +3989,7 @@
 				},
 				{
 					"name": "小组信息审核状态变更",
-					"_postman_id": "041a1b1f-df06-4aa3-91c6-d76a0846bd8e",
+					"id": "041a1b1f-df06-4aa3-91c6-d76a0846bd8e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4113,7 +4098,7 @@
 				},
 				{
 					"name": "添加小组",
-					"_postman_id": "a217a38c-c846-4a77-bcdd-d8a223376778",
+					"id": "a217a38c-c846-4a77-bcdd-d8a223376778",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4221,14 +4206,14 @@
 					]
 				}
 			],
-			"_postman_id": "c9336a63-a73c-4c31-bb7f-00b12f44dde1"
+			"id": "c9336a63-a73c-4c31-bb7f-00b12f44dde1"
 		},
 		{
 			"name": "auto",
 			"item": [
 				{
 					"name": "游戏数据迁移-爬取的游戏入库",
-					"_postman_id": "d90a90ca-aa69-4700-a72d-240ed0e78041",
+					"id": "d90a90ca-aa69-4700-a72d-240ed0e78041",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4249,7 +4234,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "eae59a72-0360-4f33-ba92-11144a028892"
+			"id": "eae59a72-0360-4f33-ba92-11144a028892"
 		},
 		{
 			"name": "存档",
@@ -4259,7 +4244,7 @@
 					"item": [
 						{
 							"name": "单个存档审核",
-							"_postman_id": "c2619131-b962-4441-8ff6-5c593896a36f",
+							"id": "c2619131-b962-4441-8ff6-5c593896a36f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4290,8 +4275,7 @@
 											"id": "42193f7e-e380-4732-bba6-f59c5ed13876",
 											"key": "id",
 											"value": "7",
-											"description": "存档id",
-											"type": "string"
+											"description": "存档id"
 										}
 									]
 								}
@@ -4300,7 +4284,7 @@
 						},
 						{
 							"name": "存档批量审核不通过",
-							"_postman_id": "3a0b2d9c-05f2-4da1-97d2-9d462d638577",
+							"id": "3a0b2d9c-05f2-4da1-97d2-9d462d638577",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4322,7 +4306,7 @@
 						},
 						{
 							"name": "单个存档的审核记录",
-							"_postman_id": "72c94e05-3b07-4a63-91ab-c262c26e9011",
+							"id": "72c94e05-3b07-4a63-91ab-c262c26e9011",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4343,8 +4327,7 @@
 										{
 											"id": "aae7e09a-216d-4403-8095-401f2de149a6",
 											"key": "id",
-											"value": "1",
-											"type": "string"
+											"value": "1"
 										}
 									]
 								}
@@ -4352,15 +4335,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "295f7259-aefc-4668-b18d-604b4746b169",
-					"_postman_isSubFolder": true
+					"id": "295f7259-aefc-4668-b18d-604b4746b169"
 				},
 				{
 					"name": "存档评价",
 					"item": [
 						{
 							"name": "获取存档评价列表",
-							"_postman_id": "21b9899e-6792-473f-892a-aee44ccb47d1",
+							"id": "21b9899e-6792-473f-892a-aee44ccb47d1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4410,7 +4392,7 @@
 						},
 						{
 							"name": "修改存档评价审核状态",
-							"_postman_id": "1f66c1b7-4456-486f-b588-be65efb66924",
+							"id": "1f66c1b7-4456-486f-b588-be65efb66924",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4431,12 +4413,11 @@
 							"response": []
 						}
 					],
-					"_postman_id": "87db053d-e491-4603-947d-1f976c32bcf4",
-					"_postman_isSubFolder": true
+					"id": "87db053d-e491-4603-947d-1f976c32bcf4"
 				},
 				{
 					"name": "获取存档列表",
-					"_postman_id": "e7b1e748-7009-4947-916b-97193aad8e85",
+					"id": "e7b1e748-7009-4947-916b-97193aad8e85",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4489,7 +4470,7 @@
 				},
 				{
 					"name": "获取存档详情",
-					"_postman_id": "8f10fe41-43e6-4c97-be03-b80924ae0238",
+					"id": "8f10fe41-43e6-4c97-be03-b80924ae0238",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4581,7 +4562,7 @@
 				},
 				{
 					"name": "修改存档权重分",
-					"_postman_id": "3396dc16-9782-4a90-9a81-c1639498cf2f",
+					"id": "3396dc16-9782-4a90-9a81-c1639498cf2f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4612,8 +4593,7 @@
 								{
 									"id": "80900f0c-1dd4-4177-8eeb-ed85e16ad8be",
 									"key": "id",
-									"value": "1",
-									"type": "string"
+									"value": "1"
 								}
 							]
 						}
@@ -4622,7 +4602,7 @@
 				},
 				{
 					"name": "删除存档",
-					"_postman_id": "22ec18ce-6c6b-46e8-8a21-1dbc2712a9f9",
+					"id": "22ec18ce-6c6b-46e8-8a21-1dbc2712a9f9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4642,8 +4622,7 @@
 								{
 									"id": "bdffd410-c789-4a91-a6d6-e10f8c108f9b",
 									"key": "id",
-									"value": "15",
-									"type": "string"
+									"value": "15"
 								}
 							]
 						}
@@ -4652,7 +4631,7 @@
 				},
 				{
 					"name": "上下架存档",
-					"_postman_id": "b88c5157-7d06-4176-89de-0cbc04454cca",
+					"id": "b88c5157-7d06-4176-89de-0cbc04454cca",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4682,8 +4661,7 @@
 								{
 									"id": "3a3c6b61-40e0-4a94-9306-12ca7fdb451a",
 									"key": "id",
-									"value": "1",
-									"type": "string"
+									"value": "1"
 								}
 							]
 						}
@@ -4692,7 +4670,7 @@
 				},
 				{
 					"name": "获取存档的下载链接",
-					"_postman_id": "72464ef5-dbfd-4f5a-93c4-f23be3866961",
+					"id": "72464ef5-dbfd-4f5a-93c4-f23be3866961",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4712,8 +4690,7 @@
 							"variable": [
 								{
 									"key": "id",
-									"value": "1",
-									"type": "string"
+									"value": "1"
 								}
 							]
 						}
@@ -4721,14 +4698,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "74d374cd-4885-4ec0-9f22-ce80b68be154"
+			"id": "74d374cd-4885-4ec0-9f22-ce80b68be154"
 		},
 		{
 			"name": "充值订单",
 			"item": [
 				{
 					"name": "订单列表",
-					"_postman_id": "5eae8a99-aeba-4bfa-a0bd-e294c9e3f07a",
+					"id": "5eae8a99-aeba-4bfa-a0bd-e294c9e3f07a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4846,14 +4823,14 @@
 					]
 				}
 			],
-			"_postman_id": "82f00509-8373-4d80-b24a-a473fca8aa7b"
+			"id": "82f00509-8373-4d80-b24a-a473fca8aa7b"
 		},
 		{
 			"name": "存档兑换",
 			"item": [
 				{
 					"name": "存档兑换订单管理",
-					"_postman_id": "51e50578-31c9-486f-8a5e-d202bef6bdf2",
+					"id": "51e50578-31c9-486f-8a5e-d202bef6bdf2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4967,11 +4944,16 @@
 					]
 				}
 			],
-			"_postman_id": "9d313ae0-ff44-4d91-80b6-9fd099ae4fa8"
+			"id": "9d313ae0-ff44-4d91-80b6-9fd099ae4fa8"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "d2f56a2b-aec9-4572-adc6-c3965f50a139"
 		},
 		{
 			"name": "console login",
-			"_postman_id": "095ff7ef-f060-48ee-a5f5-b5a60141300a",
+			"id": "095ff7ef-f060-48ee-a5f5-b5a60141300a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -4993,7 +4975,7 @@
 		},
 		{
 			"name": "数据字典",
-			"_postman_id": "b47e4ed0-2bf0-4fd4-be87-16e89eba2fd9",
+			"id": "b47e4ed0-2bf0-4fd4-be87-16e89eba2fd9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5046,10 +5028,9 @@
 	],
 	"variable": [
 		{
-			"id": "27b02982-801d-401f-8c37-0ba38e79e9a4",
+			"id": "b0748c5f-f7b5-47e6-b724-f1c4481212c7",
 			"key": "BASE_URL",
-			"value": "http://local-api.wanjiadongli.com/console",
-			"type": "string"
+			"value": "http://local-api.wanjiadongli.com/console"
 		}
 	]
 }
