@@ -4947,7 +4947,7 @@
 			"id": "9d313ae0-ff44-4d91-80b6-9fd099ae4fa8"
 		},
 		{
-			"name": "New Folder",
+			"name": "客户端版本管理",
 			"item": [],
 			"id": "d2f56a2b-aec9-4572-adc6-c3965f50a139"
 		},
@@ -5028,7 +5028,7 @@
 	],
 	"variable": [
 		{
-			"id": "b0748c5f-f7b5-47e6-b724-f1c4481212c7",
+			"id": "006f71d4-3e8e-4f5f-910d-38380b4475b2",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
