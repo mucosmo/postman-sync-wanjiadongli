@@ -4950,7 +4950,7 @@
 			"name": "客户端版本管理",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "获取上传 form",
 					"id": "bb0b1bb2-1f49-494b-ba11-0ec90ea8190c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5041,7 +5041,7 @@
 	],
 	"variable": [
 		{
-			"id": "2836b443-829a-4e89-9bed-a97bf9830444",
+			"id": "3ad5d709-8c82-4789-bb75-e1aeb155366d",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
