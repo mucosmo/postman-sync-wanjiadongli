@@ -365,14 +365,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"password\": \"0985251f3d13076beec69aca778ea31f\",\n    \"remember\": true,\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"15356663076\"\n}",
+							"raw": "{\n    \"code\": \"051Ck0Ia1STqfD02QQFa1w3jiy3Ck0IQ\",\n    \"platform\": \"1\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/users/mobile/auth-token",
+						"url": "{{BASE_URL}}/users/me/associate-weixin",
 						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|password|md5|密码\n|remember|boolean?|是否勾选“记住我”\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\nnull"
 					},
 					"response": []
@@ -5215,7 +5215,7 @@
 	],
 	"variable": [
 		{
-			"id": "63c87937-0c01-470c-bfff-f25baddf0850",
+			"id": "6ac99bff-ef92-4e99-93d8-e8b8dd3a8b6d",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
