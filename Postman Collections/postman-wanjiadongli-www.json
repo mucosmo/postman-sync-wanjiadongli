@@ -2001,14 +2001,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"1\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1647884507,\r\n    \"cover\": \"\"\r\n}",
+							"raw": "{\r\n    \"title\": \"dddd\",\r\n    \"content\": \"dddd\",\r\n    \"groupId\": 4,\r\n    \"tags\": [1]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/article/posts/news/651",
+						"url": "{{BASE_URL}}/article/posts/news/1020",
 						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| ... | ... | ... |\n| ~~text~~ | ~~{string?}, max: 20000~~ | [deprecated] 发布内容纯文本 |\n| tags | {number[]?} - max: 20 | 选择的标签 ids，最大不超过 `20 - <tagNames length>` |\n| tagNames | {string[]?} - max: 20, itemRule: { max: 20, allowEmpty: false } | 新增的标签 names，最大不超过 `20 - <tags length>` |\n| ... | ... | ... |"
 					},
 					"response": [
@@ -5192,7 +5192,7 @@
 	],
 	"variable": [
 		{
-			"id": "7cbeb7ae-78e2-4965-a11e-fff42b7457e9",
+			"id": "8f0ff72d-8de2-4288-a219-7c69208dab9b",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
