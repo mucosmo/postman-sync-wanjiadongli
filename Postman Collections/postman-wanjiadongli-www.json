@@ -372,7 +372,8 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/users/me/associate-weixin"
+						"url": "{{BASE_URL}}/users/me/associate-weixin",
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| platform | boolean? | 登录平台：1. 桌面端； 2. 移动端 |\n\n### 响应参数说明\n\n#### result\n\nnull"
 					},
 					"response": []
 				},
@@ -5280,7 +5281,7 @@
 	],
 	"variable": [
 		{
-			"id": "e1f50c2f-f713-48fd-8dac-91d9838e55ec",
+			"id": "efe513e9-512e-4b8f-8444-bd0ebbd4d883",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
