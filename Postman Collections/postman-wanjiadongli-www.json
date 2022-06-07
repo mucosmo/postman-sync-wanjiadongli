@@ -708,7 +708,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/users/100000012/posts"
+						"url": "{{BASE_URL}}/users/100000014/posts"
 					},
 					"response": [
 						{
@@ -5192,7 +5192,7 @@
 	],
 	"variable": [
 		{
-			"id": "8f0ff72d-8de2-4288-a219-7c69208dab9b",
+			"id": "6b74b22f-b98b-4b87-8489-5f208ded65ff",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
