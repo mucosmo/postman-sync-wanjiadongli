@@ -4281,7 +4281,7 @@
 					]
 				},
 				{
-					"name": "通过微信 code 进行登录",
+					"name": "通过微信登录",
 					"id": "19017fa0-c302-430d-8374-5f9ad2733be8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -4299,28 +4299,6 @@
 							}
 						},
 						"url": "{{BASE_URL}}/weixin/login"
-					},
-					"response": []
-				},
-				{
-					"name": "关联手机号",
-					"id": "51bfc2fb-d0cc-4c17-a836-31141a2d6793",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{BASE_URL}}/weixin/associate-mobile"
 					},
 					"response": []
 				},
@@ -4343,6 +4321,28 @@
 							}
 						},
 						"url": "{{BASE_URL}}/weixin/mobile/verify-code"
+					},
+					"response": []
+				},
+				{
+					"name": "关联手机号",
+					"id": "51bfc2fb-d0cc-4c17-a836-31141a2d6793",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/weixin/associate-mobile"
 					},
 					"response": []
 				}
@@ -5281,7 +5281,7 @@
 	],
 	"variable": [
 		{
-			"id": "69c1c7b5-0b46-4844-b27b-68f9e8b31405",
+			"id": "d4a9a56b-648f-42ff-9231-b56417828b97",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
