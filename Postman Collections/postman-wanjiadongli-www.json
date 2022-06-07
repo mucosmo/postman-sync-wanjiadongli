@@ -4335,14 +4335,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"raw": "{\r\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\r\n    \"mobile\": \"13777436731\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/weixin/associate-mobile"
+						"url": "{{BASE_URL}}/weixin/mobile/verify-code"
 					},
 					"response": []
 				}
@@ -5281,7 +5281,7 @@
 	],
 	"variable": [
 		{
-			"id": "e335e0ac-f324-4d7b-b0b1-8b3a700ee86c",
+			"id": "69c1c7b5-0b46-4844-b27b-68f9e8b31405",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
