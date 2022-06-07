@@ -4287,25 +4287,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
-						"url": {
-							"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadongli.com/article?param1=12",
-							"host": [
-								"{{BASE_URL}}"
-							],
-							"path": [
-								"weixin",
-								"jssdk",
-								"signature"
-							],
-							"query": [
-								{
-									"key": "url",
-									"value": "https://wanjiadongli.com/article?param1=12"
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
 								}
-							]
-						}
+							}
+						},
+						"url": "{{BASE_URL}}/weixin/associate-mobile"
 					},
 					"response": [
 						{
@@ -5415,7 +5408,7 @@
 	],
 	"variable": [
 		{
-			"id": "afd8c018-f08b-499e-ab4d-8389c00308f2",
+			"id": "fd2186f9-b478-4e6c-b5ff-2aa6db0a5275",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
