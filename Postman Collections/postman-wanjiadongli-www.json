@@ -355,6 +355,29 @@
 					"response": []
 				},
 				{
+					"name": "关联微信号",
+					"id": "896f9dc3-ddb3-480f-a114-b8333b136e66",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"password\": \"0985251f3d13076beec69aca778ea31f\",\n    \"remember\": true,\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"15356663076\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/mobile/auth-token",
+						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|password|md5|密码\n|remember|boolean?|是否勾选“记住我”\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\nnull"
+					},
+					"response": []
+				},
+				{
 					"name": "找回密码 - 获取短信验证码",
 					"id": "939ac875-c96f-4f38-8eed-4630e78d2bb4",
 					"protocolProfileBehavior": {
@@ -5192,7 +5215,7 @@
 	],
 	"variable": [
 		{
-			"id": "6b74b22f-b98b-4b87-8489-5f208ded65ff",
+			"id": "63c87937-0c01-470c-bfff-f25baddf0850",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
