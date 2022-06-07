@@ -4515,93 +4515,7 @@
 						},
 						"url": "{{BASE_URL}}/weixin/associate-mobile"
 					},
-					"response": [
-						{
-							"id": "7d12a976-09c3-47c8-9046-40138dc70969",
-							"name": "OK",
-							"originalRequest": {
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadongli.com/article?param1=12",
-									"host": [
-										"{{BASE_URL}}"
-									],
-									"path": [
-										"weixin",
-										"jssdk",
-										"signature"
-									],
-									"query": [
-										{
-											"key": "url",
-											"value": "https://wanjiadongli.com/article?param1=12"
-										}
-									]
-								}
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.21.3"
-								},
-								{
-									"key": "Date",
-									"value": "Tue, 19 Apr 2022 14:41:00 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Content-Length",
-									"value": "170"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Origin"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "http://www.wanjiadongli.com"
-								},
-								{
-									"key": "Access-Control-Allow-Credentials",
-									"value": "true"
-								},
-								{
-									"key": "x-frame-options",
-									"value": "SAMEORIGIN"
-								},
-								{
-									"key": "x-xss-protection",
-									"value": "1; mode=block"
-								},
-								{
-									"key": "x-content-type-options",
-									"value": "nosniff"
-								},
-								{
-									"key": "x-download-options",
-									"value": "noopen"
-								},
-								{
-									"key": "x-readtime",
-									"value": "11"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"appId\": \"wx8c5be308fd54df24\",\n        \"nonceStr\": \"hel4mxus6ue\",\n        \"timestamp\": 1650379260,\n        \"signature\": \"240b296891d8c9a2481a17188ee91c0d35f62425\"\n    }\n}"
-						}
-					]
+					"response": []
 				}
 			],
 			"id": "044a0dcd-51a2-4d03-b313-bcce7dd86df7"
@@ -5538,7 +5452,7 @@
 	],
 	"variable": [
 		{
-			"id": "d7b798ad-adf8-415a-8726-76c3c01fb1cd",
+			"id": "87322d0f-6824-405e-a1ef-07394165d069",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
