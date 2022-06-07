@@ -4323,6 +4323,28 @@
 						"url": "{{BASE_URL}}/weixin/associate-mobile"
 					},
 					"response": []
+				},
+				{
+					"name": "关联手机号 - 获取短信验证码",
+					"id": "1dbfcd36-46c3-4098-ae7b-102c96b86d6c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/weixin/associate-mobile"
+					},
+					"response": []
 				}
 			],
 			"id": "044a0dcd-51a2-4d03-b313-bcce7dd86df7"
@@ -5259,7 +5281,7 @@
 	],
 	"variable": [
 		{
-			"id": "37487625-be19-4f71-9814-6b9b57e2ab08",
+			"id": "e335e0ac-f324-4d7b-b0b1-8b3a700ee86c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
