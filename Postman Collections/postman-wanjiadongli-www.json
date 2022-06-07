@@ -4472,6 +4472,199 @@
 							"body": "{\n    \"code\": 422,\n    \"message\": \"Validation Failed\",\n    \"result\": [\n        {\n            \"message\": \"格式错误\",\n            \"code\": \"无效\",\n            \"field\": \"url\"\n        }\n    ]\n}"
 						}
 					]
+				},
+				{
+					"name": "关联手机号 -获取短信验证码",
+					"id": "920263e6-ec37-46e8-96d2-f55dbde063e3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/weixin/associate-mobile"
+					},
+					"response": [
+						{
+							"id": "17ba38df-e359-4b29-a1b7-4e444a339231",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadongli.com/article?param1=12",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"weixin",
+										"jssdk",
+										"signature"
+									],
+									"query": [
+										{
+											"key": "url",
+											"value": "https://wanjiadongli.com/article?param1=12"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 19 Apr 2022 14:41:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "170"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "11"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"appId\": \"wx8c5be308fd54df24\",\n        \"nonceStr\": \"hel4mxus6ue\",\n        \"timestamp\": 1650379260,\n        \"signature\": \"240b296891d8c9a2481a17188ee91c0d35f62425\"\n    }\n}"
+						},
+						{
+							"id": "fe741367-bf51-4869-b924-46de432bea6a",
+							"name": "FAIL_1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/weixin/jssdk/signature?url=https://wanjiadonglicom/article?param1=埃尔法",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"weixin",
+										"jssdk",
+										"signature"
+									],
+									"query": [
+										{
+											"key": "url",
+											"value": "https://wanjiadonglicom/article?param1=埃尔法"
+										}
+									]
+								}
+							},
+							"status": "Unprocessable Entity",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 20 Apr 2022 01:18:35 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "110"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "30"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 422,\n    \"message\": \"Validation Failed\",\n    \"result\": [\n        {\n            \"message\": \"格式错误\",\n            \"code\": \"无效\",\n            \"field\": \"url\"\n        }\n    ]\n}"
+						}
+					]
 				}
 			],
 			"id": "044a0dcd-51a2-4d03-b313-bcce7dd86df7"
@@ -5408,7 +5601,7 @@
 	],
 	"variable": [
 		{
-			"id": "fd2186f9-b478-4e6c-b5ff-2aa6db0a5275",
+			"id": "94ccc53f-8ae6-4b08-a6a3-265d49c9d38c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
