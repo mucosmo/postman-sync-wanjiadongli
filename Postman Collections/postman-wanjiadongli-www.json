@@ -372,8 +372,7 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/users/me/associate-weixin",
-						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|password|md5|密码\n|remember|boolean?|是否勾选“记住我”\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\nnull"
+						"url": "{{BASE_URL}}/users/me/associate-weixin"
 					},
 					"response": []
 				},
@@ -5281,7 +5280,7 @@
 	],
 	"variable": [
 		{
-			"id": "5c2ceb8a-c9a3-4627-8936-cf91d8c6f159",
+			"id": "e1f50c2f-f713-48fd-8dac-91d9838e55ec",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
