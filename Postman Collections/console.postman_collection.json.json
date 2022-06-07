@@ -139,7 +139,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/article/posts/news?auditStatus=1&isShow=1&sort=3&order=2",
+							"raw": "{{BASE_URL}}/article/posts/news?sort=3&order=2",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -151,11 +151,13 @@
 							"query": [
 								{
 									"key": "auditStatus",
-									"value": "1"
+									"value": "1",
+									"disabled": true
 								},
 								{
 									"key": "isShow",
-									"value": "1"
+									"value": "1",
+									"disabled": true
 								},
 								{
 									"key": "postTimeRangeStart",
@@ -5237,7 +5239,7 @@
 	],
 	"variable": [
 		{
-			"id": "80e6a495-09a5-4267-970c-b27d9a14d055",
+			"id": "09c8f63c-163f-44c3-a99f-8a8fea31db2e",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
