@@ -470,6 +470,58 @@
 					"response": []
 				},
 				{
+					"name": "获取系统消息",
+					"id": "0c0509b3-2614-437f-80fe-35940d7562de",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=2000&messageType=1&lastTimestamp=11",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"message",
+								"system"
+							],
+							"query": [
+								{
+									"key": "current",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "2000"
+								},
+								{
+									"key": "messageType",
+									"value": "1"
+								},
+								{
+									"key": "lastTimestamp",
+									"value": "11"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+					},
+					"response": []
+				},
+				{
 					"name": "退出登录",
 					"id": "f4e5ef33-2fc2-4f87-914a-54a69049cc6b",
 					"protocolProfileBehavior": {
@@ -5283,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "87928174-3c27-497c-b4e6-992695890c2d",
+			"id": "de2332a8-c375-46ac-a738-cbb600fc1191",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
