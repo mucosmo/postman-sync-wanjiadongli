@@ -1354,7 +1354,7 @@
 					"response": []
 				},
 				{
-					"name": "微信登录关联手机号 - 获取短信验证码",
+					"name": "微信登录绑定账号 - 获取短信验证码",
 					"id": "1dbfcd36-46c3-4098-ae7b-102c96b86d6c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "f650867f-7262-4bd8-a6e8-e49a8aac751b",
+			"id": "fb6dda49-494a-4d05-a819-77cbcc1a4027",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
