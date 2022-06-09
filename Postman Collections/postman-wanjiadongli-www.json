@@ -1331,7 +1331,7 @@
 					]
 				},
 				{
-					"name": "通过微信登录",
+					"name": "通过微信授权登录",
 					"id": "19017fa0-c302-430d-8374-5f9ad2733be8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1341,7 +1341,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"code\": \"001tWP000lPIVN1EPo200barQd3tWP0k\",\r\n    \"platform\": \"1\",\r\n    \"remember\": false\r\n}",
+							"raw": "{\r\n    \"code\": \"071AL3100WKmZN1hpz300wPb2T1AL31b\",\r\n    \"connect\": 1,\r\n    \"remember\": false\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "29dd4adf-69c1-410c-b692-ffd5ccf8e1ed",
+			"id": "8d23308d-3f5e-4bab-b72b-29a535fa333b",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
