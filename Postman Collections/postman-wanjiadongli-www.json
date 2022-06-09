@@ -1331,7 +1331,7 @@
 					]
 				},
 				{
-					"name": "通过微信授权登录",
+					"name": "微信授权登录",
 					"id": "19017fa0-c302-430d-8374-5f9ad2733be8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "f77f51ec-8c0d-49f1-be98-b790c40207a0",
+			"id": "9b9e9635-fea4-4f45-b290-dfcccd61a867",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
