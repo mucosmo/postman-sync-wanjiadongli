@@ -1393,7 +1393,7 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/weixin/associate-mobile",
+						"url": "{{BASE_URL}}/users/weixin/bind-mobile",
 						"description": "#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| mobile | string | 微信返回的code |\n| smsCode | string | 短信验证码 |\n| unionid | string | 签名后的 unionid |\n\n### 响应参数说明\n\n#### result\n\nnull"
 					},
 					"response": []
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "7ac9d23f-a51a-4dc0-8982-f89b07c7dad8",
+			"id": "6291be8f-3e6d-4e71-bbbf-b1a05d60ee93",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
