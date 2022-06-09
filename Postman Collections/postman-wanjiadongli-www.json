@@ -1348,7 +1348,7 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/weixin/login",
+						"url": "{{BASE_URL}}/users/weixin/auth",
 						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| platform | int | 登录平台：1. 桌面端； 2. 移动端 |\n| remember | boolean | 是否记住我 |\n\n### 响应参数说明\n\n#### result\n\n失败时返回签名后的 unionid:\n\n``` json\n{\n   \"unionid\": \"ofahh6jSJiLNpv8Ku89JS3_s35c4.ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\n}\n\n```"
 					},
 					"response": []
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "ea69e2cb-9284-4906-8bfe-865154109e76",
+			"id": "9b8a9f04-279a-4f0a-bb44-5d0713eba567",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
