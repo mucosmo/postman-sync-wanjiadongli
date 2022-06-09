@@ -1371,7 +1371,7 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/weixin/mobile/verify-code"
+						"url": "{{BASE_URL}}/users/weixin/mobile/verify-code"
 					},
 					"response": []
 				},
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "9b8a9f04-279a-4f0a-bb44-5d0713eba567",
+			"id": "7ac9d23f-a51a-4dc0-8982-f89b07c7dad8",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
