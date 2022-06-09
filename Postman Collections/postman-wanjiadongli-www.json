@@ -1386,7 +1386,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"0LH8YX7aJifQkoaAGXD0uVakOHPe81bkrC6Ld2a4A3I\",\r\n    \"signature\": \"ToZdGR5f5Jdc-sd7wrw1NgFdxPjGBd0E2YR9VWOTwiI\"\r\n}",
+							"raw": "{\r\n    \"mobile\": \"13777436731\",\r\n    \"smsCode\": \"118118\",\r\n    \"unionid\": \"0LH8YX7aJifQkoaAGXD0uVakOHPe81bkrC6Ld2a4A3I\",\r\n    \"signature\": \"dlwKp4d9525pGeJrJ8UQ2Ul7Tk4zHAicO5QB-eFepjw\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "6aac3377-c1d9-42fc-9322-94820afcbd17",
+			"id": "8d38e7ec-4692-428d-bc42-2db76c7e6518",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
