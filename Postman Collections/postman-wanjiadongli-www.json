@@ -365,14 +365,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"code\": \"051Ck0Ia1STqfD02QQFa1w3jiy3Ck0IQ\",\n    \"authType\": \"1\"\n}",
+							"raw": "{\n    \"code\": \"0913eGkl2gfSj94gJcol2Q9OHE23eGkp\",\n    \"authType\": \"1\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/users/me/bind-weixin",
+						"url": "{{BASE_URL}}/users/me/weixin",
 						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| platform | int | 登录平台：1. 桌面端； 2. 移动端 |\n\n### 响应参数说明\n\n#### result\n\nnull"
 					},
 					"response": []
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "e07c9a12-1541-450f-83bc-4193441edb4f",
+			"id": "2e4adf70-7526-4b75-a866-2866d6551086",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
