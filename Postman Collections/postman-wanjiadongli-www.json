@@ -1376,7 +1376,7 @@
 					"response": []
 				},
 				{
-					"name": "微信登录关联手机号",
+					"name": "微信登录关联账号",
 					"id": "51bfc2fb-d0cc-4c17-a836-31141a2d6793",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "fb6dda49-494a-4d05-a819-77cbcc1a4027",
+			"id": "661b061b-666e-4f37-907e-9994f6e21941",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
