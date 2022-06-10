@@ -1394,7 +1394,7 @@
 							}
 						},
 						"url": "{{BASE_URL}}/users/weixin/bind-account",
-						"description": "#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| mobile | string | 微信返回的code |\n| smsCode | string | 短信验证码 |\n| unionid | string | 加密后的 unionid |\n| signature | string | 签名 |\n\n### 响应参数说明\n\n#### result"
+						"description": "#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| mobile | string | 微信返回的code |\n| smsCode | string | 短信验证码 |\n| unionid | string | 加密后的 unionid |\n| signature | string | 签名 |\n\n### 响应参数说明\n\n#### result\n\n{\n\nisAccountExist: false // 账号是否已存在\n\n}"
 					},
 					"response": []
 				}
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "bdd595ab-8a22-4b60-97cd-f2b7df81a3f6",
+			"id": "dae9e00a-20e8-4465-ba1c-565717d9353c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
