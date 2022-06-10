@@ -355,29 +355,6 @@
 					"response": []
 				},
 				{
-					"name": "绑定微信号",
-					"id": "896f9dc3-ddb3-480f-a114-b8333b136e66",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"code\": \"081Xq50002UwZN1UOz000o4N4c4Xq507\",\n    \"authType\": \"1\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{BASE_URL}}/users/me/weixin",
-						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| platform | int | 登录平台：1. 桌面端； 2. 移动端 |\n\n### 响应参数说明\n\n#### result\n\nnull"
-					},
-					"response": []
-				},
-				{
 					"name": "找回密码 - 获取短信验证码",
 					"id": "939ac875-c96f-4f38-8eed-4630e78d2bb4",
 					"protocolProfileBehavior": {
@@ -1329,6 +1306,29 @@
 							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"createdAt\": 1652065457,\n                \"id\": 3,\n                \"userId\": 100000014,\n                \"operateType\": 3,\n                \"operateId\": 1,\n                \"inoutCount\": 999,\n                \"inoutType\": 2,\n                \"task\": null,\n                \"trade\": null,\n                \"gamesaveExchange\": {\n                    \"gamesaveId\": 1,\n                    \"gamesaveTitle\": \"存档测试-1\"\n                }\n            },\n            {\n                \"createdAt\": 1652065429,\n                \"id\": 2,\n                \"userId\": 100000014,\n                \"operateType\": 2,\n                \"operateId\": 1,\n                \"inoutCount\": 1000,\n                \"inoutType\": 1,\n                \"task\": null,\n                \"trade\": {\n                    \"id\": 1,\n                    \"tradeNo\": \"1000000141652065389008984\"\n                },\n                \"gamesaveExchange\": null\n            },\n            {\n                \"createdAt\": 1652065305,\n                \"id\": 1,\n                \"userId\": 100000014,\n                \"operateType\": 1,\n                \"operateId\": 1,\n                \"inoutCount\": 14,\n                \"inoutType\": 1,\n                \"task\": {\n                    \"id\": 1,\n                    \"name\": \"我的玩家动力\"\n                },\n                \"trade\": null,\n                \"gamesaveExchange\": null\n            }\n        ],\n        \"last\": 1,\n        \"size\": 20,\n        \"total\": 3\n    }\n}"
 						}
 					]
+				},
+				{
+					"name": "绑定微信号",
+					"id": "896f9dc3-ddb3-480f-a114-b8333b136e66",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"code\": \"081Xq50002UwZN1UOz000o4N4c4Xq507\",\n    \"authType\": \"1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/me/weixin",
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| authType | int | 授权方式：1. 扫码； 2. 微信网页授权 |\n\n### 响应参数说明\n\n#### result\n\nnull"
+					},
+					"response": []
 				},
 				{
 					"name": "微信授权登录",
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "cfd4c81a-59be-4eba-826b-84a0968bf896",
+			"id": "0ba67865-63a8-4443-8ffe-94fbbe0abd31",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
