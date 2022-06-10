@@ -365,7 +365,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"code\": \"0913eGkl2gfSj94gJcol2Q9OHE23eGkp\",\n    \"authType\": \"1\"\n}",
+							"raw": "{\n    \"code\": \"081Xq50002UwZN1UOz000o4N4c4Xq507\",\n    \"authType\": \"1\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5335,7 +5335,7 @@
 	],
 	"variable": [
 		{
-			"id": "8516f2b2-d6f4-4217-a45c-b24e54426496",
+			"id": "10fc6fed-d9fa-49c0-a6e4-72c7d51ad2e8",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
