@@ -499,6 +499,29 @@
 					"response": []
 				},
 				{
+					"name": "更细消息状态",
+					"id": "7b28bb00-44f7-4aad-8beb-b7d73b3c5519",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ids\": [1,2,3]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/users/me/message/system",
+						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+					},
+					"response": []
+				},
+				{
 					"name": "退出登录",
 					"id": "f4e5ef33-2fc2-4f87-914a-54a69049cc6b",
 					"protocolProfileBehavior": {
@@ -5335,7 +5358,7 @@
 	],
 	"variable": [
 		{
-			"id": "7a806a90-e9e8-40a3-a361-04e18be3dd07",
+			"id": "c6dd3c88-e105-4074-bb17-4ed2e6e97969",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
