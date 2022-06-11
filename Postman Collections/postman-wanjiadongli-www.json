@@ -505,47 +505,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\r\n    \"ids\": [\r\n        {\r\n            \"id\": 1,\r\n            \"isRead\": 0\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"isRead\": 1\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=2000&messageType=1&lastTimestamp=11",
-							"host": [
-								"{{BASE_URL}}"
-							],
-							"path": [
-								"users",
-								"me",
-								"message",
-								"system"
-							],
-							"query": [
-								{
-									"key": "current",
-									"value": "1"
-								},
-								{
-									"key": "size",
-									"value": "2000"
-								},
-								{
-									"key": "messageType",
-									"value": "1"
-								},
-								{
-									"key": "lastTimestamp",
-									"value": "11"
-								}
-							]
-						},
+						"url": "{{BASE_URL}}/users/me/message/system",
 						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
 					},
 					"response": []
@@ -5410,7 +5381,7 @@
 	],
 	"variable": [
 		{
-			"id": "b57da1b0-1945-4987-ae18-060cb313ffae",
+			"id": "bd172e8d-e6d0-4a39-9216-6803b82619e0",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
