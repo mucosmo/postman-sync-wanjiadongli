@@ -499,6 +499,58 @@
 					"response": []
 				},
 				{
+					"name": "更新消息状态",
+					"id": "b518130b-cf52-43cb-9c49-3a7181ad6866",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=2000&messageType=1&lastTimestamp=11",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"message",
+								"system"
+							],
+							"query": [
+								{
+									"key": "current",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "2000"
+								},
+								{
+									"key": "messageType",
+									"value": "1"
+								},
+								{
+									"key": "lastTimestamp",
+									"value": "11"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+					},
+					"response": []
+				},
+				{
 					"name": "更细消息状态",
 					"id": "7b28bb00-44f7-4aad-8beb-b7d73b3c5519",
 					"protocolProfileBehavior": {
@@ -5358,7 +5410,7 @@
 	],
 	"variable": [
 		{
-			"id": "a23f24b9-40bf-4c9f-9a10-914c45689254",
+			"id": "b57da1b0-1945-4987-ae18-060cb313ffae",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
