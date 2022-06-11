@@ -495,7 +495,7 @@
 					"response": []
 				},
 				{
-					"name": "更新消息状态",
+					"name": "更新系统消息状态",
 					"id": "b518130b-cf52-43cb-9c49-3a7181ad6866",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5354,7 +5354,7 @@
 	],
 	"variable": [
 		{
-			"id": "3bcbfe1c-5cc7-46df-a9f7-69e72dd8f7b7",
+			"id": "c7b56a90-1104-4fd1-9112-b3e2f4a1d169",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
