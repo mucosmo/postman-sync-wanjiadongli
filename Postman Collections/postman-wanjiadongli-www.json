@@ -506,7 +506,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"readIds\":[1,2,3,4,5],\r\n   \"unreadIds\": []\r\n}",
+							"raw": "{\r\n    \"readIds\": [\r\n        16,\r\n        17,\r\n        18\r\n    ],\r\n    \"unreadIds\": [\r\n        1,\r\n        2,\r\n        3,\r\n        4,\r\n        5,\r\n        15,\r\n        9\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5355,7 +5355,7 @@
 	],
 	"variable": [
 		{
-			"id": "3fb4d341-f3f6-4879-b30b-6d36e6606759",
+			"id": "e941184a-bef9-4312-8e6f-f27edfd87ed3",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
