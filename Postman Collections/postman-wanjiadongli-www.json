@@ -513,33 +513,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=20&messageType=2",
-							"host": [
-								"{{BASE_URL}}"
-							],
-							"path": [
-								"users",
-								"me",
-								"message",
-								"system"
-							],
-							"query": [
-								{
-									"key": "current",
-									"value": "1"
-								},
-								{
-									"key": "size",
-									"value": "20"
-								},
-								{
-									"key": "messageType",
-									"value": "2",
-									"description": "enum {int} : 1. 未读消息 2. 全部消息"
-								}
-							]
-						},
+						"url": "{{BASE_URL}}/users/me/message/status",
 						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
 					},
 					"response": []
@@ -5404,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "55b701c4-1506-492f-bc97-85f46d53432a",
+			"id": "a79603fb-d497-44ab-a0b3-4ef13fc39804",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
