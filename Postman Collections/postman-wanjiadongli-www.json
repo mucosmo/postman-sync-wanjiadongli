@@ -496,6 +496,55 @@
 					"response": []
 				},
 				{
+					"name": "是否有新消息",
+					"id": "f6add97f-64df-43c5-b148-7ac28b6daaca",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=20&messageType=2",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"me",
+								"message",
+								"system"
+							],
+							"query": [
+								{
+									"key": "current",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "20"
+								},
+								{
+									"key": "messageType",
+									"value": "2",
+									"description": "enum {int} : 1. 未读消息 2. 全部消息"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+					},
+					"response": []
+				},
+				{
 					"name": "更新系统消息状态",
 					"id": "b518130b-cf52-43cb-9c49-3a7181ad6866",
 					"protocolProfileBehavior": {
@@ -5355,7 +5404,7 @@
 	],
 	"variable": [
 		{
-			"id": "e941184a-bef9-4312-8e6f-f27edfd87ed3",
+			"id": "55b701c4-1506-492f-bc97-85f46d53432a",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
