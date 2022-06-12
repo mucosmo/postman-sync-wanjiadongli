@@ -465,7 +465,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=2000&messageType=1",
+							"raw": "{{BASE_URL}}/users/me/message/system?current=1&size=20&messageType=2",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -482,11 +482,12 @@
 								},
 								{
 									"key": "size",
-									"value": "2000"
+									"value": "20"
 								},
 								{
 									"key": "messageType",
-									"value": "1"
+									"value": "2",
+									"description": "enum {int} : 1. 未读消息 2. 全部消息"
 								}
 							]
 						},
@@ -5354,7 +5355,7 @@
 	],
 	"variable": [
 		{
-			"id": "6d6620b0-c7d4-447a-ae4c-a4c7deedfb6a",
+			"id": "3fb4d341-f3f6-4879-b30b-6d36e6606759",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
