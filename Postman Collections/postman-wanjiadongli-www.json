@@ -514,7 +514,7 @@
 							}
 						},
 						"url": "{{BASE_URL}}/users/me/message/status",
-						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+						"description": "### 响应参数说明\n\n#### result\n\n``` json\n{\n \"newMessage\": true\n}\n```"
 					},
 					"response": []
 				},
@@ -5378,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "c8a04a4b-01fe-4a35-9bbb-a15c7f51f558",
+			"id": "4bd442fe-8a3d-4b56-b6e2-6bc1228a858c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
