@@ -491,7 +491,7 @@
 								}
 							]
 						},
-						"description": "### 响应参数说明\n\n#### result\n\n|参数|类型|说明\n|---|---|---\n|nickname|string|用户昵称\n|avatarUrl|string\\|null|头像 url"
+						"description": "### 响应参数说明\n\n#### result\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| createdAt | number | 消息创建时间 |\n| id | string|null | 消息id |\n| isRead | tinyint | 0 未读，1 已读 |\n| messageSource | int | 消息来源 |\n| messageCategory | int | 消息类别 1 支付，2 审核 |\n| data | JSON | 消息具体内容 |"
 					},
 					"response": []
 				},
@@ -5378,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "a79603fb-d497-44ab-a0b3-4ef13fc39804",
+			"id": "a5e66c8a-8d70-4888-9940-2e287be9a6ee",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
