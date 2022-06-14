@@ -1960,7 +1960,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"第5篇测试发布标题\",\r\n    \"content\": \"第5篇测试发布正文\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"新增的测试标签\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1648960334,\r\n    \"cover\": \"\"\r\n}",
+							"raw": "{\r\n    \"title\": \"\",\r\n    \"content\": \"\",\r\n    \"tags\": [1,2],\r\n    \"tagNames\": [\"新增的测试标签\"],\r\n    \"categoryId\": 1,\r\n    \"postTime\": 1648960334,\r\n    \"cover\": \"\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5378,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "4bd442fe-8a3d-4b56-b6e2-6bc1228a858c",
+			"id": "b2b83a2b-33b1-4a64-b1e4-0143565107f1",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
