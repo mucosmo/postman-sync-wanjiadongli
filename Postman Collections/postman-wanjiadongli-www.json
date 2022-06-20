@@ -3936,7 +3936,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/games/:id/gamesave?type=1&keyword=周翔",
+							"raw": "{{BASE_URL}}/games/:id/gamesave?type=1",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -3949,18 +3949,18 @@
 								{
 									"key": "type",
 									"value": "1",
-									"description": "存档类型：1. 我拥有的，2: 我上传的"
+									"description": "1: 我拥有的 2：我上传的"
 								},
 								{
 									"key": "keyword",
 									"value": "周翔",
-									"description": "搜索关键词"
+									"disabled": true
 								}
 							],
 							"variable": [
 								{
 									"key": "id",
-									"value": "1"
+									"value": "12"
 								}
 							]
 						}
@@ -5378,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "f6ed0f63-9e4b-4f07-8f7b-348ed9761d74",
+			"id": "7b08a333-9836-48bf-873c-d9cdfa1d8ffc",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
