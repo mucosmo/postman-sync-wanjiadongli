@@ -4706,7 +4706,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{BASE_URL}}/users/me/gamesave?type=2&gameId=12&keyword=存档",
+									"raw": "{{BASE_URL}}/users/me/gamesave?type=1",
 									"host": [
 										"{{BASE_URL}}"
 									],
@@ -4718,18 +4718,18 @@
 									"query": [
 										{
 											"key": "type",
-											"value": "2",
-											"description": "{ int }1: 我拥有的, 2: 我上传的"
+											"value": "1",
+											"description": "1: 我拥有的 2：我上传的"
 										},
 										{
 											"key": "gameId",
 											"value": "12",
-											"description": "已选择游戏时的游戏id"
+											"disabled": true
 										},
 										{
 											"key": "keyword",
 											"value": "存档",
-											"description": "搜索关键词"
+											"disabled": true
 										}
 									]
 								}
@@ -5378,7 +5378,7 @@
 	],
 	"variable": [
 		{
-			"id": "7b08a333-9836-48bf-873c-d9cdfa1d8ffc",
+			"id": "9bd6d777-4604-44b8-bb6d-569342fd0cd6",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
