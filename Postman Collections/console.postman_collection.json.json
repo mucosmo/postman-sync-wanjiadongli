@@ -4427,7 +4427,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/gamesave?current=1&userId=100000014",
+							"raw": "{{BASE_URL}}/gamesave?current=1&sort=3",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -4452,9 +4452,8 @@
 								},
 								{
 									"key": "sort",
-									"value": "2",
-									"description": "排序类型： 1销量，2热度，3举报数量",
-									"disabled": true
+									"value": "3",
+									"description": "排序类型： 1销量，2热度，3举报数量"
 								},
 								{
 									"key": "gameId",
@@ -4463,7 +4462,8 @@
 								},
 								{
 									"key": "userId",
-									"value": "100000014"
+									"value": "100000014",
+									"disabled": true
 								}
 							]
 						}
@@ -5239,7 +5239,7 @@
 	],
 	"variable": [
 		{
-			"id": "09c8f63c-163f-44c3-a99f-8a8fea31db2e",
+			"id": "c7d794b1-dd22-48a4-acd8-e5283f20103c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
