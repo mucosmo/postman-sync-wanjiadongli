@@ -5041,7 +5041,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/gamesave",
+							"raw": "{{BASE_URL}}/gamesave?current=1",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -5057,11 +5057,6 @@
 								{
 									"key": "postTimeRangeEnd",
 									"value": "1651028433",
-									"disabled": true
-								},
-								{
-									"key": "current",
-									"value": "1",
 									"disabled": true
 								},
 								{
@@ -5091,6 +5086,10 @@
 									"key": "userId",
 									"value": "100000014",
 									"disabled": true
+								},
+								{
+									"key": "current",
+									"value": "1"
 								}
 							]
 						}
@@ -5378,7 +5377,7 @@
 	],
 	"variable": [
 		{
-			"id": "6b3d5ffd-4338-45cf-9641-5f659ac6d09f",
+			"id": "f597f5a0-e5ea-4919-b568-282b772fd292",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
