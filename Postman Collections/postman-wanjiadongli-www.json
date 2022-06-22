@@ -4008,7 +4008,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/games/:id/gamesave-config?id=14",
+							"raw": "{{BASE_URL}}/games/:id/gamesave-config",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -4016,13 +4016,6 @@
 								"games",
 								":id",
 								"gamesave-config"
-							],
-							"query": [
-								{
-									"key": "id",
-									"value": "14",
-									"description": "{string?}, max: 300 - 关键词"
-								}
 							],
 							"variable": [
 								{
@@ -5377,7 +5370,7 @@
 	],
 	"variable": [
 		{
-			"id": "1f91e376-564b-4cbc-af30-a5907cb3eebe",
+			"id": "49a4eef6-bd98-4b10-a325-b2c955479220",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
