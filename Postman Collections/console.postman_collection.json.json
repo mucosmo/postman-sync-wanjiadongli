@@ -1603,20 +1603,20 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "{{BASE_URL}}/games/cover/upload/policy?ext=png",
+							"raw": "{{BASE_URL}}/games/icon/upload/policy?ext=ico",
 							"host": [
 								"{{BASE_URL}}"
 							],
 							"path": [
 								"games",
-								"cover",
+								"icon",
 								"upload",
 								"policy"
 							],
 							"query": [
 								{
 									"key": "ext",
-									"value": "png"
+									"value": "ico"
 								}
 							]
 						},
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "63e8f958-cee0-4e73-a801-4e0ac76418fd",
+			"id": "589c4c6b-c0d2-485f-aa95-3a2f663912aa",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
