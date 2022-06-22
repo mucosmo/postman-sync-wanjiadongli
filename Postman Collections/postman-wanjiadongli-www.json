@@ -3997,36 +3997,6 @@
 						"description": "所有游戏名称查询，结果上限 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\n/**\n * 搜索游戏返回的游戏信息\n */\ninterface RetGameForQueryName {\n  id: number;\n  name: string;\n  cover: string | null;\n}\n\n```"
 					},
 					"response": []
-				},
-				{
-					"name": "查询游戏的存档配置",
-					"id": "e38208de-bcb9-4264-8ed4-b3d77d3bc758",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{BASE_URL}}/games/:id/gamesave-config",
-							"host": [
-								"{{BASE_URL}}"
-							],
-							"path": [
-								"games",
-								":id",
-								"gamesave-config"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": "14"
-								}
-							]
-						},
-						"description": "所有游戏名称查询，结果上限 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\n/**\n * 搜索游戏返回的游戏信息\n */\ninterface RetGameForQueryName {\n  id: number;\n  name: string;\n  cover: string | null;\n}\n\n```"
-					},
-					"response": []
 				}
 			],
 			"id": "264aaca6-d9be-4934-b927-8d58d932e8c0"
@@ -5370,7 +5340,7 @@
 	],
 	"variable": [
 		{
-			"id": "49a4eef6-bd98-4b10-a325-b2c955479220",
+			"id": "14304b9b-086c-4b10-8980-a401f69b8623",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
