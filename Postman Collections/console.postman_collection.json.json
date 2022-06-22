@@ -1404,7 +1404,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"game\": {\r\n        \"name\": \"王者荣耀icon测试\",\r\n        \"alias\": [\"王者icon\",\"王者荣耀\"],\r\n        \"tags\": [2,3],\r\n        \"selectable\": true,\r\n        \"cover\": \"https://dev-pic.wanjiadongli.com/game/gamecover\",\r\n        \"icon\": \"https://dev-pic.wanjiadongli.com/game/gameicon.png\"\r\n    },\r\n    \"gamesaveConfig\": {\r\n        \"pathType\": 3,\r\n        \"relativePath\": \"/steamapps/common/Dead Cells/save\",\r\n        \"targetType\": 2,\r\n        \"target\": {\r\n            \"exts\": [\"zip\"],\r\n            \"files\": [],\r\n            \"dirs\": []\r\n        },\r\n        \"renameByExt\": false,\r\n        \"editMethod\": 1,\r\n        \"editConfigs\": [{\r\n            \"type\": \"account\",\r\n            \"filePath\": \"1.exe1\",\r\n            \"coords\": [[[\"a\", \"a1\"], [\"b\", \"b1\"]]],\r\n            \"remark\": \"\"\r\n        }]\r\n    }\r\n}",
+							"raw": "{\r\n    \"game\": {\r\n        \"name\": \"王者荣耀icon测试\",\r\n        \"alias\": [\"王者icon\",\"王者荣耀\"],\r\n        \"tags\": [2,3],\r\n        \"selectable\": true,\r\n        \"cover\": \"https://dev-pic.wanjiadongli.com/game/gamecover.png\",\r\n        \"icon\": \"https://dev-pic.wanjiadongli.com/game/gameicon.png\"\r\n    },\r\n    \"gamesaveConfig\": {\r\n        \"pathType\": 3,\r\n        \"relativePath\": \"/steamapps/common/Dead Cells/save\",\r\n        \"targetType\": 2,\r\n        \"target\": {\r\n            \"exts\": [\"zip\"],\r\n            \"files\": [],\r\n            \"dirs\": []\r\n        },\r\n        \"renameByExt\": false,\r\n        \"editMethod\": 1,\r\n        \"editConfigs\": [{\r\n            \"type\": \"account\",\r\n            \"filePath\": \"1.exe1\",\r\n            \"coords\": [[[\"a\", \"a1\"], [\"b\", \"b1\"]]],\r\n            \"remark\": \"\"\r\n        }]\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "94785057-bdf0-4c10-9939-7b6184e5514f",
+			"id": "8e132ca4-7576-4c47-895f-207758002dca",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
