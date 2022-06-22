@@ -1588,6 +1588,41 @@
 						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\nexport interface Tag {\n  id: number;\n  name: string;\n  status: TagStatus;\n}\nexport interface Ret {\n  id: number;\n  name: string;\n  alias: string[];\n  cover: string | null;\n  selectable: boolean;\n  tags: Tag[];\n  groupsCount: number;\n}\n\n```"
 					},
 					"response": []
+				},
+				{
+					"name": "获取上传游戏 icon 图标的 policy",
+					"id": "8d2e1bca-da74-4c5f-87ed-6e31fcdcbf63",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/games/cover/upload/policy?ext=png",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"games",
+								"cover",
+								"upload",
+								"policy"
+							],
+							"query": [
+								{
+									"key": "ext",
+									"value": "png"
+								}
+							]
+						},
+						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\nexport interface Tag {\n  id: number;\n  name: string;\n  status: TagStatus;\n}\nexport interface Ret {\n  id: number;\n  name: string;\n  alias: string[];\n  cover: string | null;\n  selectable: boolean;\n  tags: Tag[];\n  groupsCount: number;\n}\n\n```"
+					},
+					"response": []
 				}
 			],
 			"id": "9def3932-278d-4140-8a27-fb42b625ff24"
@@ -5239,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "c7d794b1-dd22-48a4-acd8-e5283f20103c",
+			"id": "63e8f958-cee0-4e73-a801-4e0ac76418fd",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
