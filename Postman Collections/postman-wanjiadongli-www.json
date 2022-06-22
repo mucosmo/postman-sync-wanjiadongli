@@ -3965,7 +3965,113 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "19fc2a69-6b39-4a10-8f19-7b1b00dc3a98",
+							"name": "某个游戏下我的存档",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/games/:id/gamesave?type=1",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"games",
+										":id",
+										"gamesave"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "1",
+											"description": "1: 我拥有的 2：我上传的"
+										},
+										{
+											"key": "keyword",
+											"value": "周翔",
+											"disabled": true
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "12"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.6"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 22 Jun 2022 09:54:29 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "779"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"current\": 1,\n        \"data\": [\n            {\n                \"id\": 3,\n                \"title\": \"存档测试-3\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\",\n                \"lastSaveTime\": 1655463043\n            },\n            {\n                \"id\": 22,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\",\n                \"lastSaveTime\": 1652942136\n            },\n            {\n                \"id\": 24,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\",\n                \"lastSaveTime\": 1652928729\n            },\n            {\n                \"id\": 23,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\",\n                \"lastSaveTime\": 1652928523\n            },\n            {\n                \"id\": 19,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 20,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 25,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 26,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 27,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 28,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 29,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 30,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 31,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 32,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 33,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 34,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 35,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 36,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 37,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            },\n            {\n                \"id\": 38,\n                \"title\": \"存档测试-6-cosomo\",\n                \"price\": 999,\n                \"cover\": \"https://dev-pic.wanjiadongli.com/gamesave/907515f8208036d87b84f1fb8a113e41c15c6bd.jpeg\"\n            }\n        ],\n        \"last\": 2,\n        \"size\": 20,\n        \"total\": 21\n    }\n}"
+						}
+					]
 				},
 				{
 					"name": "查询游戏名称",
@@ -5340,7 +5446,7 @@
 	],
 	"variable": [
 		{
-			"id": "14304b9b-086c-4b10-8980-a401f69b8623",
+			"id": "290612fd-75c5-4daa-8cd3-9261ff07cc7c",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
