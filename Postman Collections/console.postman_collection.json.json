@@ -1590,7 +1590,7 @@
 					"response": []
 				},
 				{
-					"name": "获取上传游戏 icon 图标的 policy",
+					"name": "获取上传游戏 icon 的 policy",
 					"id": "8d2e1bca-da74-4c5f-87ed-6e31fcdcbf63",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "633def84-d6ec-430b-b0a9-98904999e1c0",
+			"id": "164a76ca-8e3a-4a2e-89e7-e92571829df9",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
