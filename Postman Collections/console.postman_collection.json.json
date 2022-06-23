@@ -1427,7 +1427,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"alias\": [\"王者\",\"王者荣耀\"],\r\n    \"tags\": [2,3],\r\n    \"selectable\": false,\r\n    \"cover\": \"https://dev-pic.wanjiadongli.com/game/1\"\r\n}",
+							"raw": "{\r\n    \"alias\": [\"王者\",\"王者荣耀\"],\r\n    \"tags\": [2,3],\r\n    \"selectable\": false,\r\n    \"cover\": \"https://dev-pic.wanjiadongli.com/game/gamecover.png\",\r\n    \"icon\": \"https://dev-pic.wanjiadongli.com/game/gameicon.png\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "1a042f20-3af3-416e-b991-313482815b05",
+			"id": "3996a649-0f04-4795-8a2d-68a508a4de53",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
