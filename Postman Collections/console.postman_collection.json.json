@@ -1480,7 +1480,7 @@
 								}
 							]
 						},
-						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\nexport interface Tag {\n  id: number;\n  name: string;\n  status: TagStatus;\n}\nexport interface Ret {\n  id: number;\n  name: string;\n  alias: string[];\n  cover: string | null;\n  selectable: boolean;\n  tags: Tag[];\n  groupsCount: number;\n}\n\n```"
+						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\nexport interface Tag {\n  id: number;\n  name: string;\n  status: TagStatus;\n}\nexport interface Ret {\n  id: number;\n  name: string;\n  alias: string[];\n  cover: string | null;\n  icon: string | null;\n  selectable: boolean;\n  tags: Tag[];\n  groupsCount: number;\n}\n\n```"
 					},
 					"response": []
 				},
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "78ce3958-db40-4eee-ad33-70f7e03c55b4",
+			"id": "633def84-d6ec-430b-b0a9-98904999e1c0",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
