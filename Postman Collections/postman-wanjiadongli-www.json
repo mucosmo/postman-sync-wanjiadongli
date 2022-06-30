@@ -3416,7 +3416,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/groups/discovery/list",
+							"raw": "{{BASE_URL}}/groups/discovery/list?tags=1&tags=2&tags=3&tags=5",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -3429,14 +3429,22 @@
 								{
 									"key": "tags",
 									"value": "1",
-									"description": "{int[]?} - 标签 id",
-									"disabled": true
+									"description": "{int[]?} - 标签 id"
 								},
 								{
 									"key": "tags",
 									"value": "2",
-									"description": "同上",
-									"disabled": true
+									"description": "同上"
+								},
+								{
+									"key": "tags",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "tags",
+									"value": "5",
+									"type": "text"
 								}
 							]
 						},
@@ -5449,7 +5457,7 @@
 	],
 	"variable": [
 		{
-			"id": "ac0f4cb1-55ed-48b9-a518-6cb1c793c1d2",
+			"id": "cf7c9152-ba1a-45e7-a4fe-9fabce82c829",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
