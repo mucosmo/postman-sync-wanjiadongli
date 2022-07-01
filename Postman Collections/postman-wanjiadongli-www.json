@@ -3781,7 +3781,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/users/me/groups/entries",
+						"url": "{{BASE_URL}}/users/me/groups/entries-with-tags",
 						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\ninterface Group {\n  id: number;\n  name: string;\n  avatar: string;\n  favorited: boolean;\n}\ninterface Ret {\n  groups: Group[];\n  count: number;\n}\n\n```"
 					},
 					"response": []
@@ -5473,7 +5473,7 @@
 	],
 	"variable": [
 		{
-			"id": "c3f7f921-1b56-4a3b-8fe1-5b8087ebc7cf",
+			"id": "51d6b7dd-371e-476b-b1c6-c7afc1d8139d",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
