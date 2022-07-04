@@ -3773,20 +3773,6 @@
 					"response": []
 				},
 				{
-					"name": "帖子发布页我的小组列表",
-					"id": "40193e8f-30e7-4f8a-95a1-6b3b33078e3a",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{BASE_URL}}/users/me/groups/entries-with-tags",
-						"description": "### 响应参数说明\n\n#### result\n\n`Ret`\n\n``` typescript\ninterface Group {\n  id: number;\n  name: string;\n  avatar: string;\n  favorited: boolean;\n}\ninterface Ret {\n  groups: Group[];\n  count: number;\n}\n\n```"
-					},
-					"response": []
-				},
-				{
 					"name": "分页查询用户小组",
 					"id": "fa26743c-a7aa-43e4-8c51-18272313880b",
 					"protocolProfileBehavior": {
@@ -5473,7 +5459,7 @@
 	],
 	"variable": [
 		{
-			"id": "cf28fd6b-6293-4861-9f38-68445cdabdcf",
+			"id": "c6d8f82b-5b69-49b2-8144-8025f6b754ca",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
