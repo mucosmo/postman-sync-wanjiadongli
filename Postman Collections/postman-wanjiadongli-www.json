@@ -3929,7 +3929,7 @@
 								}
 							]
 						},
-						"description": "查找小组。关键字未传时返回和菜单处相同 ids 的小组列表，最多 20 个，列表项数据结构略有差异；关键字传递时返回列表最多 100 个。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 状态为可见的小组关联标签\n   */\n  tags: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 是否已加入\n   */\n  joined: boolean;\n  /**\n   * 是否固定\n   */\n  favorited: boolean;\n}\n\n```"
+						"description": "查找小组。关键字未传时返回和菜单处相同 ids 的小组列表（即用户已加入的小组），最多 20 个，列表项数据结构略有差异；关键字传递时返回列表最多 100 个。\n\n小组按“已固定（时间近到远） > 已加入（时间近到远） > 其他（创建时间近到远）”排序。\n\n存在查询关键词时查找所有小组，否则默认查询用户已加入的小组。\n\n### 响应参数说明\n\n#### result\n\n`Ret[]`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 状态为可见的小组关联标签\n   */\n  tags: {\n    id: number;\n    name: string;\n  };\n  /**\n   * 是否已加入\n   */\n  joined: boolean;\n  /**\n   * 是否固定\n   */\n  favorited: boolean;\n}\n\n```"
 					},
 					"response": []
 				},
@@ -5473,7 +5473,7 @@
 	],
 	"variable": [
 		{
-			"id": "51d6b7dd-371e-476b-b1c6-c7afc1d8139d",
+			"id": "b82f6167-fc02-4037-b2aa-910a0c51bcba",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
