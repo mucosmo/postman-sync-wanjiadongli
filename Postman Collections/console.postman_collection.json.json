@@ -5228,7 +5228,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{BASE_URL}}/dict/7008"
+				"url": "{{BASE_URL}}/dict/7009"
 			},
 			"response": []
 		}
@@ -5274,7 +5274,7 @@
 	],
 	"variable": [
 		{
-			"id": "940366c5-d5ee-4e17-99d3-a115ce3634e9",
+			"id": "b927f071-819c-470c-9b58-c4c171d67b42",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
