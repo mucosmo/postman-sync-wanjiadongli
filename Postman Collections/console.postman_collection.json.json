@@ -2769,14 +2769,30 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 1,\r\n    \"auditStatus\": 1\r\n}",
+							"raw": "{\r\n    \"reason\": 1,\r\n    \"status\": 1,\r\n    \"remark\":\"接口变更\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/users/audit-status"
+						"url": {
+							"raw": "{{BASE_URL}}/users/:id/audit-status",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								":id",
+								"audit-status"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -5274,7 +5290,7 @@
 	],
 	"variable": [
 		{
-			"id": "e06c419f-a93c-4756-8c35-46396161da52",
+			"id": "d1a83623-5d51-4964-ba45-b47e1d6665ef",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
