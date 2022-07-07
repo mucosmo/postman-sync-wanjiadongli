@@ -388,7 +388,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"smsCode\": \"118118\",\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"13777436732\"\n}",
+							"raw": "{\n    \"smsCode\": \"118118\",\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"13777436730\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5459,7 +5459,7 @@
 	],
 	"variable": [
 		{
-			"id": "66cac7c3-d852-4176-9536-b50be2a6292f",
+			"id": "4f83647b-494c-4373-9a83-42bf193db7bb",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
