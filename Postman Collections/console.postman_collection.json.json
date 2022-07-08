@@ -4160,7 +4160,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"草泥马付费\",\r\n    \"avatar\": \"xxx\",\r\n    \"introduction\": \"草泥马\",\r\n    \"gameId\": 1,\r\n    \"tags\": [1]\r\n\r\n}",
+							"raw": "{\r\n    \"name\": \"草泥马付费\",\r\n    \"avatar\": \"https://dev-pic.wanjiadongli.com/avatar/0965a8331bb95e2f9be4aa390cec9f229b48009.jpeg\",\r\n    \"introduction\": \"草泥马\",\r\n    \"gameId\": 1,\r\n    \"tags\": [1]\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5290,7 +5290,7 @@
 	],
 	"variable": [
 		{
-			"id": "671a8d8d-d1d9-476e-bca4-721166fb4864",
+			"id": "ad29199e-25e6-491b-b17a-434334f72343",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
