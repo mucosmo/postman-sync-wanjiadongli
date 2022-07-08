@@ -3004,7 +3004,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"mark\": \"dddd\",\r\n    \"type\": 1,\r\n    \"commentId\": 1\r\n}",
+							"raw": "{\r\n    \"mark\": \"cosmo测试评论举报\",\r\n    \"type\": 1,\r\n    \"commentId\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5459,7 +5459,7 @@
 	],
 	"variable": [
 		{
-			"id": "4f83647b-494c-4373-9a83-42bf193db7bb",
+			"id": "f9f5bc11-2a26-44a3-83e5-152547d2af9b",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
