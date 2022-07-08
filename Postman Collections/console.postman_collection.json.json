@@ -2807,7 +2807,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"userId\": 100000014,\r\n    \"status\": 1,\r\n    \"reason\": 1,\r\n    \"remark\": \"tsesss\"\r\n}",
+							"raw": "{\r\n    \"userId\": 100000014,\r\n    \"status\": 7,\r\n    \"reason\": 1,\r\n    \"remark\": \"tsesss\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5290,7 +5290,7 @@
 	],
 	"variable": [
 		{
-			"id": "15d07d5b-f326-4e17-a788-89195e5fb0bd",
+			"id": "671a8d8d-d1d9-476e-bca4-721166fb4864",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
