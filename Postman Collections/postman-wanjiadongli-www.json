@@ -3220,7 +3220,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/article/posts/comment/13"
+						"url": "{{BASE_URL}}/article/posts/comment/2"
 					},
 					"response": []
 				}
@@ -5459,7 +5459,7 @@
 	],
 	"variable": [
 		{
-			"id": "f9f5bc11-2a26-44a3-83e5-152547d2af9b",
+			"id": "69366b30-c28f-4fdd-8cae-f6b25ebf8933",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
