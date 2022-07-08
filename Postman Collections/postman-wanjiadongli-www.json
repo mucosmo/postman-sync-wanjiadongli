@@ -1652,7 +1652,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/article/posts/news/840",
+						"url": "{{BASE_URL}}/article/posts/news/1701",
 						"description": "### 响应参数说明\n\n``` typescript\nexport interface Ret {\n  id: number;\n  /**\n   * 审核状态：dict/2001\n   */\n  auditStatus: number;\n  /**\n   * 发布者用户 id\n   */\n  userId: number;\n  /**\n   * 帖子内容 html\n   */\n  content: string;\n  /**\n   * 帖子封面\n   */\n  cover: string;\n  /**\n   * 帖子发布时间\n   */\n  postTime: number;\n  /**\n   * 帖子标题\n   */\n  title: string;\n  /**\n   * 帖子是否可见\n   */\n  isShow: number;\n  /**\n   * 帖子纯文本内容\n   */\n  text: string;\n  /**\n   * 帖子关联小组 id\n   */\n  groupId?: number;\n  /**\n   * 帖子关联标签列表\n   */\n  tags: {\n    /**\n     * 标签 id\n     */\n    id: number;\n    /**\n     * 标签名称\n     */\n    name: string;\n  }[];\n  /**\n   * 赞踩数据\n   */\n  votes: {\n    /**\n     * 点赞总数\n     */\n    likes: number;\n    /**\n     * 点踩总数\n     */\n    dislikes: number;\n    /**\n     * 当前登录用户的操作\n     *\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: number;\n  };\n  /**\n   * 评论数据\n   */\n  comments: {\n    /**\n     * 评论总数\n     */\n    count: number;\n  };\n  /**\n   * 最近一次审核记录\n   */\n  lastLog: {\n    /**\n     * 审核不通过原因：dict/2001\n     */\n    reason: number | null;\n    /**\n     * 审核备注\n     */\n    remark?: string;\n    /**\n     * 审核状态：dict/2001\n     */\n    status: number;\n  };\n  /**\n   * 发布者用户信息\n   */\n  user: {\n    id: number;\n    /**\n     * 用户昵称\n     */\n    nickname: string;\n    /**\n     * 用户头像\n     */\n    avatarUrl?: string | null;\n    /**\n     * 用户信息审核状态：dict/2001\n     */\n    auditStatus: number;\n  };\n  /**\n   * 关联小组信息\n   */\n  group?: {\n    id: number;\n    /**\n     * 小组名称\n     */\n    name: string;\n    /**\n     * 小组头像\n     */\n    avatar: string;\n    /**\n     * 当前用户是否已加入小组\n     */\n    joined: boolean;\n  };\n  /**\n   * 帖子关键词列表\n   */\n  keywords: string[];\n}\n\n```"
 					},
 					"response": [
@@ -5459,7 +5459,7 @@
 	],
 	"variable": [
 		{
-			"id": "69366b30-c28f-4fdd-8cae-f6b25ebf8933",
+			"id": "da66f11c-40e9-42c7-a929-0f7ea33770a3",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
