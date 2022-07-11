@@ -1458,7 +1458,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/article/posts/news?size=2&searchActionType=2",
+							"raw": "{{BASE_URL}}/article/posts/news?size=2&postTimeRangeEnd=1657506032&searchActionType=2",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -1491,8 +1491,7 @@
 								},
 								{
 									"key": "postTimeRangeEnd",
-									"value": "9999999",
-									"disabled": true
+									"value": "1657506032"
 								},
 								{
 									"key": "current",
@@ -5569,7 +5568,7 @@
 	],
 	"variable": [
 		{
-			"id": "869d788c-1b2d-4d53-8cdb-1c36875ff996",
+			"id": "c9fc0408-36e3-4e77-85a7-5df442d8e82d",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
