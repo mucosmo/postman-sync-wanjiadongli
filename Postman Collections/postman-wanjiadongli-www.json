@@ -5531,6 +5531,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
+				"id": "96d9ed9d-ff76-4126-bfa1-ee4090e1e5fa",
 				"type": "text/javascript",
 				"exec": [
 					"const cookieJar = pm.cookies.jar();",
@@ -5551,26 +5552,25 @@
 					"    }",
 					"});",
 					""
-				],
-				"id": "10ad8837-5a3d-4512-a734-8cee6f816f31"
+				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
+				"id": "477a037f-1f78-4101-ba19-8c3dead41bd6",
 				"type": "text/javascript",
 				"exec": [
 					""
-				],
-				"id": "5a691b3a-39fc-4155-8b25-d577adf543aa"
+				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "8a43dc47-420a-45d9-95ee-6463d9dca74d",
+			"id": "c6cb5d38-bea7-4461-b0df-56d8134f3cd9",
 			"key": "BASE_URL",
-			"value": "http://local-api.wanjiadongli.com/www"
+			"value": "http://api.wanjiadongli.com/www"
 		}
 	]
 }
