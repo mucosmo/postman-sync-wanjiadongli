@@ -1458,7 +1458,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/article/posts/news?size=40&postTimeRangeEnd=1657506032&searchActionType=2",
+							"raw": "{{BASE_URL}}/article/posts/news?size=40&current=1&keyword=&searchActionType=1",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -1490,23 +1490,21 @@
 									"disabled": true
 								},
 								{
-									"key": "postTimeRangeEnd",
-									"value": "1657506032"
-								},
-								{
 									"key": "current",
-									"value": "1",
-									"disabled": true
-								},
-								{
-									"key": "searchActionType",
-									"value": "2",
-									"description": "{enum}, options: [1, 2, 3] - 查找类型：1: 推荐, 2: 最新, 3:  普通查询"
+									"value": "1"
 								},
 								{
 									"key": "keyword",
 									"value": "test",
 									"disabled": true
+								},
+								{
+									"key": "keyword",
+									"value": ""
+								},
+								{
+									"key": "searchActionType",
+									"value": "1"
 								}
 							]
 						}
@@ -5531,7 +5529,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "46493f74-f80d-4712-9698-759026c3164d",
+				"id": "a85d325a-a75c-4e78-8fb8-ba760e47562a",
 				"type": "text/javascript",
 				"exec": [
 					"const cookieJar = pm.cookies.jar();",
@@ -5558,7 +5556,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "d82bbae5-2bdd-4088-89b8-a0922cd95f76",
+				"id": "58261442-1560-461e-8493-ecb121c45d1d",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -5568,9 +5566,9 @@
 	],
 	"variable": [
 		{
-			"id": "6d7423c2-d400-44e7-9267-43ddb4553385",
+			"id": "519d5a36-57ee-4d97-bbe0-4f56f84eb50c",
 			"key": "BASE_URL",
-			"value": "https://api.wanjiadongli.com/www"
+			"value": "http://local-api.wanjiadongli.com/www"
 		}
 	]
 }
