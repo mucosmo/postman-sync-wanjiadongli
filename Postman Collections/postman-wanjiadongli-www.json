@@ -3738,7 +3738,7 @@
 					"response": []
 				},
 				{
-					"name": "查询待编辑的小组",
+					"name": "查询可用于编辑的小组资料",
 					"id": "7158c996-baf2-4703-91b2-1571fd56e8e8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3758,9 +3758,8 @@
 							],
 							"variable": [
 								{
-									"id": "8e7d5561-510e-4a94-a2f0-2cda599738b3",
 									"key": "id",
-									"value": "78",
+									"value": "3",
 									"description": "{int} - 小组 id"
 								}
 							]
@@ -5566,7 +5565,7 @@
 	],
 	"variable": [
 		{
-			"id": "519d5a36-57ee-4d97-bbe0-4f56f84eb50c",
+			"id": "b82ec520-40af-4300-8259-71350d066089",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
