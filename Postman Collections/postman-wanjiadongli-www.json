@@ -342,7 +342,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"password\": \"0985251f3d13076beec69aca778ea31f\",\n    \"remember\": true,\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"15356663076\"\n}",
+							"raw": "{\n    \"password\": \"0985251f3d13076beec69aca778ea31f\",\n    \"recaptcha\": \"qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1qodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskdlqodwqmskd1\",\n    \"mobile\": \"15356663076\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5565,7 +5565,7 @@
 	],
 	"variable": [
 		{
-			"id": "30131ba2-3260-45b2-a066-7c0df1feeffd",
+			"id": "2afd5fac-0c40-4b6e-a3b7-2a2b9b7e9f81",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
