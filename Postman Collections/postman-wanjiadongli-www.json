@@ -3940,21 +3940,20 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/users/:userId/groups",
+							"raw": "{{BASE_URL}}/users/me/groups?keyword=1",
 							"host": [
 								"{{BASE_URL}}"
 							],
 							"path": [
 								"users",
-								":userId",
+								"me",
 								"groups"
 							],
 							"query": [
 								{
 									"key": "keyword",
 									"value": "1",
-									"description": "{string?}, max: 40, trim: true - 搜索关键词",
-									"disabled": true
+									"description": "{string?}, max: 40, trim: true - 搜索关键词"
 								},
 								{
 									"key": "current",
@@ -3967,14 +3966,6 @@
 									"value": "40",
 									"description": "{int?}, default: 40 - 每页数量",
 									"disabled": true
-								}
-							],
-							"variable": [
-								{
-									"id": "fcee54c3-ae5a-42a1-9dd7-64488efcb302",
-									"key": "userId",
-									"value": "100000144",
-									"description": "{int} - 用户 id"
 								}
 							]
 						},
@@ -5617,7 +5608,7 @@
 	],
 	"variable": [
 		{
-			"id": "a9e4350c-211b-467e-a98c-d33c3bc88b49",
+			"id": "cee42516-1aa7-4abe-986f-7d27ff7df6fd",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
