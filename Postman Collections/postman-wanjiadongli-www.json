@@ -350,7 +350,7 @@
 							}
 						},
 						"url": "{{BASE_URL}}/users/mobile/auth-token",
-						"description": "### 请求参数说明\n\n#### body\n\n|参数|类型|说明\n|---|---|---\n|password|md5|密码\n|remember|boolean?|是否勾选“记住我”\n|recaptcha|string|校验码\n\n### 响应参数说明\n\n#### result\n\nnull"
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| password | md5 | 密码 |\n| recaptcha | string | 校验码 |\n\n### 响应参数说明\n\n#### result\n\nnull"
 					},
 					"response": []
 				},
@@ -5565,7 +5565,7 @@
 	],
 	"variable": [
 		{
-			"id": "d7eb3b58-2855-4764-a721-6bc87da51423",
+			"id": "30131ba2-3260-45b2-a066-7c0df1feeffd",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
