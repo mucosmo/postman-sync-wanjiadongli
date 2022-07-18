@@ -3931,6 +3931,58 @@
 					"response": []
 				},
 				{
+					"name": "分页查询我已加入的小组",
+					"id": "cb6aae94-bc1d-4f85-b6e8-495d4d7e3534",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/users/:userId/groups",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								":userId",
+								"groups"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "1",
+									"description": "{string?}, max: 40, trim: true - 搜索关键词",
+									"disabled": true
+								},
+								{
+									"key": "current",
+									"value": "1",
+									"description": "{int?}, default: 1, min: 1 - 当前页面",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "40",
+									"description": "{int?}, default: 40 - 每页数量",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"id": "fcee54c3-ae5a-42a1-9dd7-64488efcb302",
+									"key": "userId",
+									"value": "100000144",
+									"description": "{int} - 用户 id"
+								}
+							]
+						},
+						"description": "---\n\n统一分页查询用户加入的小组接口，包括自己的和他人的。\n\n### 响应参数说明\n\n#### result\n\n`Pagination<Ret>`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n  /**\n   * 当前用户是否固定小组\n   */\n  favorited: boolean;\n}\n\n```"
+					},
+					"response": []
+				},
+				{
 					"name": "小组详情",
 					"id": "d5b7a125-b3ba-476f-9eb1-dbb6b06a2266",
 					"protocolProfileBehavior": {
@@ -5565,7 +5617,7 @@
 	],
 	"variable": [
 		{
-			"id": "2afd5fac-0c40-4b6e-a3b7-2a2b9b7e9f81",
+			"id": "a9e4350c-211b-467e-a98c-d33c3bc88b49",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
