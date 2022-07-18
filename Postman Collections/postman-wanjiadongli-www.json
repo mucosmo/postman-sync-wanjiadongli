@@ -1392,7 +1392,7 @@
 							}
 						},
 						"url": "{{BASE_URL}}/users/weixin/auth",
-						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| authType | int | 授权风湿：1. 扫码； 2. 微信内授权 |\n| remember | boolean | 是否记住我 |\n\n### 响应参数说明\n\n#### result\n\n``` json\n{\n    // 加密后的 unionid\n   \"unionid\": \"KvRxVGA7c5AfVqEEjN4kJAvdhGI3OHFhfpFfMcPyZGk\",\n}\n\n```"
+						"description": "### 请求参数说明\n\n#### body\n\n| 参数 | 类型 | 说明 |\n| --- | --- | --- |\n| code | string | 微信返回的code |\n| authType | int | 授权风湿：1. 扫码； 2. 微信内授权 |\n\n### 响应参数说明\n\n#### result\n\n``` json\n{\n    // 加密后的 unionid\n   \"unionid\": \"KvRxVGA7c5AfVqEEjN4kJAvdhGI3OHFhfpFfMcPyZGk\",\n}\n\n```"
 					},
 					"response": []
 				},
@@ -5565,7 +5565,7 @@
 	],
 	"variable": [
 		{
-			"id": "2e39ca7b-f1e3-4046-9313-4f06b8081d3e",
+			"id": "d7eb3b58-2855-4764-a721-6bc87da51423",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
