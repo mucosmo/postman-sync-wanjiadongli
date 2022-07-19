@@ -5263,7 +5263,7 @@
 					]
 				},
 				{
-					"name": "获取存档详情",
+					"name": "获取存档副本详情",
 					"id": "0b70c0b4-6fe8-4857-8496-204bfcb13dc5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5272,19 +5272,19 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/gamesave/:id",
+							"raw": "{{BASE_URL}}/gamesave/:id/copy",
 							"host": [
 								"{{BASE_URL}}"
 							],
 							"path": [
 								"gamesave",
-								":id"
+								":id",
+								"copy"
 							],
 							"variable": [
 								{
-									"id": "411e2ad2-a780-41a2-a169-618ba4d4854e",
 									"key": "id",
-									"value": "2"
+									"value": "135"
 								}
 							]
 						},
@@ -5716,7 +5716,7 @@
 	],
 	"variable": [
 		{
-			"id": "31cfeebc-8fbd-4732-b83d-a7ec951c2f6a",
+			"id": "c2cb74f7-35a6-4581-b7f9-5b7891309be2",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
