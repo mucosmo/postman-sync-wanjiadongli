@@ -4316,7 +4316,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"auditStatus\":2,  \n    \"reason\":3,  \n    \"remark\":\"存档审核测试\"\n}",
+									"raw": "{\n    \"status\":1,  \n    \"reason\":3,  \n    \"remark\":\"存档审核测试\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4335,9 +4335,8 @@
 									],
 									"variable": [
 										{
-											"id": "42193f7e-e380-4732-bba6-f59c5ed13876",
 											"key": "id",
-											"value": "7",
+											"value": "20210",
 											"description": "存档id"
 										}
 									]
@@ -5300,7 +5299,7 @@
 	],
 	"variable": [
 		{
-			"id": "904a6cb9-e693-446f-9c96-6f7f5e7006b2",
+			"id": "fa75ef80-bdb0-4292-bfa0-94e0b5dac5b1",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/console"
 		}
