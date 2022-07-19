@@ -5263,6 +5263,114 @@
 					]
 				},
 				{
+					"name": "获取存档详情",
+					"id": "0b70c0b4-6fe8-4857-8496-204bfcb13dc5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/gamesave/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"gamesave",
+								":id"
+							],
+							"variable": [
+								{
+									"id": "411e2ad2-a780-41a2-a169-618ba4d4854e",
+									"key": "id",
+									"value": "2"
+								}
+							]
+						},
+						"description": "## 响应参数说明\n\n``` typescript\ninterface RetGamesaveDetail {\n  /**\n   * 存档序列号\n   */\n  id: number;\n  /**\n   * 存档标题\n   */\n  title: string;\n  /**\n   * 存档内容 html\n   */\n  content: string;\n  /**\n   * 存档纯文本内容\n   */\n  text: string;\n  /**\n   * 所属游戏名称\n   */\n  gameName: string;\n  /**\n   * 用户是否已经购买该游戏\n   */\n  isBought: boolean;\n  /**\n   * 赞踩数据\n   */\n  votes: {\n    /**\n     * 点赞总数\n     */\n    likes: number;\n    /**\n     * 点踩总数\n     */\n    dislikes: number;\n    /**\n     * 当前登录用户的操作\n     *\n     * 1: 已点赞, 2: 已点踩, 0: 取消（未）点赞踩\n     */\n    myVote: number;\n  };\n  /**\n   * 存档封面\n   */\n  cover?: string;\n  /**\n   * 存档价格\n   */\n  price: number;\n  /**\n   * 发布时间\n   */\n  postTime: number;\n  /**\n   * 发布用户昵称\n   */\n  nickname: string;\n  /**\n   * 发布用户头像\n   */\n  avatarUrl: string;\n  /**\n   * 发布用户 id\n   */\n  userId: number;\n  /**\n   * 存档审核状态\n   */\n  auditStatus: AuditStatus;\n}\n\n```"
+					},
+					"response": [
+						{
+							"id": "e714a295-efd2-4f5e-b3c5-625c10f05b9b",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/gamesave/1"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.21.3"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 Apr 2022 02:23:53 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://www.wanjiadongli.com"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-readtime",
+									"value": "456"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"code\": 200,\n    \"message\": \"ok\",\n    \"result\": {\n        \"id\": 1,\n        \"title\": \"存档测试-1\",\n        \"text\": \"\\n群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\n\\n由华纳兄弟互动娱乐正版IP授权，网易游戏打造的《猫和老鼠》手游，再度携手网易电竞X系列赛，经过海选赛、16强小组赛的激烈角逐， 最终诞生的8强队伍将齐聚总决赛赛道，于8月20日-8月21日14:00展开万众瞩目的终极决战。\\n八强战队列阵集结，终极竞逐一触即发\\n高手云集，风云再起！经过海选赛、小组赛的竞争洗礼，义薄云天、永不言弃、神力柠檬、Ts1、故人缓缓归、举头望明月6支实力强队凭借高超竞技技巧和默契团队配合大放异彩，成功晋级总决赛，将与精英联赛冠亚军坦氪游击队、扶摇直上共同组成8强战队，于终极赛道集结，展开更加惊险刺激的总冠军争夺战，瓜分30万元奖金豪礼！\\n\\n8月14日，8支晋级强队进入直播抽签环节，根据抽签结果匹配对手，第一轮比赛中，故人缓缓归将对战Ts1，永不言弃对阵神力柠檬，举头望明月与义薄云天则将分别迎战精英联赛冠亚军坦氪游击队、扶摇直上，采用单败BO3淘汰赛制决出胜负，胜者将进入第二轮比拼，最终采用BO5淘汰赛制展开冠亚决赛。巅峰竞逐，谁将问鼎，我们拭目以待！\\n\\n\\n\\n\\n线上决赛精彩不断，丰富内容乐趣加码\\n\\n全民赛作为《猫和老鼠》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！\\n海量好礼倾情回馈，观赛福利惊喜放送\\n自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！\\n此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！\\n\\n猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！\",\n        \"content\": \"<html><head></head><body><figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/a088fe04-0032-43c1-9a25-71960ba2591c.png\\\"></figure>\\n<p>群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/4461876d-9ac4-4477-ae56-e4d5808e7f9e.png\\\"></figure>\\n<p>由华纳兄弟互动娱乐正版IP授权，网易游戏打造的《猫和老鼠》手游，再度携手网易电竞X系列赛，经过海选赛、16强小组赛的激烈角逐， 最终诞生的8强队伍将齐聚总决赛赛道，于8月20日-8月21日14:00展开万众瞩目的终极决战。</p>\\n<p><strong>八强战队列阵集结，终极竞逐一触即发</strong></p>\\n<p>高手云集，风云再起！经过海选赛、小组赛的竞争洗礼，义薄云天、永不言弃、神力柠檬、Ts1、故人缓缓归、举头望明月6支实力强队凭借高超竞技技巧和默契团队配合大放异彩，成功晋级总决赛，将与精英联赛冠亚军坦氪游击队、扶摇直上共同组成8强战队，于终极赛道集结，展开更加惊险刺激的总冠军争夺战，瓜分30万元奖金豪礼！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/7ac38151-648f-4052-a54b-fc3882067e74.png\\\"></figure>\\n<p>8月14日，8支晋级强队进入直播抽签环节，根据抽签结果匹配对手，第一轮比赛中，故人缓缓归将对战Ts1，永不言弃对阵神力柠檬，举头望明月与义薄云天则将分别迎战精英联赛冠亚军坦氪游击队、扶摇直上，采用单败BO3淘汰赛制决出胜负，胜者将进入第二轮比拼，最终采用BO5淘汰赛制展开冠亚决赛。巅峰竞逐，谁将问鼎，我们拭目以待！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/1f068970-85e2-4bbf-be20-73b16bb7bcb1.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/e32ce4a1-b240-4222-847c-d1e8e4eabba5.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/06aa5f5d-a1dc-44ff-93be-baaaec4e5c7e.png\\\"></figure>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/1cd7c1d8-ace0-4d00-a69a-ef4b7baebc64.png\\\"></figure>\\n<p><strong>线上决赛精彩不断，丰富内容乐趣加码<br>\\n</strong></p>\\n<p>全民赛作为《猫和老鼠》官方手游推出规格最高、规模最大的重要赛事，自2020举办首届以来，一直受到玩家与选手的密切关注和大力支持。本届全民赛虽未能与广大玩家朋友们齐聚线下实体赛场，但依旧会呈现兼具专业性与观赏性的极致赛事。同时，将推出超多好看好玩的泛娱乐内容，保留火药味十足的赛前狠话环节以及有趣有料的选手出镜节目，各位玩家将会在直播间中解锁与实力选手们的惊喜互动，让我们一同期待！</p>\\n<p><strong>海量好礼倾情回馈，观赛福利惊喜放送</strong></p>\\n<p>自8月6日，网易大神【猫和老鼠】已同步开启全民赛竞猜活动，做任务赢取积分，可兑换金羽毛、自选A皮、猫鼠专属周边、赛事礼包等超多惊喜好礼！</p>\\n<p>此外，总决赛比赛期间，进入CC直播“全民赛”直播间观赛并参与弹幕风暴，有机会获得金羽毛、S级知识卡和大量精美游戏周边礼包！完成每日任务还可兑换赛事定制头像框、自选A级皮肤、实物周边等丰厚奖励，数量有限，先到先得！</p>\\n<figure><img alt=\\\"群英竞逐，《猫和老鼠》官方手游第二届全民赛总决赛正式开启！\\\" src=\\\"http://steamsavestore-static.oss-cn-hangzhou.aliyuncs.com/news_imgs/63503a07-682e-4409-8f52-519d7478d3d0.png\\\"></figure>\\n<p>猫鼠比拼强强对话，冠军争夺战幕拉开！8月20日-8月21日的14:00，敬请锁定《猫和老鼠》欢乐追逐战场，为心仪的战队助威呐喊，共同见证总冠军荣耀诞生！盛夏竞逐，热力释放，我们不见不散！</p></body></html>\",\n        \"gameName\": \"王者荣耀\",\n        \"isBought\": false,\n        \"votes\": {\n            \"likes\": 3,\n            \"dislikes\": 1,\n            \"myVote\": 1\n        },\n        \"cover\": \"https://zh.moegirl.org.cn/zh-hant/%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A0#/media/File:Tom_and_Jerry.png\",\n        \"price\": 999,\n        \"postTime\": 1650953536,\n        \"nickname\": \"cosmo-alpha\",\n        \"avatarUrl\": \"https://p.qqan.com/up/2021-2/16137992359659254.jpg\",\n        \"userId\": 100000154,\n        \"auditStatus\": 1\n    }\n}"
+						}
+					]
+				},
+				{
 					"name": "获取存档列表",
 					"id": "bb03cd71-b285-4a7b-9063-5c5a0f0dd21d",
 					"protocolProfileBehavior": {
@@ -5608,7 +5716,7 @@
 	],
 	"variable": [
 		{
-			"id": "cee42516-1aa7-4abe-986f-7d27ff7df6fd",
+			"id": "31cfeebc-8fbd-4732-b83d-a7ec951c2f6a",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
