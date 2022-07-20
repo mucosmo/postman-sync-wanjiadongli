@@ -3969,7 +3969,7 @@
 								}
 							]
 						},
-						"description": "---\n\n统一分页查询用户加入的小组接口，包括自己的和他人的。\n\n### 响应参数说明\n\n#### result\n\n`Pagination<Ret>`\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 小组成员数量\n   */\n  members: number;\n  /**\n   * 当前用户是否已加入\n   */\n  joined: boolean;\n  /**\n   * 当前用户是否固定小组\n   */\n  favorited: boolean;\n}\n\n```"
+						"description": "* * *\n\n查找我已经加入的小组\n\n### 响应参数说明\n\n#### result\n\n``` typescript\ninterface Ret {\n  /**\n   * 小组 id\n   */\n  id: number;\n  /**\n   * 小组名称\n   */\n  name: string;\n  /**\n   * 小组头像\n   */\n  avatar: string;\n  /**\n   * 当前用户是否固定小组\n   */\n  favorited: boolean;\n}\n\n```"
 					},
 					"response": []
 				},
@@ -5716,7 +5716,7 @@
 	],
 	"variable": [
 		{
-			"id": "5544e312-2b8f-4dce-8d52-bb9a7a2f630e",
+			"id": "8976ce23-c8e1-49e7-8fb4-642392d6190f",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
