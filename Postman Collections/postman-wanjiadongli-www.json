@@ -3931,7 +3931,7 @@
 					"response": []
 				},
 				{
-					"name": "分页查询我已加入的小组",
+					"name": "查找我已加入的小组",
 					"id": "cb6aae94-bc1d-4f85-b6e8-495d4d7e3534",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -5716,7 +5716,7 @@
 	],
 	"variable": [
 		{
-			"id": "93f19390-e89f-459f-a469-8ef50cd08814",
+			"id": "5544e312-2b8f-4dce-8d52-bb9a7a2f630e",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
