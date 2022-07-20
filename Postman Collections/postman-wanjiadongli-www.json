@@ -3940,14 +3940,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/users/me/groups?keyword=测试",
+							"raw": "{{BASE_URL}}/users/me/groups/joined?keyword=测试",
 							"host": [
 								"{{BASE_URL}}"
 							],
 							"path": [
 								"users",
 								"me",
-								"groups"
+								"groups",
+								"joined"
 							],
 							"query": [
 								{
@@ -5704,7 +5705,7 @@
 	],
 	"variable": [
 		{
-			"id": "0ca46e76-44b4-4b4b-b363-b96ea3c6e328",
+			"id": "efe504a3-cf4b-485b-89cb-851b85fedd68",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
