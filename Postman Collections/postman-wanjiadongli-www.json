@@ -3940,7 +3940,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/users/me/groups?keyword=1",
+							"raw": "{{BASE_URL}}/users/me/groups?keyword=测试",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -3952,20 +3952,8 @@
 							"query": [
 								{
 									"key": "keyword",
-									"value": "1",
-									"description": "{string?}, max: 40, trim: true - 搜索关键词"
-								},
-								{
-									"key": "current",
-									"value": "1",
-									"description": "{int?}, default: 1, min: 1 - 当前页面",
-									"disabled": true
-								},
-								{
-									"key": "size",
-									"value": "40",
-									"description": "{int?}, default: 40 - 每页数量",
-									"disabled": true
+									"value": "测试",
+									"description": "{string?}, max: 20, trim: true - 搜索关键词"
 								}
 							]
 						},
@@ -5716,7 +5704,7 @@
 	],
 	"variable": [
 		{
-			"id": "8976ce23-c8e1-49e7-8fb4-642392d6190f",
+			"id": "0ca46e76-44b4-4b4b-b363-b96ea3c6e328",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
