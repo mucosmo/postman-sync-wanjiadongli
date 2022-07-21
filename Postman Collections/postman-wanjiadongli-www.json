@@ -3694,7 +3694,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"intro\": \"测试小组简介\",\n    \"avatar\": \"https://dev-pic.wanjiadongli.com/group/avatar/176e7410120f5846d8f4a4bb46a51d86f1947eb.jpeg\",\n    \"gameId\": \"as\",\n    \"tagIds\": [],\n    \"tagNames\": []\n}",
+							"raw": "{\n    \"intro\": \"测试小组简介\",\n    \"avatar\": \"https://dev-pic.wanjiadongli.com/group/avatar/176e7410120f5846d8f4a4bb46a51d86f1947eb.jpeg\",\n    \"gameId\": \"19\",\n    \"tagIds\": [],\n    \"tagNames\": []\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5721,7 +5721,7 @@
 	],
 	"variable": [
 		{
-			"id": "5acad6f0-af66-4dd2-bf57-88af9447d4fa",
+			"id": "85418c79-627f-45f0-8811-e3c97803fd1f",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
