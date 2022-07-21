@@ -803,7 +803,24 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/users/100000014/posts"
+						"url": {
+							"raw": "{{BASE_URL}}/users/100000014/posts?sort=asa",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"users",
+								"100000014",
+								"posts"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "asa",
+									"type": "text"
+								}
+							]
+						}
 					},
 					"response": [
 						{
@@ -5705,7 +5722,7 @@
 	],
 	"variable": [
 		{
-			"id": "efe504a3-cf4b-485b-89cb-851b85fedd68",
+			"id": "97fa0d05-cf41-45ea-b407-b679ed10e959",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
