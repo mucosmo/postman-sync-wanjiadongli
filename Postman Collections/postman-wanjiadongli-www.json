@@ -4250,7 +4250,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{BASE_URL}}/games/names",
+							"raw": "{{BASE_URL}}/games/names?keyword=巫师",
 							"host": [
 								"{{BASE_URL}}"
 							],
@@ -4261,9 +4261,8 @@
 							"query": [
 								{
 									"key": "keyword",
-									"value": "",
-									"description": "{string?}, max: 300 - 关键词",
-									"disabled": true
+									"value": "巫师",
+									"description": "{string?}, max: 300 - 关键词"
 								}
 							]
 						},
@@ -5721,7 +5720,7 @@
 	],
 	"variable": [
 		{
-			"id": "85418c79-627f-45f0-8811-e3c97803fd1f",
+			"id": "274a1508-803d-4e48-9b54-e0fc58a91042",
 			"key": "BASE_URL",
 			"value": "http://local-api.wanjiadongli.com/www"
 		}
